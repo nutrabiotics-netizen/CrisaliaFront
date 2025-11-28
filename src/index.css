@@ -1,0 +1,220 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Importar fuente Ibrand Regular - Nota: Debe agregarse el archivo de fuente cuando esté disponible */
+/* Por ahora, se usa una fuente sans-serif como fallback */
+@font-face {
+  font-family: 'Ibrand Regular';
+  src: local('Ibrand Regular'), 
+       /* url('../assets/fonts/Ibrand-Regular.woff2') format('woff2'),
+       url('../assets/fonts/Ibrand-Regular.woff') format('woff'), */
+       local('Arial'), 
+       local('Helvetica');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  font-family: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+  /* Colores según manual de marca */
+  --crisal-turquesa: #60EFDB;
+  --crisal-azul: #29536D;
+  --crisal-gris: #E6E6E6;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #E6E6E6;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400; /* Regular por defecto */
+}
+
+/* Clases de utilidad para tipografías según manual de marca */
+
+/* Ibrand Regular - Para títulos y texto relevante */
+.font-ibrand {
+  font-family: 'Ibrand Regular', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Poppins - Para texto corrido con todos los pesos disponibles */
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+.font-poppins-light {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.font-poppins-light-italic {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.font-poppins-regular {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-poppins-italic {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.font-poppins-medium {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.font-poppins-semibold {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.font-poppins-bold {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.font-poppins-bold-italic {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.font-poppins-extrabold {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+/* Estilos para títulos con Ibrand Regular según manual */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Ibrand Regular', sans-serif;
+  font-weight: 400;
+  color: #29536D;
+}
+
+/* Gradientes según manual de marca */
+.bg-gradient-crisal {
+  background: linear-gradient(135deg, #60EFDB 0%, #29536D 100%);
+}
+
+.bg-gradient-crisal-reverse {
+  background: linear-gradient(135deg, #29536D 0%, #60EFDB 100%);
+}
+
+.bg-gradient-crisal-soft {
+  background: linear-gradient(135deg, rgba(96, 239, 219, 0.1) 0%, rgba(41, 83, 109, 0.1) 100%);
+}
+
+/* Animación de flotación para el logo */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Animación de brillo/resplandor para el logo */
+@keyframes glow {
+  0%, 100% {
+    opacity: 0.5;
+    transform: scale(1);
+    filter: blur(40px);
+  }
+  50% {
+    opacity: 0.8;
+    transform: scale(1.1);
+    filter: blur(50px);
+  }
+}
+
+@keyframes shine {
+  0%, 100% {
+    filter: drop-shadow(0 0 40px rgba(41, 83, 109, 0.8)) 
+            drop-shadow(0 0 80px rgba(41, 83, 109, 0.6)) 
+            drop-shadow(0 0 120px rgba(41, 83, 109, 0.4))
+            brightness(1);
+  }
+  50% {
+    filter: drop-shadow(0 0 60px rgba(41, 83, 109, 0.9)) 
+            drop-shadow(0 0 100px rgba(41, 83, 109, 0.7)) 
+            drop-shadow(0 0 140px rgba(41, 83, 109, 0.5))
+            brightness(1.2);
+  }
+}
+
+.animate-glow {
+  animation: glow 3s ease-in-out infinite;
+  background: radial-gradient(circle, rgba(41, 83, 109, 0.6) 0%, transparent 70%);
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.animate-shine {
+  animation: shine 3s ease-in-out infinite;
+}
+
+/* Estilos para elementos interactivos con acento turquesa */
+@layer components {
+  .btn-primary {
+    @apply bg-crisal-turquesa text-crisal-azul font-poppins-semibold px-6 py-3 rounded-lg hover:bg-opacity-90 transition-all duration-200 shadow-sm;
+  }
+  
+  .btn-secondary {
+    @apply bg-white text-crisal-azul border-2 border-crisal-turquesa font-poppins-semibold px-6 py-3 rounded-lg hover:bg-crisal-turquesa hover:bg-opacity-10 transition-all duration-200;
+  }
+  
+  .card {
+    @apply bg-white rounded-xl shadow-sm border border-crisal-gris p-6;
+  }
+  
+  .input-field {
+    @apply w-full rounded-lg border border-crisal-gris px-4 py-2 font-poppins-regular focus:border-crisal-turquesa focus:ring-2 focus:ring-crisal-turquesa focus:ring-opacity-20 outline-none transition-all;
+  }
+  
+  /* Texto corrido por defecto usa Poppins Regular */
+  p, span, div, a, li, td, th {
+    @apply font-poppins-regular;
+  }
+  
+  /* Títulos usan Ibrand Regular */
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-ibrand;
+  }
+}

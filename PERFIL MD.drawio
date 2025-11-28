@@ -1,0 +1,1017 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.2.0">
+  <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VjXwoAjIO0B9sWG8BOE_-25" value="Md ingresa a plataforma " style="curved=1;startArrow=none;endArrow=block;entryX=0.5;entryY=0;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="1" target="bJpbkILRwZCW5Lr_c4me-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="-579.2880700107665" y="-1282.751935483871" as="sourcePoint" />
+            <mxPoint x="-578.4414624225861" y="-1191.416451612903" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VjXwoAjIO0B9sWG8BOE_-53" value="&lt;div&gt;Ingreso de Md Crisal-iA&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-635.4520174106693" y="-1367.998387096774" width="112.11624290275977" height="81.18709677419355" as="geometry" />
+        </mxCell>
+        <mxCell id="bJpbkILRwZCW5Lr_c4me-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="1" source="bJpbkILRwZCW5Lr_c4me-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-524.2585767790262" y="-1337.5532258064513" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bJpbkILRwZCW5Lr_c4me-1" value="Link con COD de descuento desde: referido, evento, webinar" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-481.81813838353156" y="-1367.998387096774" width="101.59291058167463" height="60.89032258064516" as="geometry" />
+        </mxCell>
+        <mxCell id="bJpbkILRwZCW5Lr_c4me-2" value="Por si mismo&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-790.6182561724133" y="-1367.998387096774" width="101.59291058167463" height="60.89032258064516" as="geometry" />
+        </mxCell>
+        <mxCell id="bJpbkILRwZCW5Lr_c4me-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.024;entryY=0.372;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=10;" edge="1" parent="1" source="bJpbkILRwZCW5Lr_c4me-2" target="VjXwoAjIO0B9sWG8BOE_-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1o1H4ZGnSN5Gj2Ryf6Mu-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.501;entryY=-0.023;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bJpbkILRwZCW5Lr_c4me-5" target="bJpbkILRwZCW5Lr_c4me-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-408.84000000000043" y="-678" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bJpbkILRwZCW5Lr_c4me-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="1" source="bJpbkILRwZCW5Lr_c4me-9" target="bJpbkILRwZCW5Lr_c4me-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bJpbkILRwZCW5Lr_c4me-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;strokeColor=#007FFF;fontSize=10;" edge="1" parent="1" source="bJpbkILRwZCW5Lr_c4me-13" target="bJpbkILRwZCW5Lr_c4me-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-118.84" y="-1338" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bJpbkILRwZCW5Lr_c4me-13" value="Si Md decide no registrarse, se ofrecerá link para Webinar gratuito." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-208.84" y="-630.7" width="137.84" height="79.76" as="geometry" />
+        </mxCell>
+        <mxCell id="bJpbkILRwZCW5Lr_c4me-19" value="NO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="1" source="bJpbkILRwZCW5Lr_c4me-16" target="bJpbkILRwZCW5Lr_c4me-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-288.84" y="-590.7" />
+              <mxPoint x="-288.84" y="-590.7" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bJpbkILRwZCW5Lr_c4me-16" value="&lt;b&gt;SE PREGUNTA AL MD SI DESEA CONTINUAR CON UN PRIMER REGISTRO ?&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-488.84" y="-660.5600000000001" width="157.02" height="140.11" as="geometry" />
+        </mxCell>
+        <mxCell id="bJpbkILRwZCW5Lr_c4me-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="1" source="bJpbkILRwZCW5Lr_c4me-16" target="bJpbkILRwZCW5Lr_c4me-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bJpbkILRwZCW5Lr_c4me-20" value="SÍ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;rounded=0;" connectable="0" vertex="1" parent="bJpbkILRwZCW5Lr_c4me-18">
+          <mxGeometry x="0.0271" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1o1H4ZGnSN5Gj2Ryf6Mu-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bJpbkILRwZCW5Lr_c4me-24" target="1o1H4ZGnSN5Gj2Ryf6Mu-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bJpbkILRwZCW5Lr_c4me-26" value="&lt;div&gt;&lt;span&gt;&lt;b&gt;Estrategias de Oferta para Cierre de Venta:&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;Una vez finalizada la simulación, se presentarán opciones exclusivas para facilitar la suscripción:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Descuento especial al inscribirse inmediatamente después del simulación o en las próximas horas.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Beneficio por referidos, obteniendo descuentos adicionales al invitar a colegas.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Acceso exclusivo a un webinar con expertos en inteligencia artificial y medicina funcional.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;Estas estrategias buscan incentivar la adopción de Crisal-iA y maximizar su impacto en la práctica médica.&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-1040.72" y="296" width="601.47" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="bJpbkILRwZCW5Lr_c4me-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bJpbkILRwZCW5Lr_c4me-28" target="bJpbkILRwZCW5Lr_c4me-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1130" y="655" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bJpbkILRwZCW5Lr_c4me-32" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;rounded=0;" connectable="0" vertex="1" parent="bJpbkILRwZCW5Lr_c4me-31">
+          <mxGeometry x="-0.1837" y="1" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bJpbkILRwZCW5Lr_c4me-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bJpbkILRwZCW5Lr_c4me-28" target="bJpbkILRwZCW5Lr_c4me-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-740" y="655" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bJpbkILRwZCW5Lr_c4me-43" value="SI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;rounded=0;" connectable="0" vertex="1" parent="bJpbkILRwZCW5Lr_c4me-42">
+          <mxGeometry x="0.0196" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bJpbkILRwZCW5Lr_c4me-28" value="Md Interesado?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1005.07" y="610" width="110.99" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="bJpbkILRwZCW5Lr_c4me-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#007FFF;strokeWidth=3;fontSize=10;" edge="1" parent="1" source="bJpbkILRwZCW5Lr_c4me-30" target="bJpbkILRwZCW5Lr_c4me-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1240" y="570" />
+              <mxPoint x="-640" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bJpbkILRwZCW5Lr_c4me-30" value="En los siguientes días, se propone agendár llamada y se activan estrategias de convencimiento mediante nuestro callcenter" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-1310.0000000000002" y="625" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bJpbkILRwZCW5Lr_c4me-33" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.151;exitY=1.015;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;exitPerimeter=0;" edge="1" parent="1" source="bJpbkILRwZCW5Lr_c4me-26" target="bJpbkILRwZCW5Lr_c4me-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-640" y="470" as="sourcePoint" />
+            <mxPoint x="-891" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n2zcIzSQSnI2M5V-cu9G-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bJpbkILRwZCW5Lr_c4me-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-770" y="1170" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-791" y="960" />
+              <mxPoint x="-770" y="960" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bJpbkILRwZCW5Lr_c4me-35" value="Explorar módulo para paciente" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-851.2" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n2zcIzSQSnI2M5V-cu9G-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bJpbkILRwZCW5Lr_c4me-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-770" y="1170" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-570" y="960" />
+              <mxPoint x="-770" y="960" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bJpbkILRwZCW5Lr_c4me-37" value="Referir o compartir información a colegas (posible beneficio $)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-630" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n2zcIzSQSnI2M5V-cu9G-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bJpbkILRwZCW5Lr_c4me-38" target="bJpbkILRwZCW5Lr_c4me-70">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-380" y="960" />
+              <mxPoint x="-770" y="960" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bJpbkILRwZCW5Lr_c4me-38" value="Solicitar visitador médico" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-440" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bJpbkILRwZCW5Lr_c4me-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="1" source="bJpbkILRwZCW5Lr_c4me-41" target="bJpbkILRwZCW5Lr_c4me-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-640" y="720" />
+              <mxPoint x="-570" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bJpbkILRwZCW5Lr_c4me-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="1" source="bJpbkILRwZCW5Lr_c4me-41" target="bJpbkILRwZCW5Lr_c4me-38">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-640" y="720" />
+              <mxPoint x="-380" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1o1H4ZGnSN5Gj2Ryf6Mu-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bJpbkILRwZCW5Lr_c4me-41" target="bJpbkILRwZCW5Lr_c4me-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-640" y="720" />
+              <mxPoint x="-791" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bJpbkILRwZCW5Lr_c4me-41" value="OPCIONES DISPONIBLES" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-700" y="625" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bJpbkILRwZCW5Lr_c4me-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="1" source="bJpbkILRwZCW5Lr_c4me-57" target="bJpbkILRwZCW5Lr_c4me-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bJpbkILRwZCW5Lr_c4me-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="1" source="bJpbkILRwZCW5Lr_c4me-57" target="bhbZpF0BVr6nbdsEyOpd-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bJpbkILRwZCW5Lr_c4me-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="1" source="bJpbkILRwZCW5Lr_c4me-57" target="bhbZpF0BVr6nbdsEyOpd-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bJpbkILRwZCW5Lr_c4me-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="1" source="bJpbkILRwZCW5Lr_c4me-57" target="bhbZpF0BVr6nbdsEyOpd-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bJpbkILRwZCW5Lr_c4me-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="1" source="bJpbkILRwZCW5Lr_c4me-57" target="bJpbkILRwZCW5Lr_c4me-74">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-650" y="1470" />
+              <mxPoint x="-650" y="1010" />
+              <mxPoint x="-351" y="1010" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n2zcIzSQSnI2M5V-cu9G-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bJpbkILRwZCW5Lr_c4me-57" target="bhbZpF0BVr6nbdsEyOpd-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n2zcIzSQSnI2M5V-cu9G-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bJpbkILRwZCW5Lr_c4me-57" target="bhbZpF0BVr6nbdsEyOpd-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n2zcIzSQSnI2M5V-cu9G-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bJpbkILRwZCW5Lr_c4me-57" target="bhbZpF0BVr6nbdsEyOpd-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n2zcIzSQSnI2M5V-cu9G-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bJpbkILRwZCW5Lr_c4me-57" target="bhbZpF0BVr6nbdsEyOpd-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n2zcIzSQSnI2M5V-cu9G-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bJpbkILRwZCW5Lr_c4me-57" target="bhbZpF0BVr6nbdsEyOpd-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bJpbkILRwZCW5Lr_c4me-57" value="&lt;span&gt;RECOPILACIÓN DE LA INFORMACIÓN&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-830" y="1440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bJpbkILRwZCW5Lr_c4me-62" value="&lt;div&gt;Integración con otros sistemas:&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Solo consulta privada&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Multiusuario médicos&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Multiusuario otros profesionales de la salud (enfermera, terapeuta)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-560" y="1638" width="329" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="bJpbkILRwZCW5Lr_c4me-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.994;entryY=0.451;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=10;" edge="1" parent="1" source="bJpbkILRwZCW5Lr_c4me-57" target="bJpbkILRwZCW5Lr_c4me-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bJpbkILRwZCW5Lr_c4me-70" value="Md decide ser parte de Crisal-iA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-830" y="1170" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bJpbkILRwZCW5Lr_c4me-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=-0.048;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=10;" edge="1" parent="1" source="bJpbkILRwZCW5Lr_c4me-70" target="bJpbkILRwZCW5Lr_c4me-57">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-770" y="1180" />
+              <mxPoint x="-770" y="1180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0tr0_oeGUUPl4DkdF5hQ-1" target="0tr0_oeGUUPl4DkdF5hQ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.498;entryY=-0.014;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bJpbkILRwZCW5Lr_c4me-57" target="0tr0_oeGUUPl4DkdF5hQ-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E3jIFNI0gxIEaNB33AtD-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0tr0_oeGUUPl4DkdF5hQ-3" target="E3jIFNI0gxIEaNB33AtD-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-3" value="&lt;p class=&quot;p1&quot;&gt;&lt;b&gt;Personalización&lt;/b&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-1140" y="2187" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0tr0_oeGUUPl4DkdF5hQ-4" target="0tr0_oeGUUPl4DkdF5hQ-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0tr0_oeGUUPl4DkdF5hQ-4" target="0tr0_oeGUUPl4DkdF5hQ-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0tr0_oeGUUPl4DkdF5hQ-4" target="0tr0_oeGUUPl4DkdF5hQ-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-4" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;b&gt;Creación automática de la agenda médica, incluyendo:&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp;Datos geográficos.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp;Horarios disponibles de atención.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp;Modalidad de atención en cada jornada.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp;Tiempos de inactividad.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp;Integración con herramientas de geolocalización como Google Maps.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;div&gt;&amp;nbsp;• Optimización y gestión dinámica de la agenda:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp;La IA manejará la cancelación y modificación de consultas para evitar espacios vacíos.&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp;Reubicará pacientes según su ubicación geográfica para maximizar la eficiencia.&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp;La reubicación solo se realizará si la flexibilidad está habilitada en la programación de la ET.&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-1830" y="2877" width="450" height="143" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-10" value="Nota: La IA tendrá la capacidad de notificar oportunamente al paciente sobre la cancelación programada o inesperada de la agenda del médico y ofrecerá alternativas más próximas disponibles" style="text;whiteSpace=wrap;html=1;fontSize=10;align=left;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-2090" y="2913" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0tr0_oeGUUPl4DkdF5hQ-14" target="0tr0_oeGUUPl4DkdF5hQ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-14" value="&lt;b&gt;Gestión de Agenda con CRISAL-IA&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1665" y="2750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.444;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0tr0_oeGUUPl4DkdF5hQ-3" target="0tr0_oeGUUPl4DkdF5hQ-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.538;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0tr0_oeGUUPl4DkdF5hQ-3" target="0tr0_oeGUUPl4DkdF5hQ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-27" value="" style="group;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;fontStyle=0;align=left;fontSize=10;rounded=0;" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="-1229.14" y="3087" width="819.14" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-21" value="&lt;div&gt;&lt;span&gt;&lt;b&gt;En Crisal-iApaciente selecciona Md entre opciones sugeridas (encuentra tu MD).&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;El médico recibe una notificación de Crisal-iAcuando un paciente selecciona su perfil como médico tratante.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;En esta notificación, podrá visualizar los datos básicos del paciente y sus objetivos principales. Al recibirla, el médico sabrá que el paciente ya tiene una cuenta, ha completado el proceso de anamnesis con Crisal-iAy ha recibido algunas primeras recomendaciones automatizadas.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;A partir de este momento, el médico podrá comunicarse con el paciente a través de CRISAL-IA.&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;fontSize=10;" vertex="1" parent="0tr0_oeGUUPl4DkdF5hQ-27">
+          <mxGeometry x="40.37755723581955" width="778.7624427641804" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-24" value="Conexión 2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;textDirection=vertical-rl;fontSize=10;" vertex="1" parent="0tr0_oeGUUPl4DkdF5hQ-27">
+          <mxGeometry width="41.30552888795215" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-29" value="" style="group;align=left;fontSize=10;rounded=0;" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="-1180" y="2838" width="820" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-30" value="" style="group;rounded=0;" connectable="0" vertex="1" parent="0tr0_oeGUUPl4DkdF5hQ-29">
+          <mxGeometry x="-50" y="10" width="820" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-20" value="&lt;div&gt;&lt;span&gt;&lt;b&gt;Paciente contacta a Md y recibe link de Crisal-IA&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;A través de su enlace, el médico se asegura de que el paciente acceda directamente a las funciones de recopilación de información de anamnesis con el médico ya seleccionado.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;El paciente es informado sobre la secuencia a seguir:**&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 1.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Pago de la preconsulta.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 2.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Anamnesis automatizada (sin primeras recomendaciones gratuitas, a menos que el médico haya habilitado esta opción en los preajustes de su perfil para los pacientes que ingresen a través de su enlace).&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 3.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Primer análisis del médico.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 4.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Prescripción de paraclínicos.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 5.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Obtención y carga de resultados por parte del paciente.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 6.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Propuesta de consulta.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;Nota: Se debe notificar al médico que la prescripción automatizada de OTC redirecciona a ALIVIA.&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=0;align=left;fontSize=10;" vertex="1" parent="0tr0_oeGUUPl4DkdF5hQ-30">
+          <mxGeometry x="38.28" width="781.72" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-23" value="Conexión 1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;textDirection=vertical-rl;verticalAlign=middle;fontSize=10;" vertex="1" parent="0tr0_oeGUUPl4DkdF5hQ-30">
+          <mxGeometry width="38.28" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-31" value="" style="group;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;rounded=0;" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="-1229.14" y="3267" width="820" height="129" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-22" value="&lt;div&gt;&lt;span&gt;&lt;b&gt;En Crisa-IA paciente pide agendamiento con MD específico.&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;El médico recibe una notificación de Crisal-iAcuando un paciente selecciona su perfil como médico tratante.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;En esta notificación, podrá visualizar los datos básicos del paciente y sus objetivos principales. Al recibirla, el médico sabrá que el paciente ya tiene una cuenta, ha completado el proceso de anamnesis con Crisal-iAy ha recibido algunas primeras recomendaciones automatizadas.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;A partir de este momento, el médico podrá comunicarse con el paciente a través de CRISAL-IA.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;En caso de que el médico no sea usuario de CRISAL-IA, se intentará contactarlo para informarle sobre la búsqueda de su paciente y ofrecerle nuestro software.&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=0;align=left;fontSize=10;" vertex="1" parent="0tr0_oeGUUPl4DkdF5hQ-31">
+          <mxGeometry x="38.02999999999997" width="781.97" height="129" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-25" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Conexión 3&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;textDirection=vertical-rl;fontSize=10;" vertex="1" parent="0tr0_oeGUUPl4DkdF5hQ-31">
+          <mxGeometry width="38.28" height="129" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0tr0_oeGUUPl4DkdF5hQ-35" target="0tr0_oeGUUPl4DkdF5hQ-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-35" value="&lt;div&gt;&lt;span&gt;&lt;b&gt;El médico es notificado cuando el paciente haya realizado el primer pago entendiendo que este activa:&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 1.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Gestión de agenda.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 2.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Preconsulta&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 4.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Consulta médica.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 5.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Seguimiento IA al paciente.&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#ffff88;strokeColor=#36393d;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-1910" y="3527" width="530" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0tr0_oeGUUPl4DkdF5hQ-20" target="0tr0_oeGUUPl4DkdF5hQ-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-320" y="2948" />
+              <mxPoint x="-320" y="3562" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0tr0_oeGUUPl4DkdF5hQ-21" target="0tr0_oeGUUPl4DkdF5hQ-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-320" y="3147" />
+              <mxPoint x="-320" y="3562" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0tr0_oeGUUPl4DkdF5hQ-22" target="0tr0_oeGUUPl4DkdF5hQ-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-320" y="3328" />
+              <mxPoint x="-320" y="3562" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0tr0_oeGUUPl4DkdF5hQ-40" target="0tr0_oeGUUPl4DkdF5hQ-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0tr0_oeGUUPl4DkdF5hQ-48" target="0tr0_oeGUUPl4DkdF5hQ-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-48" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;Agendamiento de la consulta Ok:&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Médico recibe notificación de agendamiento de la consulta presencial o virtual.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-1760" y="5027" width="230" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0tr0_oeGUUPl4DkdF5hQ-49" target="0tr0_oeGUUPl4DkdF5hQ-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0tr0_oeGUUPl4DkdF5hQ-49" target="0tr0_oeGUUPl4DkdF5hQ-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0tr0_oeGUUPl4DkdF5hQ-49" target="0tr0_oeGUUPl4DkdF5hQ-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0tr0_oeGUUPl4DkdF5hQ-49" target="0tr0_oeGUUPl4DkdF5hQ-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0tr0_oeGUUPl4DkdF5hQ-49" target="0tr0_oeGUUPl4DkdF5hQ-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0tr0_oeGUUPl4DkdF5hQ-49" target="0tr0_oeGUUPl4DkdF5hQ-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-49" value="PRECONSULTA" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#CCE5FF;fontStyle=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1727.5" y="4417" width="165" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-55" value="" style="group;rounded=0;" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="-1200" y="3857" width="520" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-42" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;Recepción y Gestión de la Anamnesis en CRISAL-IA&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;El médico recibe la anamnesis completa en un formato resumido (en texto plano o en viñetas), con un sistema de semaforización inicial que clasifica los principales hallazgos en rojo, amarillo y verde.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;El médico puede consultar únicamente los hallazgos de un color específico o revisar toda la información.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Además, tiene la opción de leer o escuchar la información, editar los hallazgos, incluida la semaforización, y guardar los cambios aplicados.&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="0tr0_oeGUUPl4DkdF5hQ-55">
+          <mxGeometry x="20" width="500" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-50" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="0tr0_oeGUUPl4DkdF5hQ-55">
+          <mxGeometry width="20" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-56" value="" style="group;rounded=0;" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="-1200" y="4057" width="705.86" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-44" value="&lt;div&gt;&lt;span&gt;&lt;b&gt;Gestión y Presentación de Resultados en la Historia Clínica con CRISAL-IA&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Crisal-iApresenta al médico los resultados de laboratorios he intervenciones anteriores en la historia clínica de manera cronológica y ordenada.&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Verificará y ofrece cotejo de valores obtenidos con los rangos y notaciones científicas utilizados en Medicina Funcional (MF).&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;b&gt;Corrección y Análisis Funcional:&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; En caso de discrepancias en las notaciones de los paraclínicos, la IA, eealiza conversiones automáticas de unidades, ajustándose a notaciones utilizadas en el país del ejercicio médico, a la configuración establecida por el médico o a las notaciones científicas utilizados en Medicina Funcional por defecto.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Relaciona los valores obtenidos con el pensamiento funcional, considerando la anamnesis del paciente.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;b&gt;Seguimiento y Evaluación Clínica:&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp;• La iA presentará herramienta de seguimiento y comparación de evolución mediante:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Tablas y gráficos dinámicos.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Sistema de semaforización para destacar resultados nuevos y previos, cotejados con el análisis de la anamnesis.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Integración y conjugación de la información, facilitando la interpretación clínica.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;Este sistema permite al médico realizar un análisis preciso y contextualizado de la evolución del paciente, alineado con los principios de la Medicina Funcional.&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;align=left;" vertex="1" parent="0tr0_oeGUUPl4DkdF5hQ-56">
+          <mxGeometry x="20" width="685.86" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-51" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="0tr0_oeGUUPl4DkdF5hQ-56">
+          <mxGeometry width="20" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-57" value="" style="group;rounded=0;" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="-1020" y="4417" width="140.86" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-45" value="Md revisa y acepta análisis iA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="0tr0_oeGUUPl4DkdF5hQ-57">
+          <mxGeometry x="20.860000000000014" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-53" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="0tr0_oeGUUPl4DkdF5hQ-57">
+          <mxGeometry width="20" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-58" value="" style="group;rounded=0;" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="-1200" y="4527" width="520" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-46" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;Procesamiento de Datos y Generación de Sugerencias en CRISAL-IA&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;• Procesamiento en tiempo real:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; •&lt;b&gt;Cuando el médico lo solicita, CRISAL-IA&amp;nbsp; entrega:&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Sugerencias de posibles disfunciones fisiológicas.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Posibles diagnósticos convencionales.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Lista de paraclínicos recomendados para realizar.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;•El médico puede:&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Consultar el análisis detallado de CRISAL-IA detrás de cada sugerencia.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Revisar el hilo conductor que siguió la IA para generar sus recomendaciones.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Este enfoque permite al médico tomar decisiones informadas con base en un análisis estructurado, alineado con el pensamiento funcional y la medicina basada en evidencia.&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="0tr0_oeGUUPl4DkdF5hQ-58">
+          <mxGeometry x="20" width="500" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-52" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="0tr0_oeGUUPl4DkdF5hQ-58">
+          <mxGeometry width="20" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-59" value="" style="group;rounded=0;" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="-1200" y="4807" width="590.0000000000002" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-47" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;Gestión de Sugerencias de Paraclínicos en CRISAL-IA&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;• El médico tiene control total sobre las recomendaciones de la IA, pudiendo:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Aprobar los exámenes paraclínicos sugeridos.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Rechazar aquellos que considere innecesarios.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Agregar nuevos estudios según su criterio clínico.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;*Cada examen paraclínico se marca como &lt;b&gt;obligatorio&lt;/b&gt; por defecto, a menos que el médico lo modifique a &lt;b&gt;facultativo.&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="0tr0_oeGUUPl4DkdF5hQ-59">
+          <mxGeometry x="20.000000000000227" width="570" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-54" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="0tr0_oeGUUPl4DkdF5hQ-59">
+          <mxGeometry width="20" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.365;entryY=-0.008;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0tr0_oeGUUPl4DkdF5hQ-42" target="0tr0_oeGUUPl4DkdF5hQ-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.482;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0tr0_oeGUUPl4DkdF5hQ-45" target="0tr0_oeGUUPl4DkdF5hQ-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-70" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.351;exitY=1.003;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="0tr0_oeGUUPl4DkdF5hQ-44" target="0tr0_oeGUUPl4DkdF5hQ-45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-910" y="4357" as="sourcePoint" />
+            <mxPoint x="-860" y="4307" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.438;entryY=-0.009;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0tr0_oeGUUPl4DkdF5hQ-46" target="0tr0_oeGUUPl4DkdF5hQ-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0tr0_oeGUUPl4DkdF5hQ-72" target="0tr0_oeGUUPl4DkdF5hQ-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0tr0_oeGUUPl4DkdF5hQ-72" target="0tr0_oeGUUPl4DkdF5hQ-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0tr0_oeGUUPl4DkdF5hQ-72" target="0tr0_oeGUUPl4DkdF5hQ-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0tr0_oeGUUPl4DkdF5hQ-72" target="0tr0_oeGUUPl4DkdF5hQ-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0tr0_oeGUUPl4DkdF5hQ-72" target="0tr0_oeGUUPl4DkdF5hQ-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0tr0_oeGUUPl4DkdF5hQ-72" target="0tr0_oeGUUPl4DkdF5hQ-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0tr0_oeGUUPl4DkdF5hQ-72" target="0tr0_oeGUUPl4DkdF5hQ-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0tr0_oeGUUPl4DkdF5hQ-72" target="0tr0_oeGUUPl4DkdF5hQ-119">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0tr0_oeGUUPl4DkdF5hQ-72" target="0tr0_oeGUUPl4DkdF5hQ-126">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-72" value="PRIMERA CONSULTA&amp;nbsp;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#1ba1e2;fontStyle=1;fontColor=#ffffff;strokeColor=#006EAF;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1727.5" y="6167" width="165" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0tr0_oeGUUPl4DkdF5hQ-76" target="0tr0_oeGUUPl4DkdF5hQ-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-76" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;Transcripción y Organización Automática de la Consulta Médica&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;-Si el médico dispone del hardware adecuado (micrófono inalámbrico Md-Pte), Crisal-IA ofrecerá una herramienta de inteligencia artificial (similar a Read) que escuchará toda la conversación, la organizará en un documento plano y la integrará al análisis general, complementando los resultados.&lt;/span&gt;&lt;/div&gt;&lt;/blockquote&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-1205" y="5065" width="600" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-77" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;Interacción del Médico con la IA en la Consulta&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;-El médico realiza la entrevista de manera libre, lo que le permite conectar y comunicarse mejor con el paciente.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-1206" y="5288" width="600" height="89" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0tr0_oeGUUPl4DkdF5hQ-78" target="0tr0_oeGUUPl4DkdF5hQ-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-78" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;Asistencia de Crisal-IA en el Examen Físico&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;-Crisal-IA sugiere una rutina de examen físico basada en la anamnesis y los resultados de los exámenes paraclínicos. Esta sugerencia se presenta tanto por escrito como en formato de audio, permitiendo que el médico reciba la información y responda en cada ítem.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;-La IA analiza la información en tiempo real y puede recomendar ampliaciones según los hallazgos obtenidos. El médico tiene la libertad de seguir las sugerencias, ajustarlas o realizar un examen más detallado según su criterio clínico.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;-La información puede ser ingresada manualmente en el sistema o verbalmente mediante diálogo en tiempo real con la IA, que se encarga de registrar los datos. Además, se asegura de incluir todos los aspectos exigidos por la normativa legal, así como los enfoques de la Medicina Funcional (MF)&lt;/span&gt;&lt;/div&gt;&lt;/blockquote&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-1200" y="5437" width="600" height="213" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0tr0_oeGUUPl4DkdF5hQ-80" target="0tr0_oeGUUPl4DkdF5hQ-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-80" value="&lt;b&gt;Análisis Integral del Paciente y Estrategias Terapéuticas con IA:&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;Posterior &lt;/b&gt;a la entrega de la información del médico resultado de primer contacto con paciente:&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;-Crisal-IA presenta al médico una línea de tiempo del paciente en formato vertical, junto con un árbol de causas y estrategias terapéuticas. Estas estrategias se generan a partir de las soluciones y modalidades terapéuticas conocidas, complementadas con recomendaciones de expertos.&lt;/div&gt;&lt;/blockquote&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;-La IA analiza los signos y síntomas del paciente en tiempo real para generar simultáneamente diagnósticos de disfunción, diagnósticos semejantes según la clasificación CIE-10 y oportunidades terapéuticas, cotejando toda la información de manera estructurada. Conforme a los requerimientos legales genera lista de diagnósticos, causa, tipo de consulta, Dx asociados entre otros.&amp;nbsp;&lt;/div&gt;&lt;/blockquote&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;-El enfoque de análisis de la IA se basa en un proceso inverso: inicia desde las soluciones terapéuticas hacia los signos y síntomas, creando así un perfil detallado que asocia cada modalidad terapéutica con los signos y síntomas correspondientes.&lt;/div&gt;&lt;/blockquote&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-1206" y="5917" width="600" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0tr0_oeGUUPl4DkdF5hQ-83" target="0tr0_oeGUUPl4DkdF5hQ-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-83" value="&lt;b&gt;Gestión de Diagnósticos por el Médico&lt;br&gt;&lt;/b&gt;&lt;br&gt;- El médico puede aceptar, rechazar o modificar los diagnósticos sugeridos por la IA mediante una lista de selección.&lt;br&gt;- Al activar un diagnóstico, asume plena responsabilidad como profesional tratante, validándolo según la Clasificación Internacional de Enfermedades (CIE-10) y los códigos de procedimientos y servicios (CUPS) con fines de facturación&lt;br&gt;&lt;br&gt;*El médico firma digitalmente conforme a los requisitos normativos de HC." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-1207" y="6747" width="600" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-84" value="&lt;b&gt;Registro y Trazabilidad de Procedimientos Médicos&lt;/b&gt;&lt;br&gt;&lt;br&gt;Si el médico realiza procedimientos dentro de su institución, como sueroterapia, toma de laboratorios u otros, estos deben registrarse conforme a la normativa vigente.&lt;br&gt;&lt;br&gt;Para garantizar la trazabilidad y el cumplimiento de los estándares clínicos y legales, se deben adicionar las notas correspondientes y las firmas digitales del personal de salud involucrado en cada proceso.&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Para esto Crisal-iA dispondrá de perfiles para personal de salud anexo.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-1207" y="7007" width="600" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-87" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-1200" y="4807" width="20" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-88" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-1225" y="5065" width="20" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-89" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-1225" y="5288" width="20" height="89" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-90" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-1220" y="5437" width="20" height="213" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-92" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-1226" y="5917" width="20" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-95" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-1228" y="6747" width="20" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-96" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-1227" y="7007" width="20" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-98" value="" style="group;rounded=0;" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="-1220" y="5697" width="620" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-79" value="&lt;b&gt;Personalización de la Semaforización y Notas en la Evaluación Clínica&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;div&gt;-En primer lugar, podrá aclarar los puntos marcados por la IA con semaforización en amarillo y rojo.&amp;nbsp;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;-Además, tiene la opción de modificar fácilmente los datos del formulario de anamnesis y ajustar la información sugerida por la IA según su criterio clínico.&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;-El médico puede modificar en cualquier momento la semaforización de los formularios de anamnesis y examen físico, así como agregar notas adicionales según su criterio.&lt;/div&gt;&lt;/div&gt;&lt;/blockquote&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;" vertex="1" parent="0tr0_oeGUUPl4DkdF5hQ-98">
+          <mxGeometry x="20" width="600" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-91" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="0tr0_oeGUUPl4DkdF5hQ-98">
+          <mxGeometry width="20" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.489;entryY=-0.008;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0tr0_oeGUUPl4DkdF5hQ-77" target="0tr0_oeGUUPl4DkdF5hQ-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.51;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0tr0_oeGUUPl4DkdF5hQ-79" target="0tr0_oeGUUPl4DkdF5hQ-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-104" value="" style="group;align=left;rounded=0;" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="-1227" y="6377" width="620" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-82" value="&lt;b&gt;Toma de Decisiones del Médico y Estrategias Terapéuticas Personalizadas&lt;/b&gt;&lt;br&gt;El médico analiza la información proporcionada por la IA y tiene la capacidad de aceptarla, rechazarla o editarla según su criterio clínico.&lt;br&gt;&lt;br&gt;&lt;br&gt;Las estrategias terapéuticas (ET) sugeridas pueden incluir:&lt;br&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •Prescripción de medicamentos y nutracéuticos, considerando interacciones y contraindicaciones (herramienta de verificación por eje mytavin.com).&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •Ejercicios de respiración, hidratación y pautas de alimentación con recetas específicas.&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •Rutinas de ejercicio adaptadas a las necesidades del paciente (cardiovasculares, hipertrofia, deporte, estiramientos, yoga, meditación, oración, entre otros).&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •Recomendaciones sobre hábitos de compra y cambios en el entorno sociofamiliar, cultural y laboral.&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •Estrategias de comportamiento, lecturas y estimulación de puntos clave.&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •Terapias complementarias como saunoterapia y baños fríos.&lt;/span&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •Uso de dispositivos de monitoreo continuo de glucosa (CGM) y otros exámenes paraclínicos adicionales.&lt;br&gt;&lt;br&gt;&lt;br&gt;Además, el médico puede recomendar el uso de dispositivos portátiles (wearables) para el seguimiento de parámetros específicos y tiene la libertad de agregar cualquier otra indicación que considere necesaria para el tratamiento del paciente." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;" vertex="1" parent="0tr0_oeGUUPl4DkdF5hQ-104">
+          <mxGeometry x="20" width="600" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-94" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="0tr0_oeGUUPl4DkdF5hQ-104">
+          <mxGeometry width="20" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-105" value="" style="group;rounded=0;" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="-1228" y="6227" width="621" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-81" value="Médico puede rastrear el proceso analítico de la IA, lo que orienta hacía materiales de AMF y demás. (explicación del hilo conductor)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="0tr0_oeGUUPl4DkdF5hQ-105">
+          <mxGeometry x="21" width="600" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-93" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="0tr0_oeGUUPl4DkdF5hQ-105">
+          <mxGeometry width="20" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0tr0_oeGUUPl4DkdF5hQ-81" target="0tr0_oeGUUPl4DkdF5hQ-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0tr0_oeGUUPl4DkdF5hQ-82" target="0tr0_oeGUUPl4DkdF5hQ-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.024;entryY=0.413;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0tr0_oeGUUPl4DkdF5hQ-72" target="0tr0_oeGUUPl4DkdF5hQ-92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oLdpEjTxLU7PESQC9HF6-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0tr0_oeGUUPl4DkdF5hQ-119" target="0tr0_oeGUUPl4DkdF5hQ-132">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1645" y="7499" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-119" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;Conexión Md-Pte con&amp;nbsp; ALIVIA&lt;/b&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;La ET conecta al paciente y el Md con el dispensario para que pueda comprar sus fórmulas NB prescritas y gestionar beneficios.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Médico es informado de lo que compró el paciente en su cuenta del dispensario y podría hacer seguimiento de sus ingresos por paciente y beneficios por aliados mes a mes, así como podrá gestionar en una plataforma sus gastos y ganancias netas.&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-1805" y="6637" width="320" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="1o1H4ZGnSN5Gj2Ryf6Mu-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.525;entryY=-0.004;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0tr0_oeGUUPl4DkdF5hQ-132" target="1o1H4ZGnSN5Gj2Ryf6Mu-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-945" y="7940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-132" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;Segundo pago, cita de control:&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Crisal-IA notificará a Md cuando ya este realizado todo el proceso de pago y agendamiento de la cita de control del paciente&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-1140" y="7464" width="390" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-140" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0tr0_oeGUUPl4DkdF5hQ-136" target="0tr0_oeGUUPl4DkdF5hQ-139">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-138" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;CONTINÚAN CICLOS DE ATENCIÓN&amp;nbsp;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="-460" y="8950" width="760" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-142" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0tr0_oeGUUPl4DkdF5hQ-139" target="0tr0_oeGUUPl4DkdF5hQ-138">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-139" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;Integración de Versículos Bíblicos Relacionados con la Salud&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Crisal-IA puede proporcionar versículos bíblicos de la Nueva Traducción Viviente (NTV) relacionados con los hallazgos en el interrogatorio y las disfunciones identificadas en el paciente.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Esta funcionalidad permitirá ofrecer un enfoque integral que incluya apoyo espiritual, alineando los principios de la fe con el proceso de sanación y bienestar del paciente.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;El sistema podrá vincular automáticamente los versículos pertinentes según el diagnóstico y las preocupaciones del paciente, brindando una herramienta de reflexión y fortaleza en su proceso de recuperación.&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="8650" width="440" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-143" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;Crisal-IA activa centro de notificaciones PRIORITARIAS he incistirá hasta que sean ejecutadas o desactivadas:&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp;1. Acercamiento al tiempo limite para responder una preconsulta&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp;2. Agenda confirmada para el siguiente día&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp;3. Solicitud urgente de concepto adicional (pagado por paciente)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp;4. Eventos de actualización o seguimiento del SW, Cirsal-iA se gestiona a si misma y una vez tenga el material instructivo de actualización la presenta al Md cuando entre a la plataforma (ofrecerá links de redirección para verlo mas tarde).&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-1880" y="8520" width="390" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="E3jIFNI0gxIEaNB33AtD-1" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;Herramienta de Análisis y Estrategia para el MD&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Esta herramienta proporciona al médico (MD) métricas detalladas sobre los productos vendidos y los servicios que generan mayor facturación. Además, discrimina la información por principales motivos de consulta, edades, diagnósticos más frecuentes y pacientes con mayor adherencia.&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Análisis de métricas clave: Identifica los productos más rentables, los servicios con mayor demanda y el comportamiento de la población atendida.&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Estrategias de optimización: A través de inteligencia artificial, propone mejoras para aumentar la facturación y optimizar la atención de los principales motivos de consulta.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-1880" y="8730" width="457.5" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="E3jIFNI0gxIEaNB33AtD-3" value="&lt;div&gt;&lt;span&gt;&lt;b&gt;Integración de Agenda con Google Calendar&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;Se implementará la sincronización de la agenda del médico (MD) con Google Calendar para mejorar la gestión de citas y optimizar la organización del tiempo.&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;span&gt;&lt;b&gt;Automatización y recordatorios:&lt;/b&gt; Registro automático de citas y envío de notificaciones para reducir ausencias y mejorar la puntualidad.&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;Accesibilidad y sincronización en tiempo real:&lt;/b&gt; Disponibilidad de la agenda desde cualquier dispositivo, con actualizaciones inmediatas para una mejor planificación.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-2240" y="4987" width="410" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="E3jIFNI0gxIEaNB33AtD-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.013;entryY=0.509;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="E3jIFNI0gxIEaNB33AtD-3" target="0tr0_oeGUUPl4DkdF5hQ-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E3jIFNI0gxIEaNB33AtD-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="E3jIFNI0gxIEaNB33AtD-5" target="0tr0_oeGUUPl4DkdF5hQ-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E3jIFNI0gxIEaNB33AtD-5" value="&lt;h3 style=&quot;caret-color: rgb(0, 0, 0); text-align: start;&quot; class=&quot;&quot; data-end=&quot;46&quot; data-start=&quot;0&quot;&gt;&lt;strong data-end=&quot;44&quot; data-start=&quot;4&quot;&gt;Actualización de Cristal-IA a CIE-11&lt;/strong&gt;&lt;/h3&gt;&lt;p style=&quot;caret-color: rgb(0, 0, 0); text-align: start;&quot; class=&quot;&quot; data-end=&quot;252&quot; data-start=&quot;48&quot;&gt;Cristal-IA deberá contar con la capacidad de adaptarse rápidamente a la actualización del CIE-10 al CIE-11, garantizando precisión y alineación con los estándares internacionales de codificación médica.&lt;/p&gt;" style="whiteSpace=wrap;html=1;fontSize=10;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-538.84" y="6782" width="300" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="E3jIFNI0gxIEaNB33AtD-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.485;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="E3jIFNI0gxIEaNB33AtD-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-960" y="8380.1" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3jIFNI0gxIEaNB33AtD-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="E3jIFNI0gxIEaNB33AtD-11" target="0tr0_oeGUUPl4DkdF5hQ-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E3jIFNI0gxIEaNB33AtD-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="E3jIFNI0gxIEaNB33AtD-14" target="0tr0_oeGUUPl4DkdF5hQ-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E3jIFNI0gxIEaNB33AtD-14" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;Caja de Formulación de Medicamentos POS y NO POS&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Cristal-IA integrará una herramienta de formulación de medicamentos alopáticos, tanto POS como NO POS, con información completa y actualizada de fuentes oficiales como INVIMA (Colombia), MinSalud (Colombia) y COFEPRIS (México).&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;Búsqueda avanzada y filtrado:&lt;/b&gt; Permite localizar medicamentos por nombre genérico, principio activo o nombre comercial, facilitando una prescripción más eficiente.&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Información detallada: &lt;/b&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Incluye datos sobre principios activos, interacciones, efectos secundarios, contraindicaciones y dosis para adultos y población pediátrica, asegurando una formulación segura y basada en evidencia.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-524.5" y="6417" width="460" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="E3jIFNI0gxIEaNB33AtD-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="E3jIFNI0gxIEaNB33AtD-17" target="0tr0_oeGUUPl4DkdF5hQ-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E3jIFNI0gxIEaNB33AtD-17" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;Recomendaciones Alopáticas Basadas en Guías Clínicas&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Cristal-IA deberá proporcionar recomendaciones alopáticas para patologías que representen un riesgo vital, basándose en guías de práctica clínica oficiales y avaladas en Colombia y México.&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;Protocolos basados en evidencia:&lt;/b&gt; Sugerencias fundamentadas en las guías clínicas obligatorias, incluyendo fármacos e intervenciones a prescribir, garantizando un abordaje médico alineado con las normativas vigentes.&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Autonomía del médico: &lt;/b&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;La herramienta permitirá al profesional revisar y seleccionar (chulear) las recomendaciones para decidir si las adopta en la atención del paciente, asegurando flexibilidad y criterio clínico.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-350" y="5944" width="544.14" height="185.5" as="geometry" />
+        </mxCell>
+        <mxCell id="1o1H4ZGnSN5Gj2Ryf6Mu-1" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#007FFF;strokeWidth=4;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-838.8400000000001" y="7689.37" as="sourcePoint" />
+            <mxPoint x="-50" y="7690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1o1H4ZGnSN5Gj2Ryf6Mu-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1o1H4ZGnSN5Gj2Ryf6Mu-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-840" y="7689.37" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1o1H4ZGnSN5Gj2Ryf6Mu-2" value="1era&amp;nbsp;&lt;div&gt;Consulta&amp;nbsp;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#007FFF;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-880" y="7709.37" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YsT6uTM3XbmKKY7SxDa--4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1o1H4ZGnSN5Gj2Ryf6Mu-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-60" y="7690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1o1H4ZGnSN5Gj2Ryf6Mu-4" value="Cita&amp;nbsp;&lt;div&gt;Control&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#007FFF;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-100.00000000000014" y="7709.37" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1o1H4ZGnSN5Gj2Ryf6Mu-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1o1H4ZGnSN5Gj2Ryf6Mu-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-306.81999999999994" y="7689.37" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1o1H4ZGnSN5Gj2Ryf6Mu-6" value="Preconsulta&amp;nbsp;&lt;div&gt;MD&amp;nbsp;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-351.81999999999994" y="7729.37" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1o1H4ZGnSN5Gj2Ryf6Mu-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1o1H4ZGnSN5Gj2Ryf6Mu-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-208.83999999999992" y="7689.37" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1o1H4ZGnSN5Gj2Ryf6Mu-7" value="Toma de laboratorios de control&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-238.83999999999992" y="7729.37" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1o1H4ZGnSN5Gj2Ryf6Mu-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1o1H4ZGnSN5Gj2Ryf6Mu-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-398.8399999999999" y="7689.37" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1o1H4ZGnSN5Gj2Ryf6Mu-10" value="Nuevo formulario de anamnesis. RTA automatizada con sugerencia de laboratorios." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-438.8399999999999" y="7729.37" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1o1H4ZGnSN5Gj2Ryf6Mu-14" value="2 semanas antes&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-248.83999999999992" y="7650" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YsT6uTM3XbmKKY7SxDa--3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1o1H4ZGnSN5Gj2Ryf6Mu-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-121.07999999999993" y="7690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1o1H4ZGnSN5Gj2Ryf6Mu-17" value="Agendamiento" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontSize=10;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-159.99999999999991" y="7819.37" width="77.84" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1o1H4ZGnSN5Gj2Ryf6Mu-21" value="Seguimiento por CUIDADOR IA y MD" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-680" y="7714.37" width="106.34" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1o1H4ZGnSN5Gj2Ryf6Mu-22" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="-639.46" y="7500" width="22.5" height="411.25" as="geometry" />
+        </mxCell>
+        <mxCell id="1o1H4ZGnSN5Gj2Ryf6Mu-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1o1H4ZGnSN5Gj2Ryf6Mu-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-353.91999999999985" y="7689.37" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1o1H4ZGnSN5Gj2Ryf6Mu-24" value="Se entrega a MD resumen clínico" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-392.8399999999999" y="7819.37" width="77.84" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1o1H4ZGnSN5Gj2Ryf6Mu-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1o1H4ZGnSN5Gj2Ryf6Mu-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-259.91999999999985" y="7689.37" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1o1H4ZGnSN5Gj2Ryf6Mu-26" value="Prescripción de laboratorios facultativos y opcionales&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-298.8399999999999" y="7814.37" width="77.84" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1o1H4ZGnSN5Gj2Ryf6Mu-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1o1H4ZGnSN5Gj2Ryf6Mu-32" target="0tr0_oeGUUPl4DkdF5hQ-136">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-962" y="8520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1o1H4ZGnSN5Gj2Ryf6Mu-32" value="&lt;p style=&quot;caret-color: rgb(0, 0, 0);&quot; class=&quot;&quot; data-end=&quot;215&quot; data-start=&quot;137&quot;&gt;&lt;strong data-end=&quot;215&quot; data-start=&quot;137&quot;&gt;Ruta Automatizada para el Seguimiento de Pacientes en Consultas de Control&lt;/strong&gt;&lt;/p&gt;&lt;p style=&quot;caret-color: rgb(0, 0, 0);&quot; class=&quot;&quot; data-end=&quot;510&quot; data-start=&quot;217&quot;&gt;Tras el diligenciamiento del nuevo formulario de anamnesis de control por parte del paciente, se activa un flujo automatizado que permite optimizar la segunda preconsulta médica y la consulta presencial, integrando inteligencia artificial para análisis clínico y apoyo a la toma de decisiones.&lt;/p&gt;&lt;ul style=&quot;caret-color: rgb(0, 0, 0);&quot; data-end=&quot;1268&quot; data-start=&quot;512&quot;&gt;&lt;li class=&quot;&quot; data-end=&quot;666&quot; data-start=&quot;512&quot;&gt;&lt;p class=&quot;&quot; data-end=&quot;666&quot; data-start=&quot;514&quot;&gt;Se genera una respuesta automatizada que incluye sugerencias personalizadas para el paciente y una prescripción preliminar de laboratorios de control.&lt;/p&gt;&lt;/li&gt;&lt;li class=&quot;&quot; data-end=&quot;879&quot; data-start=&quot;667&quot;&gt;&lt;p class=&quot;&quot; data-end=&quot;879&quot; data-start=&quot;669&quot;&gt;El médico recibe esta información junto con un resumen clínico en formato plano, con un semáforo general de evolución que destaca adherencia, nuevas disfunciones, hábitos lesivos u oportunidades terapéuticas.&lt;/p&gt;&lt;/li&gt;&lt;li class=&quot;&quot; data-end=&quot;1039&quot; data-start=&quot;880&quot;&gt;&lt;p class=&quot;&quot; data-end=&quot;1039&quot; data-start=&quot;882&quot;&gt;El médico define qué laboratorios facultativos y opcionales prescribir, los cuales el paciente deberá realizar dos semanas antes de la consulta de control.&lt;/p&gt;&lt;/li&gt;&lt;li class=&quot;&quot; data-end=&quot;1268&quot; data-start=&quot;1040&quot;&gt;&lt;p class=&quot;&quot; data-end=&quot;1268&quot; data-start=&quot;1042&quot;&gt;Una vez el paciente presenta los resultados a CRISAL-IA, se activa el sistema de agendamiento y se genera un nuevo resumen clínico automatizado que integra anamnesis, resultados de laboratorio y un nuevo análisis semaforizado.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-1284.46" y="7830" width="645" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="1o1H4ZGnSN5Gj2Ryf6Mu-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1o1H4ZGnSN5Gj2Ryf6Mu-37" target="VjXwoAjIO0B9sWG8BOE_-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1o1H4ZGnSN5Gj2Ryf6Mu-37" value="Resumen de HC con código QR dado por paciente&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-749.5382561724134" y="-1499.998387096774" width="101.59291058167463" height="60.89032258064516" as="geometry" />
+        </mxCell>
+        <mxCell id="1o1H4ZGnSN5Gj2Ryf6Mu-39" value="&lt;div&gt;Por ahora no debes pagar, voy a guiarte en la configuración de tus preferencias de atención. Para que puedas atender tus primeros 2 pacientes gratis con el fin de que pruebes nuestra herramienta, posterior a esto si quieres continuar con más pacientes te invitamos a pagar tu suscripción.&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;Video de introducción, Demo instructivo, Simulación (3 pacientes predeterminados) , Ensayo&amp;nbsp; (1ID médico y de la suscripción que dese podrá tener 2 ID pacientes gratis con cortafuegos puesto para entrega de archivos planos o funciones automatizadas ERP)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1420" y="-60" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1o1H4ZGnSN5Gj2Ryf6Mu-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1o1H4ZGnSN5Gj2Ryf6Mu-41" target="bJpbkILRwZCW5Lr_c4me-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ljxo3Pd1EZPzUNKytrv7-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ljxo3Pd1EZPzUNKytrv7-1" target="0tr0_oeGUUPl4DkdF5hQ-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n2zcIzSQSnI2M5V-cu9G-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="n2zcIzSQSnI2M5V-cu9G-1" target="VjXwoAjIO0B9sWG8BOE_-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n2zcIzSQSnI2M5V-cu9G-1" value="Invitación desde Crisal-iA porque un paciente lo busco y no está inscrito&amp;nbsp;&lt;div&gt;Conexión 3&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-509.99825617241345" y="-1499.998387096774" width="101.59291058167463" height="60.89032258064516" as="geometry" />
+        </mxCell>
+        <mxCell id="n2zcIzSQSnI2M5V-cu9G-7" value="" style="group" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="-1007.87" y="-1220" width="817.68" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="bJpbkILRwZCW5Lr_c4me-5" value="&lt;b style=&quot;font-weight:normal;&quot; id=&quot;docs-internal-guid-45644480-7fff-9d47-dcc5-e5677dee62aa&quot;&gt;&lt;font&gt;&lt;h3 dir=&quot;ltr&quot; style=&quot;line-height: 1.38; margin-top: 14pt; margin-bottom: 4pt;&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 700; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Video de Introducción Crisal-iA&lt;/span&gt;&lt;/h3&gt;&lt;h4 dir=&quot;ltr&quot; style=&quot;line-height: 1.38; margin-top: 12pt; margin-bottom: 2pt;&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 700; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Objetivo General: &lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); font-family: Arial, sans-serif; font-weight: 400; white-space-collapse: preserve;&quot;&gt;Presentar a Crisal-iA como una herramienta integral diseñada para asistir al médico en el ejercicio de la Medicina Funcional, entregando análisis automáticos al paciente y apoyo clínico en tiempo real al profesional. Crisal-iA no solo optimiza el tiempo de consulta, sino que también reduce significativamente la carga administrativa al gestionar agendas, automatizar la facturación, hacer seguimiento a pacientes en tiempo real resolviendo dudas básicas, permitiendo así mejorar la atención, aumentar ingresos y dedicar más tiempo a lo verdaderamente importante: el bienestar del paciente.&lt;/span&gt;&lt;/h4&gt;&lt;h4 dir=&quot;ltr&quot; style=&quot;line-height: 1.38; margin-top: 12pt; margin-bottom: 2pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); font-family: Arial, sans-serif; white-space-collapse: preserve;&quot;&gt;Estructura de la Inducción (video):&lt;/span&gt;&lt;/h4&gt;&lt;ol style=&quot;margin-top: 0px; margin-bottom: 0px; padding-inline-start: 48px;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;list-style-type: decimal; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre;&quot; aria-level=&quot;1&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height: 1.38; margin-top: 12pt; margin-bottom: 0pt;&quot; role=&quot;presentation&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; font-style: normal; color: rgb(0, 0, 0); background-color: transparent; font-weight: 700; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Captación de Atención&lt;/span&gt;&lt;span style=&quot;font-family: Arial, sans-serif; font-style: normal; color: rgb(0, 0, 0); background-color: transparent; font-weight: 700; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;&quot;&gt;&lt;i style=&quot;&quot;&gt;&lt;font face=&quot;Arial, sans-serif&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;“¿Sabías que los médicos funcionales pierden hasta el 60% de su tiempo en interrogatorios extensos de anamnesis y trámites administrativos en lugar de conectar con sus pacientes?”&lt;br&gt;&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;list-style-type: decimal; font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre;&quot; aria-level=&quot;1&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; role=&quot;presentation&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 700; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Presentación de la Solución&lt;/span&gt;&lt;span style=&quot;font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 700; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Crisal-iA ofrece una solución completa con:&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; padding-inline-start: 48px;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;list-style-type: disc; font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre; margin-left: 36pt;&quot; aria-level=&quot;1&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; role=&quot;presentation&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Automatización inteligente de la gestión de agenda.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;list-style-type: disc; font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre; margin-left: 36pt;&quot; aria-level=&quot;1&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; role=&quot;presentation&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); text-wrap-mode: wrap;&quot;&gt;Agente IA que dinamiza y automatiza el interrogatorio al paciente previo a consulta&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;list-style-type: disc; font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre; margin-left: 36pt;&quot; aria-level=&quot;1&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; role=&quot;presentation&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); text-wrap-mode: wrap;&quot;&gt;Agente IA que genera primeras recomendaciones a paciente y entrega un análisis tipo preconsulta &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;list-style-type: disc; font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre; margin-left: 36pt;&quot; aria-level=&quot;1&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; role=&quot;presentation&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Asistente de IA especializado en Medicina Funcional, que interactúa en tiempo real con médico y paciente.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;list-style-type: disc; font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre; margin-left: 36pt;&quot; aria-level=&quot;1&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; role=&quot;presentation&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); text-wrap-mode: wrap;&quot;&gt;Análisis funcional avanzado guiado y personalizado &quot;médico funcional copiloto&quot;.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;list-style-type: disc; font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre; margin-left: 36pt;&quot; aria-level=&quot;1&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; role=&quot;presentation&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;ChatBoth BothVoice de seguimiento y asistencia por IA a dudas del paciente&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;list-style-type: disc; font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre; margin-left: 36pt;&quot; aria-level=&quot;1&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; role=&quot;presentation&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Plataforma intuitiva, adaptable y de alto rendimiento.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;list-style-type: disc; font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre; margin-left: 36pt;&quot; aria-level=&quot;1&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; role=&quot;presentation&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Soporte continuo, actualizaciones y formación especializada en Medicina Funcional.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ol style=&quot;margin-top: 0px; margin-bottom: 0px; padding-inline-start: 48px;&quot; start=&quot;3&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;list-style-type: decimal; font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre;&quot; aria-level=&quot;1&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; role=&quot;presentation&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 700; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Demostración del Software&lt;/span&gt;&lt;span style=&quot;font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 700; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Recorrido práctico por las funciones clave del sistema, con énfasis en los beneficios tangibles en la consulta médica.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;list-style-type: decimal; font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre;&quot; aria-level=&quot;1&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; role=&quot;presentation&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Se explica a Md que podrá acceder a una prueba de nuestro SW con un paciente generado por IA &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;list-style-type: decimal; font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre;&quot; aria-level=&quot;1&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; role=&quot;presentation&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 700; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Testimonios de Expertos&lt;/span&gt;&lt;span style=&quot;font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 700; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Médicos funcionales reconocidos comparten su experiencia positiva con Crisal-iA y cómo ha transformado su consulta.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;list-style-type: decimal; font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre;&quot; aria-level=&quot;1&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; role=&quot;presentation&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 700; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Llamado a la Acción&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; padding-inline-start: 48px;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;list-style-type: disc; font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space-collapse: preserve; margin-left: 36pt;&quot; aria-level=&quot;1&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;&quot; role=&quot;presentation&quot;&gt;Gestionar el uso del SW&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ol style=&quot;margin-top: 0px; margin-bottom: 0px; padding-inline-start: 48px;&quot; start=&quot;6&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;list-style-type: decimal; font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre;&quot; aria-level=&quot;1&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height: 1.38; margin-top: 0pt; margin-bottom: 12pt;&quot; role=&quot;presentation&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 700; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Compromiso con la Privacidad&lt;/span&gt;&lt;span style=&quot;font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 700; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Crisal-iA garantiza la absoluta confidencialidad de la información médica y del paciente, cumpliendo rigurosamente con la normativa legal vigente en protección de datos.  &lt;/span&gt;&lt;strong style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); caret-color: rgb(0, 0, 0); white-space: normal;&quot; data-end=&quot;2203&quot; data-start=&quot;2193&quot;&gt;Cierre:&amp;nbsp;&lt;/strong&gt;&lt;em style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); caret-color: rgb(0, 0, 0); white-space: normal;&quot; data-end=&quot;2320&quot; data-start=&quot;2204&quot;&gt;“Optimiza tu consulta y enfócate en lo que realmente importa: la atención a tus pacientes. Únete hoy a Crisal-iA.”&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/font&gt;&lt;/b&gt;" style="rounded=0;html=1;strokeColor=#82b366;align=left;fillColor=#d5e8d4;verticalAlign=middle;whiteSpace=wrap;spacing=2;fontSize=9;" vertex="1" parent="n2zcIzSQSnI2M5V-cu9G-7">
+          <mxGeometry x="38.799999999999955" width="778.88" height="489.9999999999999" as="geometry" />
+        </mxCell>
+        <mxCell id="n2zcIzSQSnI2M5V-cu9G-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="n2zcIzSQSnI2M5V-cu9G-7">
+          <mxGeometry width="38.8" height="489.9999999999999" as="geometry" />
+        </mxCell>
+        <mxCell id="n2zcIzSQSnI2M5V-cu9G-8" value="" style="group" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="-889" y="-700" width="257.79999999999995" height="219" as="geometry" />
+        </mxCell>
+        <mxCell id="bJpbkILRwZCW5Lr_c4me-9" value="&lt;div&gt;&lt;span&gt;&lt;b&gt;Registro y Seguimiento&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;Para crear su cuenta y brindarle un mejor seguimiento, solicitamos algunos datos básicos a través de un formulario breve:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Nombre&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Especialidad&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Correo electrónico&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Número de WhatsApp&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;Nota: La información proporcionada podrá ser compartida con nuestros aliados internos: Nutrapp, Alivia y AMF.&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;rounded=0;" vertex="1" parent="n2zcIzSQSnI2M5V-cu9G-8">
+          <mxGeometry x="38.799999999999955" width="219" height="219" as="geometry" />
+        </mxCell>
+        <mxCell id="n2zcIzSQSnI2M5V-cu9G-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="n2zcIzSQSnI2M5V-cu9G-8">
+          <mxGeometry width="38.8" height="219" as="geometry" />
+        </mxCell>
+        <mxCell id="n2zcIzSQSnI2M5V-cu9G-9" value="" style="group" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="-1118.8" y="-380" width="718.8" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="bJpbkILRwZCW5Lr_c4me-24" value="&lt;div&gt;&lt;b&gt;&lt;font&gt;SW de simulación y demo instructivo:&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;span&gt;El médico entra en un SW de simulación interactiva con todos los componentes nativos de Crisal-iA, este ademas de ser interactivo, guiara y enseñara&amp;nbsp; al MD en las funciones y herramientas de Crisa-iA. Se proporcionan 3 pacientes predeterminados generados por inteligencia artificial&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;.&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;font&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;b&gt;&lt;font&gt;Flujo del simulacro:&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); font-family: Arial, sans-serif; white-space-collapse: preserve;&quot;&gt;&lt;font&gt;Simulación de proceso de Automatización inteligente de agenda y llenado de espacios vacíos.&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;font&gt;Se muestra como funciona el formulario de anamnesis inteligente que se le realiza al paciente previo a consulta&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font&gt;Se muestra como el asistente de IA especializado en Medicina Funcional, entrega análisis automatizado, OTCs y semaforización.&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font&gt;Se invita a simular una cita presencial mediante una conversación y&amp;nbsp; simulación de examen físico en el cual podrá ver como interactuar con&amp;nbsp; &quot;médico funcional copiloto&quot; en su consultorio.&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font&gt;Se simulará la generación automatizada de procesos administrativos.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font&gt;Simulación de gestion IA de seguimiento a paciente y proceso automatizado de preparación para cita de control&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font&gt;Se entrega al MD un análisis y resumen final con el tiempo y recursos ahorrados gracias a la optimización del sistema Crisal-iA&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Este demo se podría repetir 3 veces con pacientes simulados por IA.&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="n2zcIzSQSnI2M5V-cu9G-9">
+          <mxGeometry x="38.799999999999955" width="680" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="n2zcIzSQSnI2M5V-cu9G-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="n2zcIzSQSnI2M5V-cu9G-9">
+          <mxGeometry width="38.8" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="n2zcIzSQSnI2M5V-cu9G-10" value="" style="group" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="-1118.79" y="-30" width="718.8" height="205" as="geometry" />
+        </mxCell>
+        <mxCell id="1o1H4ZGnSN5Gj2Ryf6Mu-41" value="&lt;h3 style=&quot;caret-color: rgb(0, 0, 0);&quot; class=&quot;&quot; data-end=&quot;182&quot; data-start=&quot;145&quot;&gt;&lt;strong data-end=&quot;182&quot; data-start=&quot;149&quot;&gt;Versión de Prueba - Crisal-iA&lt;/strong&gt;&lt;/h3&gt;&lt;p style=&quot;caret-color: rgb(0, 0, 0);&quot; class=&quot;&quot; data-end=&quot;495&quot; data-start=&quot;184&quot;&gt;En esta versión de prueba, Crisal-iA&amp;nbsp; acompañará sin costo en la configuración inicial de preferencias de atención médica. &quot;Podrás atender hasta&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;strong data-end=&quot;367&quot; data-start=&quot;334&quot;&gt;3 pacientes de forma gratuita&lt;/strong&gt;, con el objetivo de que explores las funcionalidades clave de nuestra plataforma antes de decidirte a adquirir una suscripción.&quot;&lt;/p&gt;&lt;ul style=&quot;caret-color: rgb(0, 0, 0);&quot; data-end=&quot;1381&quot; data-start=&quot;497&quot;&gt;&lt;li class=&quot;&quot; data-end=&quot;805&quot; data-start=&quot;497&quot;&gt;&lt;p class=&quot;&quot; data-end=&quot;805&quot; data-start=&quot;499&quot;&gt;&lt;strong data-end=&quot;529&quot; data-start=&quot;499&quot;&gt;Prueba funcional completa:&lt;/strong&gt;&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;El médico podrá acceder tanto a la WebApp como a la App Móvil, donde gestionará su agenda, consultas y pacientes de manera automatizada. En esta etapa inicial, los pacientes serán gestionados personalmente por el médico e ingresarán a Crisal-iA a través de la&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;strong data-end=&quot;804&quot; data-start=&quot;790&quot;&gt;Conexión 1&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="n2zcIzSQSnI2M5V-cu9G-10">
+          <mxGeometry x="38.799999999999955" width="680" height="205" as="geometry" />
+        </mxCell>
+        <mxCell id="n2zcIzSQSnI2M5V-cu9G-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="n2zcIzSQSnI2M5V-cu9G-10">
+          <mxGeometry width="38.8" height="205" as="geometry" />
+        </mxCell>
+        <mxCell id="n2zcIzSQSnI2M5V-cu9G-11" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="-1079.52" y="296" width="38.8" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="n2zcIzSQSnI2M5V-cu9G-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="n2zcIzSQSnI2M5V-cu9G-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-320" y="3147" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n2zcIzSQSnI2M5V-cu9G-12" value="&lt;span id=&quot;docs-internal-guid-be40bc27-7fff-3814-c39a-8eec26b079f4&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;Se hará integración con calendarios externos (Google Calendar, Outlook) &lt;/span&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="3107" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="n2zcIzSQSnI2M5V-cu9G-14" value="&lt;div&gt;Firma digital:&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp;E&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;l software de historias clínicas debe integrar la firma digital conforme a los estándares técnicos exigidos por MinTIC y MinSalud, asegurando interoperabilidad, seguridad y trazabilidad.&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-560.82" y="1730" width="380" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="bhbZpF0BVr6nbdsEyOpd-1" value="Administrativo IA" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1359.14" y="-860" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bhbZpF0BVr6nbdsEyOpd-2" value="Inscripcíon y datos&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1360.14" y="-1205" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bhbZpF0BVr6nbdsEyOpd-3" value="Agenda" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1360.14" y="-1155" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bhbZpF0BVr6nbdsEyOpd-4" value="Anamnesis y Formulario" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1360.14" y="-1110" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bhbZpF0BVr6nbdsEyOpd-5" value="Pago" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1360.14" y="-1060" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bhbZpF0BVr6nbdsEyOpd-6" value="Consulta&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1360.14" y="-1005" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bhbZpF0BVr6nbdsEyOpd-7" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-1410.14" y="-910" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bhbZpF0BVr6nbdsEyOpd-8" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
+          <mxGeometry x="-1410.14" y="-1160" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bhbZpF0BVr6nbdsEyOpd-9" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-1410.14" y="-1110" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bhbZpF0BVr6nbdsEyOpd-10" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-1410.14" y="-1060" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bhbZpF0BVr6nbdsEyOpd-11" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="-1410.14" y="-1210" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bhbZpF0BVr6nbdsEyOpd-12" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-1410.14" y="-1010" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bhbZpF0BVr6nbdsEyOpd-13" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-1410.14" y="-860" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bhbZpF0BVr6nbdsEyOpd-14" value="Seguimiento IA&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1359.5200000000002" y="-910" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bhbZpF0BVr6nbdsEyOpd-15" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-1409.76" y="-960" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bhbZpF0BVr6nbdsEyOpd-16" value="IA entrenada" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1359.14" y="-960" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bhbZpF0BVr6nbdsEyOpd-18" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="-580" y="625" width="20" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bhbZpF0BVr6nbdsEyOpd-19" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="-870" y="790" width="20" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bhbZpF0BVr6nbdsEyOpd-20" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="-650" y="790" width="20" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bhbZpF0BVr6nbdsEyOpd-21" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="-459.25" y="790" width="20" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bhbZpF0BVr6nbdsEyOpd-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bhbZpF0BVr6nbdsEyOpd-22" target="bJpbkILRwZCW5Lr_c4me-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bhbZpF0BVr6nbdsEyOpd-25" value="" style="group" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="-2000" y="1275" width="470" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="bJpbkILRwZCW5Lr_c4me-79" value="&lt;div&gt;&lt;b&gt;Automatización de Registro y Sincronización de Cuentas&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;•&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Para evitar reprocesos, los datos del médico serán compartidos y su cuenta se activará automáticamente en:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ALIVIA&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; NUTRAPP&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; AMF&lt;/div&gt;&lt;div&gt;Si el médico ya tiene una cuenta creada, el sistema la reconocerá automáticamente mediante sus datos registrados, evitando duplicaciones.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="bhbZpF0BVr6nbdsEyOpd-25">
+          <mxGeometry x="30" width="440" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="bhbZpF0BVr6nbdsEyOpd-24" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="bhbZpF0BVr6nbdsEyOpd-25">
+          <mxGeometry width="30" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="bhbZpF0BVr6nbdsEyOpd-26" value="" style="group" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="-1450" y="1122" width="510" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="bJpbkILRwZCW5Lr_c4me-59" value="&lt;div&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;Datos Personales y Profesionales para Verificación de Identidad y Habilitación Profesional&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;Datos Personales:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Género&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Fecha de nacimiento&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Nombre completo&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Tipo de documento&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Número de documento&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; País&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Ciudad de vivienda&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Dirección de vivienda&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Código postal&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Celular de contacto&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Correo electrónico&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Fotos del médico y su entorno clínico.&lt;span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;Datos Profesionales:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Registro Médico:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;ReTHUS o tarjeta profesional expedida por el Colegio Médico Colombiano&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Título profesional universitario:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Médico / Médico cirujano.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Especialidad médica (si aplica).&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Formación en Medicina Funcional:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Diplomado en MF o formación certificada o en curso con IFM, Kresser, FMU.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;Estilo de Práctica y Modalidades Terapéuticas:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Estilo de práctica, modalidades semiológicas y terapéuticas.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Selección de motivos generales de consulta que atenderá.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;Datos de Habilitación Profesional:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Número de registro ante el Ministerio de Salud (si es una IPS o consulta privada habilitada).&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Dirección del consultorio habilitado o lugar de atención.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Teléfono del lugar de trabajo.&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="bhbZpF0BVr6nbdsEyOpd-26">
+          <mxGeometry x="30" width="480" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="bhbZpF0BVr6nbdsEyOpd-22" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="bhbZpF0BVr6nbdsEyOpd-26">
+          <mxGeometry width="30" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="bhbZpF0BVr6nbdsEyOpd-28" value="" style="group" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="-1500" y="1605" width="560" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="bJpbkILRwZCW5Lr_c4me-60" value="&lt;div&gt;Documentos Legales y de Cumplimiento de Ley&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;El médico debe entregar los siguientes documentos en formato digital:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Copia de la tarjeta profesional o certificación de ReTHUS.&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Copia de la cédula de ciudadanía.&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; RUT actualizado (Registro Único Tributario).&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Autorización de tratamiento de datos personales (Habeas Data), en cumplimiento de la Ley 1581 de 2012.&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Consentimiento informado para el uso de la IA en historias clínicas&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="bhbZpF0BVr6nbdsEyOpd-28">
+          <mxGeometry x="30" width="530" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="bhbZpF0BVr6nbdsEyOpd-27" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="bhbZpF0BVr6nbdsEyOpd-28">
+          <mxGeometry width="30" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="bhbZpF0BVr6nbdsEyOpd-31" value="" style="group" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="-590" y="1030" width="447.5" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="bJpbkILRwZCW5Lr_c4me-74" value="&lt;div&gt;&lt;span&gt;Seguridad y Protección de Datos&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Verificación de identidad:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ¿Requiere validación mediante datos biométricos?&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Autorizaciones necesarias:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Almacenamiento y cifrado de datos en la nube.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Permiso para compartir datos anonimizados con fines:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Estadísticos.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Mejora del software.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Entrenamiento de IA.&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;fontSize=10;" vertex="1" parent="bhbZpF0BVr6nbdsEyOpd-31">
+          <mxGeometry x="30" width="417.5" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="bhbZpF0BVr6nbdsEyOpd-29" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="bhbZpF0BVr6nbdsEyOpd-31">
+          <mxGeometry width="30" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="bhbZpF0BVr6nbdsEyOpd-32" value="" style="group" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="-590.82" y="1180" width="259.82000000000005" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="bJpbkILRwZCW5Lr_c4me-61" value="&lt;div&gt;Información de Facturación y Pago&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Si factura como persona jurídica:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Razón social&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; NIT&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Dirección&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Régimen tributario&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Si factura como persona natural:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Nombre completo&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Cédula de ciudadanía&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Dirección&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; RUT (Registro Único Tributario)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Método de pago preferido:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Tarjeta de crédito&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Débito automático&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Transferencia bancaria&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Otros (especificar)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;No se autoriza pago en efectivo.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="bhbZpF0BVr6nbdsEyOpd-32">
+          <mxGeometry x="30.82000000000005" width="229" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="bhbZpF0BVr6nbdsEyOpd-30" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="bhbZpF0BVr6nbdsEyOpd-32">
+          <mxGeometry width="30" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="bhbZpF0BVr6nbdsEyOpd-34" value="" style="group" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="-590" y="1490" width="329" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="bJpbkILRwZCW5Lr_c4me-63" value="&lt;div&gt;Seguridad y Protección de Datos&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Verificación de identidad:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;¿Requiere validación mediante datos biométricos?&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Autorizaciones necesarias:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Almacenamiento y cifrado de datos en la nube.&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Permiso para compartir datos anonimizados con fines:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Estadísticos.&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Mejora del software.&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Entrenamiento de IA.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="bhbZpF0BVr6nbdsEyOpd-34">
+          <mxGeometry x="30" width="299" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="bhbZpF0BVr6nbdsEyOpd-33" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="bhbZpF0BVr6nbdsEyOpd-34">
+          <mxGeometry width="30" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="bhbZpF0BVr6nbdsEyOpd-35" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="-590.82" y="1638" width="30" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="bhbZpF0BVr6nbdsEyOpd-36" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="-590.82" y="1730" width="30" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="bhbZpF0BVr6nbdsEyOpd-38" value="" style="group" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="-900" y="2002" width="290" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-1" value="&lt;div&gt;&lt;span&gt;&lt;b&gt;La IA entregará un contrato a cada médico, el cual incluirá cláusulas en las que acepte:&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;• Confidencialidad y manejo de datos de pacientes.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;• Uso adecuado del software conforme a la normatividad colombiana Y Ley 1581 de 2012 sobre protección de datos, entre otras).&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;• Exoneración de responsabilidad del software sobre decisiones clínicas (si la IA solo sugiere y no toma decisiones médicas).&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;align=left;" vertex="1" parent="bhbZpF0BVr6nbdsEyOpd-38">
+          <mxGeometry width="260" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="bhbZpF0BVr6nbdsEyOpd-37" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="bhbZpF0BVr6nbdsEyOpd-38">
+          <mxGeometry x="260" width="30" height="148" as="geometry" />
+        </mxCell>
+        <mxCell id="bhbZpF0BVr6nbdsEyOpd-40" value="" style="group" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="-2020" y="2030" width="740" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-15" value="&lt;div&gt;&lt;b&gt;Preajustes para consulta general&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/b&gt;•El médico configura recomendaciones automáticas.&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •El médico establece tiempos de respuesta para preconsulta.&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •El médico define la duración y los precios de la consulta inicial, de seguimiento y de revaloración.&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •El médico configura los requisitos que debe cumplir el paciente para asistir a la consulta.&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •El médico selecciona automáticamente las secciones de la ET que estarán activadas o desactivadas (ejemplo: activación de formulación Nutrabiotics).&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •El médico establece el porcentaje de descuento en estrategias de venta.&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •El médico puede generar códigos de descuento permanentes con un porcentaje específico.&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •El médico tiene la opción de configurar códigos de descuento únicos con un porcentaje seleccionado.&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •El médico configura los medios de comunicación y notificaciones de Crisal-iApara pacientes.&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; •El médico define qué porcentaje del pago se guardará como descuento para una nueva cita dentro del tiempo permitido&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="bhbZpF0BVr6nbdsEyOpd-40">
+          <mxGeometry x="30" width="710" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="bhbZpF0BVr6nbdsEyOpd-39" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="bhbZpF0BVr6nbdsEyOpd-40">
+          <mxGeometry width="30" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="bhbZpF0BVr6nbdsEyOpd-44" value="" style="group" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="-1960" y="2241" width="680" height="129" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-8" value="&lt;div&gt;&lt;span&gt;&lt;b&gt;Herramienta de Personalización de Agenda&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;•El médico podrá gestionar su agenda de forma personalizada, permitiendo:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; • Asignar jornadas activas para las semanas o meses siguientes.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; • Modificar, cancelar o añadir tiempos de atención según su disponibilidad.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;•Interacción con pacientes mediante CRISAL-IA:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;•Si el médico realiza modificaciones en su agenda, Crisal-iAgestionará automáticamente la comunicación con los pacientes, permitiendo:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; • Aproximar citas.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; • Reubicar pacientes según disponibilidad.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; • Aplazar consultas según necesidad.&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="bhbZpF0BVr6nbdsEyOpd-44">
+          <mxGeometry x="30" width="650" height="129" as="geometry" />
+        </mxCell>
+        <mxCell id="bhbZpF0BVr6nbdsEyOpd-41" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" vertex="1" parent="bhbZpF0BVr6nbdsEyOpd-44">
+          <mxGeometry width="30" height="129" as="geometry" />
+        </mxCell>
+        <mxCell id="bhbZpF0BVr6nbdsEyOpd-45" value="" style="group" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="-1960" y="2430" width="680" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="E3jIFNI0gxIEaNB33AtD-11" value="&lt;h3 style=&quot;caret-color: rgb(0, 0, 0);&quot; class=&quot;&quot; data-end=&quot;65&quot; data-start=&quot;0&quot;&gt;&lt;strong data-end=&quot;63&quot; data-start=&quot;4&quot;&gt;Personalización de Documentos y Fórmulas para Pacientes&lt;/strong&gt;&lt;/h3&gt;&lt;p style=&quot;caret-color: rgb(0, 0, 0);&quot; class=&quot;&quot; data-end=&quot;232&quot; data-start=&quot;67&quot;&gt;Cristal-IA incluirá una herramienta que permitirá a los médicos personalizar los documentos y fórmulas entregados a los pacientes con su logotipo y firma personal.&lt;/p&gt;&lt;ul style=&quot;caret-color: rgb(0, 0, 0);&quot; data-is-only-node=&quot;&quot; data-is-last-node=&quot;&quot; data-end=&quot;569&quot; data-start=&quot;234&quot;&gt;&lt;li class=&quot;&quot; data-end=&quot;390&quot; data-start=&quot;234&quot;&gt;&lt;p class=&quot;&quot; data-end=&quot;390&quot; data-start=&quot;236&quot;&gt;&lt;strong data-end=&quot;266&quot; data-start=&quot;236&quot;&gt;Automatización y branding:&lt;/strong&gt;&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;Los documentos generados para el paciente incluirán el logotipo personal del médico, reforzando su identidad profesional.&lt;/p&gt;&lt;/li&gt;&lt;li class=&quot;&quot; data-end=&quot;569&quot; data-start=&quot;391&quot;&gt;&lt;p class=&quot;&quot; data-end=&quot;569&quot; data-start=&quot;393&quot;&gt;&lt;strong data-end=&quot;431&quot; data-start=&quot;393&quot;&gt;Estandarización y personalización:&lt;/strong&gt;&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;Se garantizará un formato uniforme para las recetas, informes y recomendaciones, adaptado a la identidad de cada profesional de la salud.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="bhbZpF0BVr6nbdsEyOpd-45">
+          <mxGeometry x="30" width="650" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="bhbZpF0BVr6nbdsEyOpd-43" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="bhbZpF0BVr6nbdsEyOpd-45">
+          <mxGeometry width="30" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="bhbZpF0BVr6nbdsEyOpd-47" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
+          <mxGeometry x="-1860" y="2877" width="30" height="143" as="geometry" />
+        </mxCell>
+        <mxCell id="bhbZpF0BVr6nbdsEyOpd-50" value="" style="group" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="-1930" y="3670" width="535" height="127" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-40" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;Notificaciones y Seguimiento de Anamnesis Automatizada&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;• Notificación al médico cuando el paciente ha completado:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;•&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 50% de la anamnesis automatizada.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;•&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 100% de la anamnesis automatizada, al alcanzar este punto la IA presentará al médico un resumen con los objetivos principales del paciente.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Este sistema permite al médico hacer un seguimiento oportuno y estar preparado con información clave antes de la consulta.&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="bhbZpF0BVr6nbdsEyOpd-50">
+          <mxGeometry x="35" width="500" height="127" as="geometry" />
+        </mxCell>
+        <mxCell id="bhbZpF0BVr6nbdsEyOpd-49" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="bhbZpF0BVr6nbdsEyOpd-50">
+          <mxGeometry width="35" height="127" as="geometry" />
+        </mxCell>
+        <mxCell id="bhbZpF0BVr6nbdsEyOpd-52" value="" style="group;fillColor=#f8cecc;strokeColor=#b85450;" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="-2390" y="6143" width="530" height="107" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-126" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;ChatBot se comunicara con Md en caso de:&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp;1. Asistencia para resolver dudas al paciente que no logra generar la IA satisfactoriamente.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp;2. Solicitud de nuevo concepto o adelanter cita control (costo adicional para el paciente).&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp;* La IA siempre dará la sugerencia de asistir a valoracion por Md para resolverlo como metodo de protección legal.&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;" vertex="1" parent="bhbZpF0BVr6nbdsEyOpd-52">
+          <mxGeometry x="30" width="500" height="107" as="geometry" />
+        </mxCell>
+        <mxCell id="bhbZpF0BVr6nbdsEyOpd-51" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="bhbZpF0BVr6nbdsEyOpd-52">
+          <mxGeometry width="30" height="107" as="geometry" />
+        </mxCell>
+        <mxCell id="bhbZpF0BVr6nbdsEyOpd-57" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-1320" y="7830" width="35.54" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="bhbZpF0BVr6nbdsEyOpd-59" value="" style="group" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="-812.98" y="8290" width="562.98" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="E3jIFNI0gxIEaNB33AtD-9" value="&lt;h3 style=&quot;caret-color: rgb(0, 0, 0); text-align: start;&quot; class=&quot;&quot; data-end=&quot;43&quot; data-start=&quot;0&quot;&gt;&lt;strong data-end=&quot;41&quot; data-start=&quot;4&quot;&gt;Colaboración Médica en Cristal-IA&lt;/strong&gt;&lt;/h3&gt;&lt;p style=&quot;caret-color: rgb(0, 0, 0); text-align: start;&quot; class=&quot;&quot; data-end=&quot;219&quot; data-start=&quot;45&quot;&gt;En caso de requerir la remisión a otro especialista, Cristal-IA ofrecerá herramientas para facilitar el trabajo en equipo y la comunicación entre profesionales de la salud.&lt;/p&gt;&lt;ul style=&quot;caret-color: rgb(0, 0, 0); text-align: start;&quot; data-is-only-node=&quot;&quot; data-is-last-node=&quot;&quot; data-end=&quot;573&quot; data-start=&quot;221&quot;&gt;&lt;li class=&quot;&quot; data-end=&quot;391&quot; data-start=&quot;221&quot;&gt;&lt;p class=&quot;&quot; data-end=&quot;391&quot; data-start=&quot;223&quot;&gt;&lt;strong data-end=&quot;260&quot; data-start=&quot;223&quot;&gt;Chat privado entre especialistas:&lt;/strong&gt;&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;Espacio seguro para discutir casos clínicos en tiempo real, garantizando confidencialidad y eficiencia en la toma de decisiones.&lt;/p&gt;&lt;/li&gt;&lt;li class=&quot;&quot; data-end=&quot;573&quot; data-start=&quot;392&quot;&gt;&lt;p class=&quot;&quot; data-end=&quot;573&quot; data-start=&quot;394&quot;&gt;&lt;strong data-end=&quot;419&quot; data-start=&quot;394&quot;&gt;Junta médica virtual:&lt;/strong&gt;&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;Plataforma integrada que permite la colaboración multidisciplinaria en torno a un paciente, optimizando el abordaje y la personalización del tratamiento.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="bhbZpF0BVr6nbdsEyOpd-59">
+          <mxGeometry width="530" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="bhbZpF0BVr6nbdsEyOpd-58" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="bhbZpF0BVr6nbdsEyOpd-59">
+          <mxGeometry x="530" width="32.98" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="bhbZpF0BVr6nbdsEyOpd-61" value="" style="group" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="-1380" y="8520" width="801" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="0tr0_oeGUUPl4DkdF5hQ-136" value="&lt;p class=&quot;p1&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;CRISAL-IA realiza un segundo cuestionario de control y lleva a cabo un análisis detallado basado en la información previa del paciente. Su evaluación incluye:&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;p class=&quot;p1&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;1.Detección de cambios en la evolución clínica: Comparación con la anamnesis o controles previos para identificar mejorías o deterioros.&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;2.Identificación de nuevas conductas lesivas: Evaluación de hábitos que puedan estar afectando la salud del paciente.&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;3.Análisis de perpetuadores no controlados: Búsqueda de factores que siguen contribuyendo a la disfunción del paciente.&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;4.Detección de nuevos síntomas: Monitoreo de la aparición de signos clínicos adicionales.&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;5.Evaluación de adherencia terapéutica: Identificación de síntomas secundarios a incumplimientos en el tratamiento (por ejemplo, falta de respeto a restricciones alimentarias).&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;6.Recopilación de datos de wearables: Organización de la información en cortes semanales para un mejor análisis.&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;7.Análisis de exámenes paraclínicos: Interpretación de los resultados para integrarlos en la evaluación global.&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;8.Actualización basada en la tabla de disfuciones: Modificación de la estructura de análisis según la evolución del paciente y ajuste del sistema de semaforización.&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;9.Sugerencia de tiempos para control médico: Estimación del momento ideal para la siguiente consulta (virtual o presencial), con base en puntos de control optimizados mediante entrenamiento experto.&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;10.Generación de informes gráficos: Representación visual de la evolución de síntomas, resultados de laboratorio, anamnesis, hábitos y otras variables relevantes, incluyendo un gráfico final de progreso general.&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p class=&quot;p1&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;CRISAL-IA facilita así un seguimiento preciso y personalizado, optimizando la toma de decisiones médicas y la adherencia del paciente al tratamiento.”&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;" vertex="1" parent="bhbZpF0BVr6nbdsEyOpd-61">
+          <mxGeometry x="41" width="760" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="bhbZpF0BVr6nbdsEyOpd-60" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="bhbZpF0BVr6nbdsEyOpd-61">
+          <mxGeometry width="41" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="bhbZpF0BVr6nbdsEyOpd-62" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="140" y="8650" width="30" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="bhbZpF0BVr6nbdsEyOpd-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bhbZpF0BVr6nbdsEyOpd-65" target="0tr0_oeGUUPl4DkdF5hQ-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bhbZpF0BVr6nbdsEyOpd-65" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&amp;nbsp;* Se proporcionara al Md la opción de acceder (botón de MF) en cada análisis generado por IA con el fin explicar como se llego a dicho concepto y redireccionará a material y eventos de AMF relacionados.&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&amp;nbsp;* Se notificará a Md el calendario anual de eventos AMF, IFM y de aliados.&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-350" y="6180" width="390" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="bhbZpF0BVr6nbdsEyOpd-68" value="" style="group" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="-350" y="5454" width="940" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="Ljxo3Pd1EZPzUNKytrv7-1" value="&lt;p style=&quot;margin: 14pt 0cm 4pt; font-family: Aptos, sans-serif; text-align: start;&quot; class=&quot;MsoNormal&quot;&gt;&lt;font&gt;&lt;b&gt;&lt;span style=&quot;font-family: Arial, sans-serif;&quot;&gt;Repositorios Inteligentes de Medicina Funcional&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;, serif;&quot;&gt;&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 12pt 0cm; font-family: Aptos, sans-serif; text-align: start;&quot; class=&quot;MsoNormal&quot;&gt;&lt;font&gt;&lt;span style=&quot;font-family: Arial, sans-serif;&quot;&gt;Desarrollaremos un sistema avanzado de organización y administración de contenidos audiovisuales provenientes de congresos, conferencias y charlas impartidas por médicos funcionales de alto nivel. Este repositorio estará estructurado para que la inteligencia artificial pueda indexar, recuperar y entregar de manera precisa fragmentos de video, audios y documentos pertinentes, ante la consulta de un tema específico por parte del médico usuario.&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;, serif;&quot;&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;ul style=&quot;margin-bottom: 0cm; text-align: start; margin-top: 0cm;&quot; type=&quot;disc&quot;&gt;&lt;li style=&quot;margin: 12pt 0cm 0cm; font-family: Aptos, sans-serif; vertical-align: baseline;&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif;&quot;&gt;&lt;font&gt;La IA analizará las búsquedas del médico y entregará material específico: clips, transcripciones, artículos y referencias relacionadas al tema consultado.&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;margin: 0cm; font-family: Aptos, sans-serif; vertical-align: baseline;&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif;&quot;&gt;&lt;font&gt;El sistema permitirá segmentar el contenido por categoría clínica, modelo de disfunción, sistema corporal afectado o marco terapéutico.&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;margin: 0cm; font-family: Aptos, sans-serif; vertical-align: baseline;&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif;&quot;&gt;&lt;font&gt;Se integrarán etiquetas inteligentes que identifiquen a cada conferencista, su área de expertise y la relevancia del contenido presentado.&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;margin: 0cm 0cm 12pt; font-family: Aptos, sans-serif; vertical-align: baseline;&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif;&quot;&gt;&lt;font&gt;La plataforma facilitará el aprendizaje personalizado con acceso directo a fragmentos clave, sin necesidad de revisar horas completas de conferencias.&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; text-align: center;&quot;&gt;&lt;font face=&quot;Aptos, sans-serif&quot;&gt;Esta herramienta es fundamental para poder visualizar rápidamente el extracto desde el cual la IA saca la información pertinente a la sugerencia correspondiente, será&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-family: Aptos, sans-serif; background-color: transparent;&quot;&gt;&amp;nbsp;una experiencia educativa ágil, profundamente enfocada optimizando el tiempo de estudio del médico funcional preparado, en formación o en práctica clínica activa.&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;" vertex="1" parent="bhbZpF0BVr6nbdsEyOpd-68">
+          <mxGeometry width="870" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="bhbZpF0BVr6nbdsEyOpd-67" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="bhbZpF0BVr6nbdsEyOpd-68">
+          <mxGeometry x="870" width="70" height="436" as="geometry" />
+        </mxCell>
+        <mxCell id="n2zcIzSQSnI2M5V-cu9G-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.011;entryY=0.435;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bJpbkILRwZCW5Lr_c4me-57" target="bhbZpF0BVr6nbdsEyOpd-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ba0ankoq9UsZfVvDwxjN-5" value="" style="group" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="-900" y="2187" width="540" height="403" as="geometry" />
+        </mxCell>
+        <mxCell id="4kbpBYD6qaGnO2WYT0xp-1" value="&lt;p style=&quot;caret-color: rgb(0, 0, 0);&quot;&gt;&lt;strong&gt;Transición Segura de Información Clínica con Cristal-iA&lt;/strong&gt;&lt;/p&gt;&lt;p style=&quot;caret-color: rgb(0, 0, 0);&quot;&gt;Para garantizar una migración segura, eficiente y conforme a la normativa legal vigente sobre protección de datos personales (habeas data), el médico deberá leer y firmar los consentimientos, términos y condiciones establecidos. Una vez completado este paso, podrá contactar a nuestro equipo de asesores, quienes lo guiarán en la selección del mecanismo más adecuado para transferir la información clínica de sus pacientes desde su software anterior a Cristal-iA.&lt;/p&gt;&lt;p style=&quot;caret-color: rgb(0, 0, 0);&quot;&gt;&lt;strong&gt;Opciones de migración disponibles:&lt;/strong&gt;&lt;/p&gt;&lt;ul style=&quot;caret-color: rgb(0, 0, 0);&quot;&gt;&lt;li&gt;&lt;p&gt;El médico puede enviar la información de sus pacientes en los diferentes formatos existentes, o autorizar un acceso seguro a su sistema actual para facilitar la integración automatizada mediante APIs o interoperabilidad HL7 Fhir u otros y migrar información de historias clínicas.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;En caso de archivos escritos a mano, Crisal-iA presentara app en la cual se cargan fotos de los folios de las historias clínicas y se transcriben a PDF, luego se alimentara el historial del paciente en cuestión. ejemplo: www.transkribus.org&amp;nbsp;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Nuestro sistema analizará los datos que aterrizan en Crisal-iA, integrará la información clínica y generará automáticamente un flujo de funciones correspondiente a lo descrito para una consulta de control, por ejemplo:&amp;nbsp; Este incluirá formulario de anamnesis con opción de RTA automatizada, semaforización, análisis funcional, sugerencias de OTCs, paraclínicos y posibles diagnósticos, dejando cada paciente listo para una preconsulta y consulta ágil.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;El agente inteligente de Cristal-iA también puede encargarse de completar la información faltante, contactar a los pacientes mediante un chatbot&amp;nbsp; para validarla y enriquecer el perfil clínico de cada uno.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span style=&quot;caret-color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;En caso de terminación o cancelación de la suscripción, conforme a las normativas de interoperabilidad se entregara al MD toda la data de sus pacientes en el formato indicado para ser administrado bajo su dominio.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span style=&quot;caret-color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Crisal-iA activara un código QR por medio del cual el paciente podra obtener un resumen de su historia clínica y disponer de la información para si mismo o un nuevo MD tratante dentro o fuera de nuestro SW.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Ba0ankoq9UsZfVvDwxjN-5">
+          <mxGeometry width="497.48" height="403" as="geometry" />
+        </mxCell>
+        <mxCell id="Ba0ankoq9UsZfVvDwxjN-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="Ba0ankoq9UsZfVvDwxjN-5">
+          <mxGeometry x="497.48" width="42.52" height="403" as="geometry" />
+        </mxCell>
+        <mxCell id="Ba0ankoq9UsZfVvDwxjN-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.004;entryY=0.529;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0tr0_oeGUUPl4DkdF5hQ-3" target="4kbpBYD6qaGnO2WYT0xp-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YsT6uTM3XbmKKY7SxDa--1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YsT6uTM3XbmKKY7SxDa--2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-170" y="7690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YsT6uTM3XbmKKY7SxDa--2" value="ENTREGA DE PARACLINICOS A CRISAL-IA&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-208.84" y="7894.37" width="77.84" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
