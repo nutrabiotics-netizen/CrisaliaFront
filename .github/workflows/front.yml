@@ -7,6 +7,8 @@ on:
       - 'src/**'
       - 'public/**'
       - '.github/workflows/front.yml'
+      - 'package.json'
+      - 'package-lock.json'
   workflow_dispatch: {}
 
 env:
@@ -39,12 +41,13 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 18
+          cache: 'npm'
+
+      - name: Clean npm cache
+        run: npm cache clean --force
 
       - name: Install dependencies
-        run: npm install
-
-      - name: Fix Babel missing plugin
-        run: npm install --save-dev @babel/plugin-proposal-private-property-in-object
+        run: npm ci
 
       - name: Build React app
         run: CI=false npm run build
