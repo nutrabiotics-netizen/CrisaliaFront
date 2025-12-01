@@ -7,6 +7,8 @@ on:
       - 'src/**'
       - 'public/**'
       - '.github/workflows/front.yml'
+      - 'package.json'
+      - 'package-lock.json'
   workflow_dispatch: {}
 
 env:
@@ -39,18 +41,19 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 18
+          cache: 'npm'
+
+      - name: Clean npm cache (important!)
+        run: npm cache clean --force
 
       - name: Install dependencies
         run: npm install
 
-      - name: Fix Babel missing plugin
-        run: npm install --save-dev @babel/plugin-proposal-private-property-in-object
-
       - name: Build React app
         run: CI=false npm run build
 
-      - name: Sync to S3
-        run: aws s3 sync build/ s3://${{ env.FRONT_BUCKET }} --delete
+      - name: Sync to S3 (correct folder: dist/)
+        run: aws s3 sync dist/ s3://${{ env.FRONT_BUCKET }} --delete
 
       - name: Invalidate CloudFront cache
         run: |
