@@ -44,19 +44,16 @@ jobs:
           cache: 'npm'
 
       - name: Clean npm cache
-        working-directory: nutrabiotics/CrisaliaFront
         run: npm cache clean --force
 
       - name: Install dependencies
-        working-directory: nutrabiotics/CrisaliaFront
         run: npm ci
 
       - name: Build React app
-        working-directory: nutrabiotics/CrisaliaFront
         run: CI=false npm run build
 
       - name: Sync to S3
-        run: aws s3 sync nutrabiotics/CrisaliaFront/dist/ s3://${{ env.FRONT_BUCKET }} --delete
+        run: aws s3 sync dist/ s3://${{ env.FRONT_BUCKET }} --delete
 
       - name: Invalidate CloudFront cache
         run: |
