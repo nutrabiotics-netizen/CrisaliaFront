@@ -22,18 +22,18 @@ const Consulta = () => {
     <MedicoLayout>
       <div className="space-y-6">
         {/* Header de Consulta */}
-        <div className="bg-white shadow rounded-lg p-6">
-          <div className="flex items-center justify-between mb-4">
-            <div>
-              <h1 className="text-2xl font-bold text-gray-900">
+        <div className="bg-white shadow rounded-lg p-4 sm:p-6">
+          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 sm:gap-4 mb-4">
+            <div className="min-w-0 flex-1">
+              <h1 className="text-xl sm:text-2xl font-bold text-gray-900">
                 Primera Consulta
               </h1>
-              <p className="text-gray-600 mt-1">
+              <p className="text-sm sm:text-base text-gray-600 mt-1 break-words">
                 María González • 26 Nov 2025, 10:00 AM
               </p>
             </div>
-            <div className="flex space-x-2">
-              <span className="px-3 py-1 bg-green-100 text-green-800 text-sm font-medium rounded">
+            <div className="flex space-x-2 flex-shrink-0">
+              <span className="px-3 py-1 bg-green-100 text-green-800 text-xs sm:text-sm font-medium rounded whitespace-nowrap">
                 En Proceso
               </span>
             </div>
@@ -41,8 +41,8 @@ const Consulta = () => {
         </div>
 
         {/* Navegación de Pasos */}
-        <div className="bg-white shadow rounded-lg p-6">
-          <div className="flex items-center justify-between mb-6">
+        <div className="bg-white shadow rounded-lg p-4 sm:p-6 overflow-x-auto">
+          <div className="flex items-center justify-between mb-6 min-w-max sm:min-w-0">
             {[
               { id: 'transcripcion', label: 'Transcripción', icon: MicrophoneIcon },
               { id: 'examen', label: 'Examen Físico', icon: ClipboardDocumentCheckIcon },
@@ -50,18 +50,18 @@ const Consulta = () => {
               { id: 'diagnosticos', label: 'Diagnósticos', icon: DocumentTextIcon },
               { id: 'prescripcion', label: 'Prescripción', icon: ClipboardDocumentListIcon }
             ].map((step, index) => (
-              <div key={step.id} className="flex items-center flex-1">
+              <div key={step.id} className="flex items-center flex-1 min-w-[80px] sm:min-w-0">
                 <button
                   onClick={() => setActiveStep(step.id as any)}
-                  className={`flex flex-col items-center flex-1 ${
+                  className={`flex flex-col items-center flex-1 px-1 sm:px-0 ${
                     activeStep === step.id ? 'text-indigo-600' : 'text-gray-400'
                   }`}
                 >
-                  <step.icon className={`h-8 w-8 mb-2 ${activeStep === step.id ? 'text-indigo-600' : ''}`} />
-                  <span className="text-xs font-medium">{step.label}</span>
+                  <step.icon className={`h-6 w-6 sm:h-8 sm:w-8 mb-1 sm:mb-2 flex-shrink-0 ${activeStep === step.id ? 'text-indigo-600' : ''}`} />
+                  <span className="text-[10px] sm:text-xs font-medium text-center leading-tight">{step.label}</span>
                 </button>
                 {index < 4 && (
-                  <div className={`h-0.5 flex-1 mx-2 ${activeStep === step.id ? 'bg-indigo-600' : 'bg-gray-300'}`} />
+                  <div className={`h-0.5 flex-1 mx-1 sm:mx-2 hidden sm:block ${activeStep === step.id ? 'bg-indigo-600' : 'bg-gray-300'}`} />
                 )}
               </div>
             ))}
@@ -70,10 +70,10 @@ const Consulta = () => {
 
         {/* Transcripción y Organización Automática */}
         {activeStep === 'transcripcion' && (
-          <div className="bg-white shadow rounded-lg p-6">
-            <div className="flex items-center mb-4">
-              <MicrophoneIcon className="h-6 w-6 text-indigo-600 mr-2" />
-              <h2 className="text-xl font-bold text-gray-900">
+          <div className="bg-white shadow rounded-lg p-4 sm:p-6">
+            <div className="flex items-start sm:items-center mb-4 gap-2 sm:gap-2">
+              <MicrophoneIcon className="h-5 w-5 sm:h-6 sm:w-6 text-indigo-600 flex-shrink-0 mt-0.5 sm:mt-0" />
+              <h2 className="text-lg sm:text-xl font-bold text-gray-900">
                 Transcripción y Organización Automática de la Consulta Médica
               </h2>
             </div>
@@ -87,17 +87,17 @@ const Consulta = () => {
                 <label className="block text-sm font-medium text-gray-700 mb-2">
                   Estado de Transcripción
                 </label>
-                <div className="flex items-center space-x-2">
-                  <div className="flex-1 bg-gray-100 rounded-lg p-4">
-                    <div className="flex items-center justify-between mb-2">
-                      <span className="text-sm font-medium text-gray-900">Grabación en curso...</span>
-                      <span className="text-xs text-gray-500">15:32</span>
+                <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-2 sm:space-x-2">
+                  <div className="flex-1 bg-gray-100 rounded-lg p-3 sm:p-4 min-w-0">
+                    <div className="flex items-center justify-between mb-2 gap-2">
+                      <span className="text-xs sm:text-sm font-medium text-gray-900 truncate">Grabación en curso...</span>
+                      <span className="text-xs text-gray-500 flex-shrink-0">15:32</span>
                     </div>
                     <div className="h-2 bg-gray-200 rounded-full overflow-hidden">
                       <div className="h-full bg-indigo-600 w-3/4"></div>
                     </div>
                   </div>
-                  <button className="px-4 py-2 bg-red-600 text-white rounded-md hover:bg-red-700">
+                  <button className="px-3 sm:px-4 py-2 bg-red-600 text-white rounded-md hover:bg-red-700 text-sm whitespace-nowrap">
                     Detener
                   </button>
                 </div>

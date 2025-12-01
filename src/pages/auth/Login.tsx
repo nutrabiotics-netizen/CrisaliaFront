@@ -7,6 +7,13 @@ import { EyeIcon, EyeSlashIcon } from '@heroicons/react/24/outline';
 import backgroundImage from '../../assets/images/Background.png';
 import logoImage from '../../assets/images/Crisalia.png';
 
+// Función para obtener la ruta del logo con fallback
+const getLogoPath = () => {
+  // En desarrollo, usar la importación
+  // En producción, Vite procesará la imagen y devolverá la URL correcta
+  return logoImage || '/images/Crisalia.png';
+};
+
 const Login = () => {
   const [showPassword, setShowPassword] = useState(false);
   const [error, setError] = useState<string>('');
@@ -102,19 +109,38 @@ const Login = () => {
         <div className="w-full lg:w-1/2 min-h-screen flex flex-col items-center justify-center backdrop-blur-xl lg:border-r border-white/20 py-4 sm:py-6 lg:py-12 relative">
           <div className="w-full flex-1 flex flex-col items-center justify-center px-4 sm:px-6 md:px-8 lg:px-16">
             {/* Logo visible en móvil */}
-            <div className="lg:hidden mb-4 sm:mb-6 md:mb-8 flex justify-center w-full">
-              <div className="text-center animate-float w-full">
-                <div className="relative inline-block w-full max-w-[180px] sm:max-w-[220px] md:max-w-[250px]">
-                  <div className="absolute inset-0 animate-glow"></div>
+            <div className="lg:hidden mb-4 sm:mb-6 md:mb-8 flex justify-center w-full px-4">
+              <div className="text-center animate-float w-full max-w-[180px] sm:max-w-[220px] md:max-w-[250px] mx-auto">
+                <div className="relative inline-block w-full" style={{ maxWidth: '100%' }}>
+                  <div className="absolute inset-0 animate-glow opacity-50 -z-10 pointer-events-none"></div>
                   <img 
-                    src={logoImage} 
+                    src={getLogoPath()} 
                     alt="CRISALIA" 
-                    className="mx-auto w-full h-auto block relative z-10 animate-shine"
+                    className="relative z-10 w-full h-auto block animate-shine"
                     style={{ 
                       filter: 'drop-shadow(0 0 20px rgba(41, 83, 109, 0.8)) drop-shadow(0 0 40px rgba(41, 83, 109, 0.6))',
                       maxWidth: '100%',
                       width: '100%',
-                      height: 'auto'
+                      height: 'auto',
+                      display: 'block',
+                      objectFit: 'contain'
+                    }}
+                    loading="eager"
+                    decoding="async"
+                    onError={(e) => {
+                      console.error('Error loading logo image, trying fallback');
+                      const target = e.currentTarget;
+                      const currentSrc = target.src;
+                      // Intentar con ruta absoluta si falla la importación
+                      if (!currentSrc.includes('/images/Crisalia.png')) {
+                        target.src = '/images/Crisalia.png';
+                      } else if (!currentSrc.includes('assets')) {
+                        // Si también falla, intentar con la ruta de assets
+                        target.src = '/src/assets/images/Crisalia.png';
+                      }
+                    }}
+                    onLoad={() => {
+                      console.log('Logo loaded successfully');
                     }}
                   />
                 </div>
@@ -334,7 +360,7 @@ const Login = () => {
                 {/* Efecto de brillo detrás del logo */}
                 <div className="absolute inset-0 animate-glow"></div>
                 <img 
-                  src={logoImage} 
+                  src={getLogoPath()} 
                   alt="CRISALIA" 
                   className="mx-auto h-auto block relative z-10 animate-shine"
                   style={{ 
@@ -342,7 +368,16 @@ const Login = () => {
                     maxWidth: '100%',
                     width: 'auto',
                     height: 'auto',
-                    maxHeight: '70vh'
+                    maxHeight: '70vh',
+                    objectFit: 'contain'
+                  }}
+                  loading="eager"
+                  onError={(e) => {
+                    console.error('Error loading logo image, trying fallback');
+                    const target = e.currentTarget;
+                    if (target.src !== '/images/Crisalia.png') {
+                      target.src = '/images/Crisalia.png';
+                    }
                   }}
                 />
               </div>

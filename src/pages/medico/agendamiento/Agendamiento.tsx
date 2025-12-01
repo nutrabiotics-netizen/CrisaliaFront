@@ -18,20 +18,20 @@ const Agendamiento = () => {
   return (
     <MedicoLayout>
       <div className="space-y-6">
-        <div className="bg-white shadow rounded-lg p-6">
-          <div className="flex items-center justify-between mb-6">
-            <div>
-              <h1 className="text-2xl font-bold text-gray-900 mb-2">
+        <div className="bg-white shadow rounded-lg p-4 sm:p-6">
+          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-6">
+            <div className="min-w-0 flex-1">
+              <h1 className="text-xl sm:text-2xl font-bold text-gray-900 mb-2">
                 Gestión de Agenda con CRISAL-IA
               </h1>
-              <p className="text-gray-600">
+              <p className="text-sm sm:text-base text-gray-600">
                 Gestión inteligente y automatizada de tu agenda médica
               </p>
             </div>
-            <div className="flex space-x-2">
+            <div className="flex flex-wrap gap-2 sm:space-x-2">
               <button
                 onClick={() => setActiveView('calendario')}
-                className={`px-4 py-2 rounded-md text-sm font-medium ${
+                className={`px-3 sm:px-4 py-2 rounded-md text-xs sm:text-sm font-medium whitespace-nowrap ${
                   activeView === 'calendario'
                     ? 'bg-indigo-600 text-white'
                     : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
@@ -41,7 +41,7 @@ const Agendamiento = () => {
               </button>
               <button
                 onClick={() => setActiveView('conexiones')}
-                className={`px-4 py-2 rounded-md text-sm font-medium ${
+                className={`px-3 sm:px-4 py-2 rounded-md text-xs sm:text-sm font-medium whitespace-nowrap ${
                   activeView === 'conexiones'
                     ? 'bg-indigo-600 text-white'
                     : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
@@ -51,7 +51,7 @@ const Agendamiento = () => {
               </button>
               <button
                 onClick={() => setActiveView('configuracion')}
-                className={`px-4 py-2 rounded-md text-sm font-medium ${
+                className={`px-3 sm:px-4 py-2 rounded-md text-xs sm:text-sm font-medium whitespace-nowrap ${
                   activeView === 'configuracion'
                     ? 'bg-indigo-600 text-white'
                     : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
