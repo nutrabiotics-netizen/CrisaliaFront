@@ -12,7 +12,7 @@ on:
 env:
   AWS_REGION: us-east-1
   FRONT_BUCKET: frontend-nutrabiotics
-  CLOUDFRONT_ID: CLOUDFRONT_DISTRIBUTION_ID_NUTRABIOTICS  # 🔁 reemplaza por el ID real de la distro
+  CLOUDFRONT_ID: E3RGYYU59V80HM
   REACT_APP_BACKEND_URL: https://api.nutrabiotics.mozartia.com
   NODE_ENV: production
 
