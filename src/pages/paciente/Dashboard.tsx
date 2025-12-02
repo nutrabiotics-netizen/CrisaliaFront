@@ -16,25 +16,25 @@ const Dashboard = () => {
       name: 'Próxima Cita',
       value: '26 Nov',
       icon: CalendarIcon,
-      color: 'bg-gradient-to-br from-crisal-turquesa to-crisal-azul'
+      color: 'bg-gradient-to-br from-crisal-primary to-crisal-primary-dark'
     },
     {
       name: 'Consultas Realizadas',
       value: '5',
       icon: DocumentTextIcon,
-      color: 'bg-gradient-to-br from-crisal-turquesa to-crisal-azul'
+      color: 'bg-gradient-to-br from-crisal-primary to-crisal-primary-dark'
     },
     {
       name: 'Pagos Pendientes',
       value: '1',
       icon: CreditCardIcon,
-      color: 'bg-gradient-to-br from-crisal-turquesa to-crisal-azul'
+      color: 'bg-gradient-to-br from-crisal-primary to-crisal-primary-dark'
     },
     {
       name: 'Notificaciones',
       value: '3',
       icon: BellIcon,
-      color: 'bg-gradient-to-br from-crisal-turquesa to-crisal-azul'
+      color: 'bg-gradient-to-br from-crisal-primary to-crisal-primary-dark'
     }
   ];
 
@@ -44,7 +44,7 @@ const Dashboard = () => {
         {/* Bienvenida */}
         <div className="card">
           <div className="flex items-center">
-            <div className="w-16 h-16 bg-gradient-to-br from-crisal-turquesa to-crisal-azul rounded-full flex items-center justify-center mr-4">
+            <div className="w-16 h-16 bg-gradient-to-br from-crisal-primary to-crisal-primary-dark rounded-full flex items-center justify-center mr-4">
               <span className="text-white font-ibrand text-2xl">{user?.nombre?.charAt(0)}{user?.apellido?.charAt(0)}</span>
             </div>
             <div>

@@ -53,7 +53,7 @@ const Welcome = () => {
           backgroundRepeat: 'no-repeat'
         }}
       >
-        <div className="absolute inset-0 bg-gradient-to-br from-[#29536D]/20 via-[#60EFDB]/10 to-transparent"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-[#443c92]/20 via-[#443c92]/10 to-transparent"></div>
         <div className="max-w-2xl w-full bg-white/95 backdrop-blur-sm rounded-lg shadow-xl p-8 relative z-10">
           <div className="text-center py-8">
             <div className="mx-auto flex items-center justify-center h-16 w-16 rounded-full bg-red-100 mb-4">
@@ -66,7 +66,7 @@ const Welcome = () => {
               Entendemos tu decisión. Te invitamos a participar en nuestro webinar gratuito donde podrás conocer más sobre Crisal-iA y sus beneficios.
             </p>
             <div className="space-y-4">
-              <button className="w-full bg-gradient-to-r from-[#60EFDB] to-[#29536D] text-white px-8 py-3 rounded-lg hover:from-[#60EFDB]/90 hover:to-[#29536D]/90 font-poppins-semibold text-lg shadow-lg transition-all">
+              <button className="w-full bg-gradient-to-r from-[#443c92] to-[#1d1d6d] text-white px-8 py-3 rounded-lg hover:from-[#443c92]/90 hover:to-[#1d1d6d]/90 font-poppins-semibold text-lg shadow-lg transition-all">
                 Acceder a Webinar Gratuito
               </button>
               <div>
@@ -75,7 +75,7 @@ const Welcome = () => {
                     setShowQuestion(false);
                     setWantsToRegister(null);
                   }}
-                  className="font-poppins-semibold text-[#29536D] hover:text-[#60EFDB] text-sm transition-colors"
+                  className="font-poppins-semibold text-[#443c92] hover:text-[#443c92] text-sm transition-colors"
                 >
                   Cambiar de opinión y continuar con el registro
                 </button>
@@ -99,10 +99,10 @@ const Welcome = () => {
           backgroundRepeat: 'no-repeat'
         }}
       >
-        <div className="absolute inset-0 bg-gradient-to-br from-[#29536D]/20 via-[#60EFDB]/10 to-transparent"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-[#443c92]/20 via-[#443c92]/10 to-transparent"></div>
         <div className="max-w-2xl w-full bg-white/95 backdrop-blur-sm rounded-lg shadow-xl p-8 relative z-10">
           <div className="text-center py-8">
-            <div className="mx-auto flex items-center justify-center h-16 w-16 rounded-full bg-gradient-to-br from-[#60EFDB] to-[#29536D] mb-4">
+            <div className="mx-auto flex items-center justify-center h-16 w-16 rounded-full bg-gradient-to-br from-[#443c92] to-[#1d1d6d] mb-4">
               <UserIcon className="h-8 w-8 text-white" />
             </div>
             <h2 className="text-2xl font-ibrand text-crisal-azul mb-4">
@@ -117,7 +117,7 @@ const Welcome = () => {
                   setWantsToRegister(true);
                   setShowQuestion(false);
                 }}
-                className="bg-gradient-to-r from-[#60EFDB] to-[#29536D] text-white px-8 py-3 rounded-lg hover:from-[#60EFDB]/90 hover:to-[#29536D]/90 font-poppins-semibold text-lg shadow-lg transition-all"
+                className="bg-gradient-to-r from-[#443c92] to-[#1d1d6d] text-white px-8 py-3 rounded-lg hover:from-[#443c92]/90 hover:to-[#1d1d6d]/90 font-poppins-semibold text-lg shadow-lg transition-all"
               >
                 Sí, continuar
               </button>
@@ -147,7 +147,7 @@ const Welcome = () => {
       }}
     >
       {/* Overlay con gradiente de marca */}
-      <div className="absolute inset-0 bg-gradient-to-br from-[#29536D]/20 via-[#60EFDB]/10 to-transparent"></div>
+      <div className="absolute inset-0 bg-gradient-to-br from-[#443c92]/20 via-[#443c92]/10 to-transparent"></div>
       
       {/* Header con logo y botón de login */}
       <div className="max-w-4xl mx-auto mb-6 relative z-10">
@@ -162,7 +162,7 @@ const Welcome = () => {
           </div>
           <button
             onClick={() => navigate('/login')}
-            className="text-sm font-poppins-semibold text-[#29536D] hover:text-[#60EFDB] transition-colors"
+            className="text-sm font-poppins-semibold text-[#443c92] hover:text-[#443c92] transition-colors"
           >
             ¿Ya tienes cuenta? Iniciar Sesión →
           </button>
@@ -172,7 +172,7 @@ const Welcome = () => {
         {/* Video de Introducción Crisal-iA */}
         <div className="bg-white/95 backdrop-blur-sm shadow-xl rounded-lg p-6 border border-white/20">
           <div className="flex items-center mb-4">
-            <VideoCameraIcon className="h-8 w-8 text-[#60EFDB] mr-3" />
+            <VideoCameraIcon className="h-8 w-8 text-[#443c92] mr-3" />
             <h1 className="text-2xl font-ibrand text-crisal-azul">
               Video de Introducción Crisal-iA
             </h1>
@@ -181,8 +181,8 @@ const Welcome = () => {
             Presentación de Crisal-iA como herramienta integral diseñada para asistir al médico en el ejercicio de la Medicina Funcional
           </p>
 
-          <div className="bg-gradient-to-r from-[#60EFDB]/20 to-[#29536D]/20 rounded-lg p-6 mb-6 border border-[#60EFDB]/30">
-            <div className="aspect-video bg-gradient-to-br from-[#29536D] to-[#60EFDB] rounded-lg flex items-center justify-center mb-4 relative overflow-hidden group cursor-pointer hover:opacity-90 transition-opacity">
+          <div className="bg-gradient-to-r from-[#443c92]/20 to-[#1d1d6d]/20 rounded-lg p-6 mb-6 border border-[#443c92]/30">
+            <div className="aspect-video bg-gradient-to-br from-[#443c92] to-[#1d1d6d] rounded-lg flex items-center justify-center mb-4 relative overflow-hidden group cursor-pointer hover:opacity-90 transition-opacity">
               <div className="absolute inset-0 bg-black bg-opacity-30"></div>
               <div className="text-center relative z-10">
                 <div className="bg-white bg-opacity-20 rounded-full p-4 mb-4 inline-block group-hover:scale-110 transition-transform">
@@ -216,7 +216,7 @@ const Welcome = () => {
             {!videoWatched && (
               <button
                 onClick={() => setVideoWatched(true)}
-                className="mt-4 bg-gradient-to-r from-[#60EFDB] to-[#29536D] text-white px-6 py-2 rounded-lg hover:from-[#60EFDB]/90 hover:to-[#29536D]/90 font-poppins-semibold shadow-lg transition-all"
+                className="mt-4 bg-gradient-to-r from-[#443c92] to-[#1d1d6d] text-white px-6 py-2 rounded-lg hover:from-[#443c92]/90 hover:to-[#1d1d6d]/90 font-poppins-semibold shadow-lg transition-all"
               >
                 Marcar como Visto
               </button>
@@ -227,7 +227,7 @@ const Welcome = () => {
           {videoWatched && currentStep === 'intro' && (
             <div className="border-t border-crisal-gris pt-6">
               <div className="flex items-center mb-4">
-                <UserIcon className="h-6 w-6 text-[#60EFDB] mr-2" />
+                <UserIcon className="h-6 w-6 text-[#443c92] mr-2" />
                 <h2 className="text-lg font-ibrand text-crisal-azul">
                   Registro y Seguimiento
                 </h2>
@@ -243,7 +243,7 @@ const Welcome = () => {
                     </label>
                     <input
                       type="text"
-                      className="w-full rounded-lg border border-crisal-gris shadow-sm focus:border-[#60EFDB] focus:ring-2 focus:ring-[#60EFDB] sm:text-sm font-poppins"
+                      className="w-full rounded-lg border border-crisal-gris shadow-sm focus:border-[#443c92] focus:ring-2 focus:ring-[#443c92] sm:text-sm font-poppins"
                       placeholder="Nombre completo"
                     />
                   </div>
@@ -253,7 +253,7 @@ const Welcome = () => {
                     </label>
                     <input
                       type="text"
-                      className="w-full rounded-lg border border-crisal-gris shadow-sm focus:border-[#60EFDB] focus:ring-2 focus:ring-[#60EFDB] sm:text-sm font-poppins"
+                      className="w-full rounded-lg border border-crisal-gris shadow-sm focus:border-[#443c92] focus:ring-2 focus:ring-[#443c92] sm:text-sm font-poppins"
                       placeholder="Ej: Medicina Funcional"
                     />
                   </div>
@@ -263,7 +263,7 @@ const Welcome = () => {
                     </label>
                     <input
                       type="email"
-                      className="w-full rounded-lg border border-crisal-gris shadow-sm focus:border-[#60EFDB] focus:ring-2 focus:ring-[#60EFDB] sm:text-sm font-poppins"
+                      className="w-full rounded-lg border border-crisal-gris shadow-sm focus:border-[#443c92] focus:ring-2 focus:ring-[#443c92] sm:text-sm font-poppins"
                       placeholder="correo@ejemplo.com"
                     />
                   </div>
@@ -273,20 +273,20 @@ const Welcome = () => {
                     </label>
                     <input
                       type="tel"
-                      className="w-full rounded-lg border border-crisal-gris shadow-sm focus:border-[#60EFDB] focus:ring-2 focus:ring-[#60EFDB] sm:text-sm font-poppins"
+                      className="w-full rounded-lg border border-crisal-gris shadow-sm focus:border-[#443c92] focus:ring-2 focus:ring-[#443c92] sm:text-sm font-poppins"
                       placeholder="+57 300 123 4567"
                     />
                   </div>
                 </div>
-                <div className="bg-[#60EFDB]/20 border border-[#60EFDB]/40 rounded-lg p-3">
-                  <p className="text-sm font-poppins text-[#29536D]">
+                <div className="bg-[#443c92]/20 border border-[#443c92]/40 rounded-lg p-3">
+                  <p className="text-sm font-poppins text-[#443c92]">
                     <strong className="font-poppins-semibold">Nota:</strong> La información proporcionada podrá ser compartida con nuestros aliados internos: Nutrapp, Alivia y AMF.
                   </p>
                 </div>
                 <button
                   type="button"
                   onClick={() => setCurrentStep('simulacion')}
-                  className="bg-gradient-to-r from-[#60EFDB] to-[#29536D] text-white px-6 py-2 rounded-lg hover:from-[#60EFDB]/90 hover:to-[#29536D]/90 flex items-center font-poppins-semibold shadow-lg transition-all"
+                  className="bg-gradient-to-r from-[#443c92] to-[#1d1d6d] text-white px-6 py-2 rounded-lg hover:from-[#443c92]/90 hover:to-[#1d1d6d]/90 flex items-center font-poppins-semibold shadow-lg transition-all"
                 >
                   Continuar
                   <ArrowRightIcon className="h-5 w-5 ml-2" />
@@ -327,13 +327,13 @@ const Welcome = () => {
                     key={num} 
                     className={`border-2 rounded-lg p-4 cursor-pointer transition-all ${
                       selectedPatient === num 
-                        ? 'border-[#60EFDB] bg-[#60EFDB]/20' 
+                        ? 'border-[#443c92] bg-[#443c92]/20' 
                         : 'border-crisal-gris hover:bg-crisal-gris/50'
                     }`}
                     onClick={() => setSelectedPatient(num)}
                   >
                     <div className="flex items-center mb-2">
-                      <div className="bg-gradient-to-br from-[#60EFDB] to-[#29536D] text-white rounded-full w-8 h-8 flex items-center justify-center font-poppins-semibold mr-2">
+                      <div className="bg-gradient-to-br from-[#443c92] to-[#1d1d6d] text-white rounded-full w-8 h-8 flex items-center justify-center font-poppins-semibold mr-2">
                         {num}
                       </div>
                       <span className="font-poppins-medium text-crisal-azul">Paciente Simulado {num}</span>
@@ -347,7 +347,7 @@ const Welcome = () => {
                         // Redirigir al dashboard del médico en modo simulación
                         navigate('/medico/dashboard?simulation=true&patient=' + num);
                       }}
-                      className="w-full mt-2 bg-gradient-to-r from-[#60EFDB] to-[#29536D] text-white px-4 py-2 rounded-lg hover:from-[#60EFDB]/90 hover:to-[#29536D]/90 text-sm font-poppins-semibold shadow-lg transition-all"
+                      className="w-full mt-2 bg-gradient-to-r from-[#443c92] to-[#1d1d6d] text-white px-4 py-2 rounded-lg hover:from-[#443c92]/90 hover:to-[#1d1d6d]/90 text-sm font-poppins-semibold shadow-lg transition-all"
                     >
                       Iniciar Simulación
                     </button>
@@ -356,8 +356,8 @@ const Welcome = () => {
               </div>
               
               {selectedPatient && (
-                <div className="bg-[#60EFDB]/20 border border-[#60EFDB]/40 rounded-lg p-4 mb-4">
-                  <p className="text-sm font-poppins text-[#29536D]">
+                <div className="bg-[#443c92]/20 border border-[#443c92]/40 rounded-lg p-4 mb-4">
+                  <p className="text-sm font-poppins text-[#443c92]">
                     <strong className="font-poppins-semibold">Paciente {selectedPatient} seleccionado.</strong> Al iniciar la simulación, tendrás acceso temporal de 30 minutos al panel del médico.
                   </p>
                 </div>
@@ -368,7 +368,7 @@ const Welcome = () => {
                   setSimulationCompleted(true);
                   setCurrentStep('prueba');
                 }}
-                className="bg-gradient-to-r from-[#60EFDB] to-[#29536D] text-white px-6 py-2 rounded-lg hover:from-[#60EFDB]/90 hover:to-[#29536D]/90 font-poppins-semibold shadow-lg transition-all"
+                className="bg-gradient-to-r from-[#443c92] to-[#1d1d6d] text-white px-6 py-2 rounded-lg hover:from-[#443c92]/90 hover:to-[#1d1d6d]/90 font-poppins-semibold shadow-lg transition-all"
               >
                 Completar Simulación
               </button>
@@ -379,17 +379,17 @@ const Welcome = () => {
           {currentStep === 'prueba' && (
             <div className="border-t border-crisal-gris pt-6">
               <div className="flex items-center mb-4">
-                <CheckCircleIcon className="h-6 w-6 text-[#60EFDB] mr-2" />
+                <CheckCircleIcon className="h-6 w-6 text-[#443c92] mr-2" />
                 <h2 className="text-lg font-ibrand text-crisal-azul">
                   Versión de Prueba - Crisal-iA
                 </h2>
               </div>
-              <div className="bg-[#60EFDB]/20 border border-[#60EFDB]/40 rounded-lg p-6 mb-4">
+              <div className="bg-[#443c92]/20 border border-[#443c92]/40 rounded-lg p-6 mb-4">
                 <p className="font-poppins text-crisal-azul mb-4">
                   En esta versión de prueba, Crisal-iA acompañará sin costo en la configuración inicial de preferencias de atención médica.
                 </p>
                 <p className="text-lg font-poppins-semibold text-crisal-azul mb-2">
-                  Podrás atender hasta <span className="text-[#60EFDB]">3 pacientes de forma gratuita</span>
+                  Podrás atender hasta <span className="text-[#443c92]">3 pacientes de forma gratuita</span>
                 </p>
                 <p className="text-sm font-poppins text-crisal-azul/70 mb-4">
                   Con el objetivo de que explores las funcionalidades clave de nuestra plataforma antes de decidirte a adquirir una suscripción.
@@ -406,7 +406,7 @@ const Welcome = () => {
               </div>
               <button
                 onClick={() => setCurrentStep('contrato')}
-                className="bg-gradient-to-r from-[#60EFDB] to-[#29536D] text-white px-6 py-2 rounded-lg hover:from-[#60EFDB]/90 hover:to-[#29536D]/90 font-poppins-semibold shadow-lg transition-all"
+                className="bg-gradient-to-r from-[#443c92] to-[#1d1d6d] text-white px-6 py-2 rounded-lg hover:from-[#443c92]/90 hover:to-[#1d1d6d]/90 font-poppins-semibold shadow-lg transition-all"
               >
                 Activar Versión de Prueba y Continuar
               </button>
@@ -417,7 +417,7 @@ const Welcome = () => {
           {currentStep === 'contrato' && (
             <div className="border-t border-crisal-gris pt-6">
               <div className="flex items-center mb-4">
-                <DocumentTextIcon className="h-6 w-6 text-[#60EFDB] mr-2" />
+                <DocumentTextIcon className="h-6 w-6 text-[#443c92] mr-2" />
                 <h2 className="text-lg font-ibrand text-crisal-azul">
                   Generación de Contrato
                 </h2>
@@ -436,7 +436,7 @@ const Welcome = () => {
                     setContractSigned(true);
                     setCurrentStep('credenciales');
                   }}
-                  className="bg-gradient-to-r from-[#60EFDB] to-[#29536D] text-white px-6 py-2 rounded-lg hover:from-[#60EFDB]/90 hover:to-[#29536D]/90 flex items-center font-poppins-semibold shadow-lg transition-all"
+                  className="bg-gradient-to-r from-[#443c92] to-[#1d1d6d] text-white px-6 py-2 rounded-lg hover:from-[#443c92]/90 hover:to-[#1d1d6d]/90 flex items-center font-poppins-semibold shadow-lg transition-all"
                 >
                   <DocumentTextIcon className="h-5 w-5 mr-2" />
                   Generar y Firmar Contrato
@@ -452,13 +452,13 @@ const Welcome = () => {
           {currentStep === 'credenciales' && (
             <div className="border-t border-crisal-gris pt-6">
               <div className="flex items-center mb-4">
-                <KeyIcon className="h-6 w-6 text-[#60EFDB] mr-2" />
+                <KeyIcon className="h-6 w-6 text-[#443c92] mr-2" />
                 <h2 className="text-lg font-ibrand text-crisal-azul">
                   Tus Credenciales de Acceso
                 </h2>
               </div>
-              <div className="bg-[#60EFDB]/20 border border-[#60EFDB]/40 rounded-lg p-6 mb-4">
-                <p className="text-sm font-poppins text-[#29536D] mb-4">
+              <div className="bg-[#443c92]/20 border border-[#443c92]/40 rounded-lg p-6 mb-4">
+                <p className="text-sm font-poppins text-[#443c92] mb-4">
                   <strong className="font-poppins-semibold">¡Felicitaciones!</strong> Has completado el proceso de inscripción. Se han generado tus credenciales de acceso.
                 </p>
                 
@@ -477,7 +477,7 @@ const Welcome = () => {
                       localStorage.setItem('medico_pending_credentials', JSON.stringify(credentials));
                       localStorage.setItem('medico_registration_completed', 'true');
                     }}
-                    className="bg-gradient-to-r from-[#60EFDB] to-[#29536D] text-white px-6 py-2 rounded-lg hover:from-[#60EFDB]/90 hover:to-[#29536D]/90 font-poppins-semibold shadow-lg transition-all"
+                    className="bg-gradient-to-r from-[#443c92] to-[#1d1d6d] text-white px-6 py-2 rounded-lg hover:from-[#443c92]/90 hover:to-[#1d1d6d]/90 font-poppins-semibold shadow-lg transition-all"
                   >
                     Generar Credenciales
                   </button>
@@ -494,7 +494,7 @@ const Welcome = () => {
                           type="text"
                           readOnly
                           value={generatedCredentials.email}
-                          className="flex-1 rounded-lg border border-crisal-gris shadow-sm focus:border-[#60EFDB] focus:ring-2 focus:ring-[#60EFDB] sm:text-sm bg-crisal-gris font-poppins"
+                          className="flex-1 rounded-lg border border-crisal-gris shadow-sm focus:border-[#443c92] focus:ring-2 focus:ring-[#443c92] sm:text-sm bg-crisal-gris font-poppins"
                         />
                         <button
                           onClick={() => {
@@ -517,7 +517,7 @@ const Welcome = () => {
                             type={showPassword ? 'text' : 'password'}
                             readOnly
                             value={generatedCredentials.password}
-                            className="w-full rounded-lg border border-crisal-gris shadow-sm focus:border-[#60EFDB] focus:ring-2 focus:ring-[#60EFDB] sm:text-sm bg-crisal-gris pr-10 font-poppins"
+                            className="w-full rounded-lg border border-crisal-gris shadow-sm focus:border-[#443c92] focus:ring-2 focus:ring-[#443c92] sm:text-sm bg-crisal-gris pr-10 font-poppins"
                           />
                           <button
                             type="button"
@@ -542,8 +542,8 @@ const Welcome = () => {
                         </button>
                       </div>
                     </div>
-                    <div className="bg-[#60EFDB]/20 border border-[#60EFDB]/40 rounded-lg p-3">
-                      <p className="text-xs font-poppins text-[#29536D]">
+                    <div className="bg-[#443c92]/20 border border-[#443c92]/40 rounded-lg p-3">
+                      <p className="text-xs font-poppins text-[#443c92]">
                         <strong className="font-poppins-semibold">⚠️ Importante:</strong> Guarda estas credenciales en un lugar seguro. Necesitarás usarlas para iniciar sesión en Crisal-iA.
                       </p>
                     </div>
@@ -552,7 +552,7 @@ const Welcome = () => {
                         // Redirigir al login con las credenciales prellenadas
                         navigate(`/login?email=${encodeURIComponent(generatedCredentials.email)}&registered=true`);
                       }}
-                      className="w-full bg-gradient-to-r from-[#60EFDB] to-[#29536D] text-white px-6 py-2 rounded-lg hover:from-[#60EFDB]/90 hover:to-[#29536D]/90 font-poppins-semibold shadow-lg transition-all"
+                      className="w-full bg-gradient-to-r from-[#443c92] to-[#1d1d6d] text-white px-6 py-2 rounded-lg hover:from-[#443c92]/90 hover:to-[#1d1d6d]/90 font-poppins-semibold shadow-lg transition-all"
                     >
                       Ir al Inicio de Sesión
                     </button>

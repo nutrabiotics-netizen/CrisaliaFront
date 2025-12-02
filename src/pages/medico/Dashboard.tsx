@@ -62,37 +62,37 @@ const Dashboard = () => {
       name: 'Citas Hoy',
       value: '12',
       icon: CalendarIcon,
-      color: 'bg-gradient-to-br from-crisal-turquesa to-crisal-azul'
+      color: 'bg-gradient-to-br from-crisal-primary to-crisal-primary-dark'
     },
     {
       name: 'Pacientes Activos',
       value: '45',
       icon: UserGroupIcon,
-      color: 'bg-gradient-to-br from-crisal-turquesa to-crisal-azul'
+      color: 'bg-gradient-to-br from-crisal-primary to-crisal-primary-dark'
     },
     {
       name: 'Consultas Pendientes',
       value: '8',
       icon: DocumentTextIcon,
-      color: 'bg-gradient-to-br from-crisal-turquesa to-crisal-azul'
+      color: 'bg-gradient-to-br from-crisal-primary to-crisal-primary-dark'
     },
     {
       name: 'Ingresos del Mes',
       value: '$2.4M',
       icon: CurrencyDollarIcon,
-      color: 'bg-gradient-to-br from-crisal-turquesa to-crisal-azul'
+      color: 'bg-gradient-to-br from-crisal-primary to-crisal-primary-dark'
     },
     {
       name: 'Análisis IA',
       value: '24',
       icon: SparklesIcon,
-      color: 'bg-gradient-to-br from-crisal-turquesa to-crisal-azul'
+      color: 'bg-gradient-to-br from-crisal-primary to-crisal-primary-dark'
     },
     {
       name: 'Notificaciones',
       value: '5',
       icon: BellIcon,
-      color: 'bg-gradient-to-br from-crisal-turquesa to-crisal-azul'
+      color: 'bg-gradient-to-br from-crisal-primary to-crisal-primary-dark'
     }
   ];
 
@@ -101,7 +101,7 @@ const Dashboard = () => {
       <div className="space-y-6">
         {/* Banner de Modo Simulación */}
         {isSimulationMode && (
-          <div className="bg-gradient-to-r from-crisal-turquesa to-crisal-azul rounded-xl shadow-lg p-3 sm:p-4 mb-4">
+          <div className="bg-gradient-to-r from-crisal-primary to-crisal-primary-dark rounded-xl shadow-lg p-3 sm:p-4 mb-4">
             <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 sm:gap-4">
               <div className="flex items-center space-x-3 sm:space-x-4 flex-1 min-w-0">
                 <div className="bg-white bg-opacity-20 rounded-full p-2 flex-shrink-0">
@@ -140,7 +140,7 @@ const Dashboard = () => {
         {/* Bienvenida */}
         <div className="card">
           <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
-            <div className="w-14 h-14 sm:w-16 sm:h-16 bg-gradient-to-br from-crisal-turquesa to-crisal-azul rounded-full flex items-center justify-center flex-shrink-0">
+            <div className="w-14 h-14 sm:w-16 sm:h-16 bg-gradient-to-br from-crisal-primary to-crisal-primary-dark rounded-full flex items-center justify-center flex-shrink-0">
               <span className="text-white font-ibrand text-xl sm:text-2xl">Dr</span>
             </div>
             <div className="min-w-0 flex-1">

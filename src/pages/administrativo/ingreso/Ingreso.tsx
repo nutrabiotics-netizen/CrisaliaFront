@@ -25,7 +25,7 @@ const Ingreso = () => {
       <div className="space-y-6">
         <div className="card">
           <div className="flex items-center mb-6">
-            <div className="w-16 h-16 bg-gradient-to-br from-crisal-turquesa to-crisal-azul rounded-full flex items-center justify-center mr-4">
+            <div className="w-16 h-16 bg-gradient-to-br from-crisal-primary to-crisal-primary-dark rounded-full flex items-center justify-center mr-4">
               <UserGroupIcon className="h-8 w-8 text-white" />
             </div>
             <div>
@@ -119,7 +119,7 @@ const Ingreso = () => {
               <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
                 <div className="p-4 border-2 border-crisal-gris rounded-xl hover:border-crisal-turquesa transition-all duration-200">
                   <div className="flex items-center justify-between mb-3">
-                    <div className="w-12 h-12 bg-gradient-to-br from-crisal-turquesa to-crisal-azul rounded-xl flex items-center justify-center">
+                    <div className="w-12 h-12 bg-gradient-to-br from-crisal-primary to-crisal-primary-dark rounded-xl flex items-center justify-center">
                       <KeyIcon className="h-6 w-6 text-white" />
                     </div>
                     <span className="px-2 py-1 text-xs font-poppins font-medium bg-green-100 text-green-800 rounded">
@@ -143,7 +143,7 @@ const Ingreso = () => {
 
                 <div className="p-4 border-2 border-crisal-gris rounded-xl hover:border-crisal-turquesa transition-all duration-200">
                   <div className="flex items-center justify-between mb-3">
-                    <div className="w-12 h-12 bg-gradient-to-br from-crisal-turquesa to-crisal-azul rounded-xl flex items-center justify-center">
+                    <div className="w-12 h-12 bg-gradient-to-br from-crisal-primary to-crisal-primary-dark rounded-xl flex items-center justify-center">
                       <KeyIcon className="h-6 w-6 text-white" />
                     </div>
                     <span className="px-2 py-1 text-xs font-poppins font-medium bg-green-100 text-green-800 rounded">
@@ -167,7 +167,7 @@ const Ingreso = () => {
 
                 <div className="p-4 border-2 border-crisal-gris rounded-xl hover:border-crisal-turquesa transition-all duration-200">
                   <div className="flex items-center justify-between mb-3">
-                    <div className="w-12 h-12 bg-gradient-to-br from-crisal-turquesa to-crisal-azul rounded-xl flex items-center justify-center">
+                    <div className="w-12 h-12 bg-gradient-to-br from-crisal-primary to-crisal-primary-dark rounded-xl flex items-center justify-center">
                       <FingerPrintIcon className="h-6 w-6 text-white" />
                     </div>
                     <span className="px-2 py-1 text-xs font-poppins font-medium bg-crisal-turquesa/20 text-crisal-azul rounded">

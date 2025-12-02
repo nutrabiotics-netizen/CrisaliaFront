@@ -10,7 +10,7 @@ const Perfil = () => {
       <div className="space-y-6">
         <div className="card">
           <div className="flex items-center mb-6">
-            <div className="w-12 h-12 bg-gradient-to-br from-crisal-turquesa to-crisal-azul rounded-full flex items-center justify-center mr-4">
+            <div className="w-12 h-12 bg-gradient-to-br from-crisal-primary to-crisal-primary-dark rounded-full flex items-center justify-center mr-4">
               <span className="text-white font-ibrand text-xl">PP</span>
             </div>
             <div>
@@ -96,7 +96,7 @@ const Perfil = () => {
             {/* Seguridad */}
             <div className="border-t border-crisal-gris pt-6">
               <h2 className="text-xl font-ibrand text-crisal-azul mb-4 flex items-center">
-                <div className="w-8 h-8 bg-gradient-to-br from-crisal-turquesa to-crisal-azul rounded-full flex items-center justify-center mr-3">
+                <div className="w-8 h-8 bg-gradient-to-br from-crisal-primary to-crisal-primary-dark rounded-full flex items-center justify-center mr-3">
                   <LockClosedIcon className="h-4 w-4 text-white" />
                 </div>
                 Opciones de Seguridad en el Inicio de Sesión
@@ -128,7 +128,7 @@ const Perfil = () => {
             {/* Términos y Condiciones */}
             <div className="border-t border-crisal-gris pt-6">
               <h2 className="text-xl font-ibrand text-crisal-azul mb-4 flex items-center">
-                <div className="w-8 h-8 bg-gradient-to-br from-crisal-turquesa to-crisal-azul rounded-full flex items-center justify-center mr-3">
+                <div className="w-8 h-8 bg-gradient-to-br from-crisal-primary to-crisal-primary-dark rounded-full flex items-center justify-center mr-3">
                   <DocumentTextIcon className="h-4 w-4 text-white" />
                 </div>
                 Términos y Condiciones
@@ -160,7 +160,7 @@ const Perfil = () => {
             {/* Almacenamiento de Datos */}
             <div className="border-t border-crisal-gris pt-6">
               <h2 className="text-xl font-ibrand text-crisal-azul mb-4 flex items-center">
-                <div className="w-8 h-8 bg-gradient-to-br from-crisal-turquesa to-crisal-azul rounded-full flex items-center justify-center mr-3">
+                <div className="w-8 h-8 bg-gradient-to-br from-crisal-primary to-crisal-primary-dark rounded-full flex items-center justify-center mr-3">
                   <ShieldCheckIcon className="h-4 w-4 text-white" />
                 </div>
                 Almacenamiento de Datos en el Perfil del Paciente

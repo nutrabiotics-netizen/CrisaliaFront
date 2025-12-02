@@ -17,37 +17,37 @@ const Dashboard = () => {
       name: 'Usuarios Activos',
       value: '1,234',
       icon: UserGroupIcon,
-      color: 'bg-gradient-to-br from-crisal-turquesa to-crisal-azul'
+      color: 'bg-gradient-to-br from-crisal-primary to-crisal-primary-dark'
     },
     {
       name: 'Citas del Mes',
       value: '456',
       icon: CalendarIcon,
-      color: 'bg-gradient-to-br from-crisal-turquesa to-crisal-azul'
+      color: 'bg-gradient-to-br from-crisal-primary to-crisal-primary-dark'
     },
     {
       name: 'Ingresos del Mes',
       value: '$12.5M',
       icon: CurrencyDollarIcon,
-      color: 'bg-gradient-to-br from-crisal-turquesa to-crisal-azul'
+      color: 'bg-gradient-to-br from-crisal-primary to-crisal-primary-dark'
     },
     {
       name: 'Terceros Aliados',
       value: '23',
       icon: UserGroupIcon,
-      color: 'bg-gradient-to-br from-crisal-turquesa to-crisal-azul'
+      color: 'bg-gradient-to-br from-crisal-primary to-crisal-primary-dark'
     },
     {
       name: 'Alertas',
       value: '8',
       icon: BellIcon,
-      color: 'bg-gradient-to-br from-crisal-turquesa to-crisal-azul'
+      color: 'bg-gradient-to-br from-crisal-primary to-crisal-primary-dark'
     },
     {
       name: 'Contingencias',
       value: '2',
       icon: ShieldExclamationIcon,
-      color: 'bg-gradient-to-br from-crisal-turquesa to-crisal-azul'
+      color: 'bg-gradient-to-br from-crisal-primary to-crisal-primary-dark'
     }
   ];
 
@@ -57,7 +57,7 @@ const Dashboard = () => {
         {/* Bienvenida */}
         <div className="card">
           <div className="flex items-center">
-            <div className="w-16 h-16 bg-gradient-to-br from-crisal-turquesa to-crisal-azul rounded-full flex items-center justify-center mr-4">
+            <div className="w-16 h-16 bg-gradient-to-br from-crisal-primary to-crisal-primary-dark rounded-full flex items-center justify-center mr-4">
               <span className="text-white font-ibrand text-2xl">{user?.nombre?.charAt(0)}{user?.apellido?.charAt(0)}</span>
             </div>
             <div>

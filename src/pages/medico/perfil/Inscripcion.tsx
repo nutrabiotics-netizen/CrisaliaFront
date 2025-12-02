@@ -47,7 +47,7 @@ const PerfilInscripcion = () => {
         <div className="space-y-6">
           <div className="card">
             <div className="text-center py-12">
-              <div className="mx-auto flex items-center justify-center h-20 w-20 rounded-full bg-gradient-to-br from-crisal-turquesa to-crisal-azul mb-6">
+              <div className="mx-auto flex items-center justify-center h-20 w-20 rounded-full bg-gradient-to-br from-crisal-primary to-crisal-primary-dark mb-6">
                 <XMarkIcon className="h-10 w-10 text-white" />
               </div>
               <h2 className="text-3xl font-ibrand text-crisal-azul mb-4">
@@ -86,7 +86,7 @@ const PerfilInscripcion = () => {
         <div className="space-y-6">
           <div className="card">
             <div className="text-center py-12">
-              <div className="mx-auto flex items-center justify-center h-20 w-20 rounded-full bg-gradient-to-br from-crisal-turquesa to-crisal-azul mb-6">
+              <div className="mx-auto flex items-center justify-center h-20 w-20 rounded-full bg-gradient-to-br from-crisal-primary to-crisal-primary-dark mb-6">
                 <UserIcon className="h-10 w-10 text-white" />
               </div>
               <h2 className="text-3xl font-ibrand text-crisal-azul mb-4">
@@ -127,7 +127,7 @@ const PerfilInscripcion = () => {
         {/* Video de Introducción Crisal-iA */}
         <div className="card">
           <div className="flex items-center mb-4">
-            <div className="w-12 h-12 bg-gradient-to-br from-crisal-turquesa to-crisal-azul rounded-full flex items-center justify-center mr-4">
+            <div className="w-12 h-12 bg-gradient-to-br from-crisal-primary to-crisal-primary-dark rounded-full flex items-center justify-center mr-4">
               <VideoCameraIcon className="h-6 w-6 text-white" />
             </div>
             <div>
@@ -140,8 +140,8 @@ const PerfilInscripcion = () => {
             </div>
           </div>
 
-          <div className="bg-gradient-to-r from-crisal-turquesa/10 to-crisal-azul/10 rounded-xl p-6 mb-6 border border-crisal-gris">
-            <div className="aspect-video bg-gradient-to-br from-crisal-azul to-crisal-turquesa rounded-xl flex items-center justify-center mb-4 relative overflow-hidden group cursor-pointer hover:opacity-90 transition-opacity shadow-lg">
+          <div className="bg-gradient-to-r from-crisal-primary/10 to-crisal-primary-dark/10 rounded-xl p-6 mb-6 border border-crisal-gris">
+            <div className="aspect-video bg-gradient-to-br from-crisal-primary-dark to-crisal-primary rounded-xl flex items-center justify-center mb-4 relative overflow-hidden group cursor-pointer hover:opacity-90 transition-opacity shadow-lg">
               <div className="absolute inset-0 bg-black bg-opacity-20"></div>
               <div className="text-center relative z-10">
                 <div className="bg-white bg-opacity-30 rounded-full p-4 mb-4 inline-block group-hover:scale-110 transition-transform">
@@ -186,7 +186,7 @@ const PerfilInscripcion = () => {
           {videoWatched && (
             <div className="border-t border-crisal-gris pt-6">
               <div className="flex items-center mb-4">
-                <div className="w-10 h-10 bg-gradient-to-br from-crisal-turquesa to-crisal-azul rounded-full flex items-center justify-center mr-3">
+                <div className="w-10 h-10 bg-gradient-to-br from-crisal-primary to-crisal-primary-dark rounded-full flex items-center justify-center mr-3">
                   <UserIcon className="h-5 w-5 text-white" />
                 </div>
                 <h2 className="text-xl font-ibrand text-crisal-azul">
@@ -259,7 +259,7 @@ const PerfilInscripcion = () => {
           {currentStep === 'simulacion' && (
             <div className="border-t border-crisal-gris pt-6">
               <div className="flex items-center mb-4">
-                <div className="w-10 h-10 bg-gradient-to-br from-crisal-turquesa to-crisal-azul rounded-full flex items-center justify-center mr-3">
+                <div className="w-10 h-10 bg-gradient-to-br from-crisal-primary to-crisal-primary-dark rounded-full flex items-center justify-center mr-3">
                   <AcademicCapIcon className="h-5 w-5 text-white" />
                 </div>
                 <h2 className="text-xl font-ibrand text-crisal-azul">
@@ -287,7 +287,7 @@ const PerfilInscripcion = () => {
                 {[1, 2, 3].map((num) => (
                   <div key={num} className="card hover:shadow-md transition-shadow cursor-pointer border-2 border-crisal-gris hover:border-crisal-turquesa">
                     <div className="flex items-center mb-2">
-                      <div className="bg-gradient-to-br from-crisal-turquesa to-crisal-azul text-white rounded-full w-8 h-8 flex items-center justify-center font-poppins font-semibold mr-2">
+                      <div className="bg-gradient-to-br from-crisal-primary to-crisal-primary-dark text-white rounded-full w-8 h-8 flex items-center justify-center font-poppins font-semibold mr-2">
                         {num}
                       </div>
                       <span className="font-poppins font-medium text-crisal-azul">Paciente Simulado {num}</span>
@@ -316,7 +316,7 @@ const PerfilInscripcion = () => {
           {currentStep === 'prueba' && (
             <div className="border-t border-crisal-gris pt-6">
               <div className="flex items-center mb-4">
-                <div className="w-10 h-10 bg-gradient-to-br from-crisal-turquesa to-crisal-azul rounded-full flex items-center justify-center mr-3">
+                <div className="w-10 h-10 bg-gradient-to-br from-crisal-primary to-crisal-primary-dark rounded-full flex items-center justify-center mr-3">
                   <CheckCircleIcon className="h-5 w-5 text-white" />
                 </div>
                 <h2 className="text-xl font-ibrand text-crisal-azul">
@@ -352,7 +352,7 @@ const PerfilInscripcion = () => {
           {/* Generación de Contrato */}
           <div className="border-t border-crisal-gris pt-6">
             <div className="flex items-center mb-4">
-              <div className="w-10 h-10 bg-gradient-to-br from-crisal-turquesa to-crisal-azul rounded-full flex items-center justify-center mr-3">
+              <div className="w-10 h-10 bg-gradient-to-br from-crisal-primary to-crisal-primary-dark rounded-full flex items-center justify-center mr-3">
                 <DocumentTextIcon className="h-5 w-5 text-white" />
               </div>
               <h2 className="text-xl font-ibrand text-crisal-azul">

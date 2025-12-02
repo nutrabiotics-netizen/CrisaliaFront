@@ -39,7 +39,7 @@ const RipsFacturacion = () => {
       <div className="space-y-6">
         <div className="card">
           <div className="flex items-center mb-6">
-            <div className="w-16 h-16 bg-gradient-to-br from-crisal-turquesa to-crisal-azul rounded-full flex items-center justify-center mr-4">
+            <div className="w-16 h-16 bg-gradient-to-br from-crisal-primary to-crisal-primary-dark rounded-full flex items-center justify-center mr-4">
               <DocumentTextIcon className="h-8 w-8 text-white" />
             </div>
             <div>

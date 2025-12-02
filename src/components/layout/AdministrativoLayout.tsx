@@ -103,7 +103,7 @@ const AdministrativoLayout = ({ children }: AdministrativoLayoutProps) => {
         <div className="fixed inset-0 z-40 lg:hidden">
           <div className="fixed inset-0 bg-crisal-azul bg-opacity-75" onClick={() => setSidebarOpen(false)} />
           <div className="fixed inset-y-0 left-0 flex w-64 flex-col bg-white shadow-xl">
-            <div className="flex h-16 items-center justify-between px-4 border-b border-crisal-gris bg-gradient-to-r from-crisal-turquesa to-white">
+            <div className="flex h-16 items-center justify-between px-4 border-b border-crisal-gris bg-gradient-to-r from-crisal-primary to-white">
               <img 
                 src={logoHorizontal} 
                 alt="Crisal IA" 
@@ -140,7 +140,7 @@ const AdministrativoLayout = ({ children }: AdministrativoLayoutProps) => {
       {/* Sidebar desktop */}
       <div className="hidden lg:fixed lg:inset-y-0 lg:flex lg:w-64 lg:flex-col">
         <div className="flex flex-col flex-grow bg-white border-r border-crisal-gris pt-5 pb-4 overflow-y-auto shadow-sm">
-          <div className="flex items-center flex-shrink-0 px-4 mb-8 bg-gradient-to-r from-crisal-turquesa to-white py-4 rounded-br-xl">
+          <div className="flex items-center flex-shrink-0 px-4 mb-8 bg-gradient-to-r from-crisal-primary to-white py-4 rounded-br-xl">
             <img 
               src={logoHorizontal} 
               alt="Crisal IA" 

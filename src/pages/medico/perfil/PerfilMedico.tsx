@@ -37,7 +37,7 @@ const PerfilMedico = () => {
     <div className="space-y-6">
       <div className="card">
         <div className="flex items-center mb-6">
-          <div className="w-12 h-12 bg-gradient-to-br from-crisal-turquesa to-crisal-azul rounded-full flex items-center justify-center mr-4">
+          <div className="w-12 h-12 bg-gradient-to-br from-crisal-primary to-crisal-primary-dark rounded-full flex items-center justify-center mr-4">
             <span className="text-white font-ibrand text-xl">PM</span>
           </div>
           <div>

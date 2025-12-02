@@ -95,30 +95,31 @@ const Login = () => {
         backgroundAttachment: window.innerWidth >= 1024 ? 'fixed' : 'scroll'
       }}
     >
-      {/* Overlay con gradiente de marca - más sutil */}
-      <div className="absolute inset-0 bg-gradient-to-br from-[#29536D]/15 via-[#60EFDB]/8 to-transparent z-0"></div>
+      {/* Overlay con gradiente de marca mejorado */}
+      <div className="absolute inset-0 bg-gradient-to-br from-[#443c92]/20 via-[#ff9d9d]/10 to-[#1d1d6d]/15 z-0"></div>
       
-      {/* Efectos de partículas decorativas */}
+      {/* Efectos de partículas decorativas mejorados */}
       <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none">
-        <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-[#60EFDB]/5 rounded-full blur-3xl animate-pulse"></div>
-        <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-[#29536D]/5 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '1s' }}></div>
+        <div className="absolute top-1/4 left-1/4 w-72 h-72 bg-[#443c92]/8 rounded-full blur-3xl animate-pulse"></div>
+        <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-[#1d1d6d]/8 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '1s' }}></div>
+        <div className="absolute top-1/2 right-1/3 w-64 h-64 bg-[#ff9d9d]/6 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '2s' }}></div>
       </div>
       
-      <div className="w-full min-h-screen flex flex-col lg:flex-row relative z-10">
-        {/* Panel izquierdo - Formulario de Login con efecto glassmorphism */}
-        <div className="w-full lg:w-1/2 min-h-screen flex flex-col items-center justify-center backdrop-blur-xl lg:border-r border-white/20 py-4 sm:py-6 lg:py-12 relative">
-          <div className="w-full flex-1 flex flex-col items-center justify-center px-4 sm:px-6 md:px-8 lg:px-16">
+      <div className="w-full h-screen flex flex-col lg:flex-row relative z-10 overflow-hidden">
+        {/* Panel izquierdo - Formulario de Login */}
+        <div className="w-full lg:w-1/2 h-screen flex flex-col items-center justify-center py-4 sm:py-6 px-4 sm:px-6 md:px-8 lg:px-10 xl:px-12 relative overflow-y-auto">
+          <div className="w-full max-w-md mx-auto">
             {/* Logo visible en móvil */}
-            <div className="lg:hidden mb-4 sm:mb-6 md:mb-8 flex justify-center w-full px-4">
-              <div className="text-center animate-float w-full max-w-[180px] sm:max-w-[220px] md:max-w-[250px] mx-auto">
-                <div className="relative inline-block w-full" style={{ maxWidth: '100%' }}>
-                  <div className="absolute inset-0 animate-glow opacity-50 -z-10 pointer-events-none"></div>
+            <div className="lg:hidden mb-3 sm:mb-4 flex justify-center w-full">
+              <div className="text-center animate-float w-full max-w-[140px] sm:max-w-[160px] mx-auto">
+                <div className="relative inline-block w-full">
+                  <div className="absolute inset-0 animate-glow opacity-60 -z-10 pointer-events-none"></div>
                   <img 
                     src={getLogoPath()} 
                     alt="CRISALIA" 
                     className="relative z-10 w-full h-auto block animate-shine"
                     style={{ 
-                      filter: 'drop-shadow(0 0 20px rgba(41, 83, 109, 0.8)) drop-shadow(0 0 40px rgba(41, 83, 109, 0.6))',
+                      filter: 'drop-shadow(0 0 20px rgba(68, 60, 146, 0.8)) drop-shadow(0 0 40px rgba(68, 60, 146, 0.6))',
                       maxWidth: '100%',
                       width: '100%',
                       height: 'auto',
@@ -131,11 +132,9 @@ const Login = () => {
                       console.error('Error loading logo image, trying fallback');
                       const target = e.currentTarget;
                       const currentSrc = target.src;
-                      // Intentar con ruta absoluta si falla la importación
                       if (!currentSrc.includes('/images/Crisalia.png')) {
                         target.src = '/images/Crisalia.png';
                       } else if (!currentSrc.includes('assets')) {
-                        // Si también falla, intentar con la ruta de assets
                         target.src = '/src/assets/images/Crisalia.png';
                       }
                     }}
@@ -147,16 +146,26 @@ const Login = () => {
               </div>
             </div>
 
+            {/* Título y subtítulo */}
+            <div className="mb-4 sm:mb-5 text-center lg:text-left">
+              <h1 className="text-2xl sm:text-3xl lg:text-4xl font-ibrand text-white mb-1.5 sm:mb-2 drop-shadow-lg">
+                Bienvenido de nuevo
+              </h1>
+              <p className="text-sm sm:text-base font-poppins text-white/90 drop-shadow-md">
+                Inicia sesión para continuar
+              </p>
+            </div>
+
             {/* Formulario de login */}
-            <div className="w-full max-w-md mx-auto bg-white/5 backdrop-blur-2xl rounded-2xl sm:rounded-3xl p-4 sm:p-6 md:p-8 lg:p-10 border border-white/30 shadow-[0_8px_32px_0_rgba(41,83,109,0.37)] relative overflow-hidden before:absolute before:inset-0 before:bg-gradient-to-br before:from-white/10 before:via-transparent before:to-transparent before:pointer-events-none animate-in fade-in slide-in-from-top-2 duration-300">
+            <div className="w-full bg-white/10 backdrop-blur-2xl rounded-2xl p-5 sm:p-6 md:p-7 border border-white/20 shadow-2xl relative overflow-hidden before:absolute before:inset-0 before:bg-gradient-to-br before:from-white/5 before:via-transparent before:to-transparent before:pointer-events-none animate-in fade-in slide-in-from-top-2 duration-300">
               {/* Mensaje de éxito si viene de Welcome */}
               {showSuccessMessage && (
-                <div className="mb-4 sm:mb-6 rounded-xl bg-gradient-to-r from-[#60EFDB]/20 to-[#60EFDB]/10 backdrop-blur-md border border-[#60EFDB]/60 p-3 sm:p-4 shadow-lg animate-in fade-in slide-in-from-top-2 duration-300">
-                  <div className="flex">
+                <div className="mb-4 rounded-xl bg-gradient-to-r from-[#443c92]/30 to-[#443c92]/15 backdrop-blur-md border border-[#443c92]/50 p-3 shadow-xl animate-in fade-in slide-in-from-top-2 duration-300">
+                  <div className="flex items-start">
                     <div className="flex-shrink-0">
-                      <div className="rounded-full bg-[#60EFDB]/30 p-1">
+                      <div className="rounded-full bg-[#443c92]/40 p-1.5">
                         <svg
-                          className="h-4 w-4 sm:h-5 sm:w-5 text-[#29536D]"
+                          className="h-4 w-4 text-white"
                           fill="currentColor"
                           viewBox="0 0 20 20"
                         >
@@ -168,23 +177,26 @@ const Login = () => {
                         </svg>
                       </div>
                     </div>
-                      <div className="ml-2 sm:ml-3 flex-1">
-                        <p className="text-xs sm:text-sm font-poppins-medium text-white drop-shadow-md leading-tight">
-                          ¡Registro completado exitosamente! Ahora puedes iniciar sesión.
-                        </p>
-                      </div>
+                    <div className="ml-2.5 flex-1">
+                      <p className="text-xs font-poppins-semibold text-white drop-shadow-md">
+                        ¡Registro completado exitosamente!
+                      </p>
+                      <p className="text-xs font-poppins text-white/90 mt-0.5">
+                        Ahora puedes iniciar sesión.
+                      </p>
+                    </div>
                   </div>
                 </div>
               )}
 
-              <form className="space-y-4 sm:space-y-5 md:space-y-6" onSubmit={handleSubmit(onSubmit)}>
+              <form className="space-y-4" onSubmit={handleSubmit(onSubmit)}>
                 {error && (
-                  <div className="rounded-xl bg-gradient-to-r from-red-500/20 to-red-500/10 backdrop-blur-md border border-red-400/60 p-3 sm:p-4 shadow-lg animate-in fade-in slide-in-from-top-2 duration-300">
-                    <div className="flex">
+                  <div className="rounded-xl bg-gradient-to-r from-red-500/30 to-red-500/15 backdrop-blur-md border border-red-400/50 p-3 shadow-xl animate-in fade-in slide-in-from-top-2 duration-300">
+                    <div className="flex items-start">
                       <div className="flex-shrink-0">
-                        <div className="rounded-full bg-red-500/30 p-1">
+                        <div className="rounded-full bg-red-500/40 p-1.5">
                           <svg
-                            className="h-4 w-4 sm:h-5 sm:w-5 text-red-200"
+                            className="h-4 w-4 text-white"
                             fill="currentColor"
                             viewBox="0 0 20 20"
                           >
@@ -196,44 +208,61 @@ const Login = () => {
                           </svg>
                         </div>
                       </div>
-                      <div className="ml-2 sm:ml-3 flex-1">
-                        <p className="text-xs sm:text-sm font-poppins-medium text-white drop-shadow-md leading-tight">{error}</p>
+                      <div className="ml-2.5 flex-1">
+                        <p className="text-xs font-poppins-semibold text-white drop-shadow-md">{error}</p>
                       </div>
                     </div>
                   </div>
                 )}
 
-                <div className="space-y-4 sm:space-y-5">
+                <div className="space-y-4">
                   {/* Email */}
-                  <div>
-                    <label htmlFor="email" className="block text-xs sm:text-sm font-poppins-semibold text-white mb-1.5 sm:mb-2 drop-shadow-md">
+                  <div className="space-y-1.5">
+                    <label htmlFor="email" className="block text-xs sm:text-sm font-poppins-semibold text-white mb-1.5 drop-shadow-md">
                       Correo electrónico
                     </label>
-                    <input
-                      {...register('email', {
-                        required: 'El email es requerido',
-                        pattern: {
-                          value: /^\S+@\S+\.\S+$/,
-                          message: 'Email inválido'
-                        }
-                      })}
-                      id="email"
-                      type="email"
-                      autoComplete="email"
-                      className="w-full px-3 sm:px-4 py-2.5 sm:py-3 text-sm sm:text-base bg-white/15 backdrop-blur-md border border-white/40 rounded-xl text-white placeholder-white/70 focus:outline-none focus:ring-2 focus:ring-[#60EFDB]/50 focus:border-[#60EFDB] focus:bg-white/20 focus:shadow-[0_0_0_4px_rgba(96,239,219,0.1)] transition-all duration-300 font-poppins shadow-lg hover:border-white/50 hover:bg-white/18"
-                      placeholder="Correo electrónico"
-                    />
+                    <div className="relative">
+                      <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                        <svg className="h-4 w-4 text-white/50" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207" />
+                        </svg>
+                      </div>
+                      <input
+                        {...register('email', {
+                          required: 'El email es requerido',
+                          pattern: {
+                            value: /^\S+@\S+\.\S+$/,
+                            message: 'Email inválido'
+                          }
+                        })}
+                        id="email"
+                        type="email"
+                        autoComplete="email"
+                        className="w-full pl-10 pr-4 py-2.5 text-sm bg-white/20 backdrop-blur-md border-2 border-white/30 rounded-lg text-white placeholder-white/60 focus:outline-none focus:ring-2 focus:ring-[#443c92]/60 focus:border-[#443c92] focus:bg-white/25 focus:shadow-[0_0_0_3px_rgba(68,60,146,0.15)] transition-all duration-300 font-poppins shadow-lg hover:border-white/40 hover:bg-white/22"
+                        placeholder="tu@email.com"
+                      />
+                    </div>
                     {errors.email && (
-                      <p className="mt-1 text-xs sm:text-sm font-poppins text-red-300 drop-shadow-md animate-in fade-in slide-in-from-top-1 duration-200">{errors.email.message}</p>
+                      <p className="mt-1 text-xs font-poppins text-red-300 drop-shadow-md animate-in fade-in slide-in-from-top-1 duration-200 flex items-center">
+                        <svg className="h-3 w-3 mr-1" fill="currentColor" viewBox="0 0 20 20">
+                          <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z" clipRule="evenodd" />
+                        </svg>
+                        {errors.email.message}
+                      </p>
                     )}
                   </div>
 
                   {/* Password */}
-                  <div>
-                    <label htmlFor="password" className="block text-xs sm:text-sm font-poppins-semibold text-white mb-1.5 sm:mb-2 drop-shadow-md">
+                  <div className="space-y-1.5">
+                    <label htmlFor="password" className="block text-xs sm:text-sm font-poppins-semibold text-white mb-1.5 drop-shadow-md">
                       Contraseña
                     </label>
                     <div className="relative">
+                      <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                        <svg className="h-4 w-4 text-white/50" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                        </svg>
+                      </div>
                       <input
                         {...register('password', {
                           required: 'La contraseña es requerida',
@@ -245,96 +274,109 @@ const Login = () => {
                         id="password"
                         type={showPassword ? 'text' : 'password'}
                         autoComplete="current-password"
-                        className="w-full px-3 sm:px-4 py-2.5 sm:py-3 pr-10 sm:pr-12 text-sm sm:text-base bg-white/15 backdrop-blur-md border border-white/40 rounded-xl text-white placeholder-white/70 focus:outline-none focus:ring-2 focus:ring-[#60EFDB]/50 focus:border-[#60EFDB] focus:bg-white/20 focus:shadow-[0_0_0_4px_rgba(96,239,219,0.1)] transition-all duration-300 font-poppins shadow-lg hover:border-white/50 hover:bg-white/18"
-                        placeholder="Contraseña"
+                        className="w-full pl-10 pr-10 py-2.5 text-sm bg-white/20 backdrop-blur-md border-2 border-white/30 rounded-lg text-white placeholder-white/60 focus:outline-none focus:ring-2 focus:ring-[#443c92]/60 focus:border-[#443c92] focus:bg-white/25 focus:shadow-[0_0_0_3px_rgba(68,60,146,0.15)] transition-all duration-300 font-poppins shadow-lg hover:border-white/40 hover:bg-white/22"
+                        placeholder="••••••••"
                       />
                       <button
                         type="button"
-                        className="absolute inset-y-0 right-0 pr-3 sm:pr-4 flex items-center touch-manipulation group"
+                        className="absolute inset-y-0 right-0 pr-3 flex items-center touch-manipulation group"
                         onClick={() => setShowPassword(!showPassword)}
                         aria-label={showPassword ? 'Ocultar contraseña' : 'Mostrar contraseña'}
                       >
                         {showPassword ? (
-                          <EyeSlashIcon className="h-4 w-4 sm:h-5 sm:w-5 text-white/70 group-hover:text-[#60EFDB] transition-all duration-200 group-hover:scale-110" />
+                          <EyeSlashIcon className="h-4 w-4 text-white/60 group-hover:text-[#443c92] transition-all duration-200 group-hover:scale-110" />
                         ) : (
-                          <EyeIcon className="h-4 w-4 sm:h-5 sm:w-5 text-white/70 group-hover:text-[#60EFDB] transition-all duration-200 group-hover:scale-110" />
+                          <EyeIcon className="h-4 w-4 text-white/60 group-hover:text-[#443c92] transition-all duration-200 group-hover:scale-110" />
                         )}
                       </button>
                     </div>
                     {errors.password && (
-                      <p className="mt-1 text-xs sm:text-sm font-poppins text-red-300 drop-shadow-md animate-in fade-in slide-in-from-top-1 duration-200">{errors.password.message}</p>
+                      <p className="mt-1 text-xs font-poppins text-red-300 drop-shadow-md animate-in fade-in slide-in-from-top-1 duration-200 flex items-center">
+                        <svg className="h-3 w-3 mr-1" fill="currentColor" viewBox="0 0 20 20">
+                          <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z" clipRule="evenodd" />
+                        </svg>
+                        {errors.password.message}
+                      </p>
                     )}
                   </div>
                 </div>
 
                 {/* Recordar y Olvidar */}
-                <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2 sm:gap-0">
+                <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2">
                   <div className="flex items-center group">
                     <input
                       id="remember-me"
                       name="remember-me"
                       type="checkbox"
-                      className="h-4 w-4 sm:h-4 sm:w-4 text-[#60EFDB] focus:ring-[#60EFDB] focus:ring-2 border-white/40 rounded cursor-pointer transition-all duration-200 checked:bg-[#60EFDB] checked:border-[#60EFDB] hover:border-[#60EFDB]/70"
+                      className="h-4 w-4 text-[#443c92] focus:ring-[#443c92] focus:ring-2 border-white/40 rounded cursor-pointer transition-all duration-200 checked:bg-[#443c92] checked:border-[#443c92] hover:border-[#443c92]/70"
                     />
-                    <label htmlFor="remember-me" className="ml-2 block text-xs sm:text-sm font-poppins text-white drop-shadow-md cursor-pointer group-hover:text-[#60EFDB]/90 transition-colors duration-200">
+                    <label htmlFor="remember-me" className="ml-2 block text-xs sm:text-sm font-poppins-medium text-white drop-shadow-md cursor-pointer group-hover:text-white transition-colors duration-200">
                       Recordar sesión
                     </label>
                   </div>
 
-                  <div className="text-xs sm:text-sm">
+                  <div>
                     <a
                       href="#"
-                      className="font-poppins-semibold text-white hover:text-[#60EFDB] transition-all duration-200 drop-shadow-md hover:underline underline-offset-2"
+                      className="text-xs sm:text-sm font-poppins-semibold text-white/90 hover:text-white transition-all duration-200 drop-shadow-md hover:underline underline-offset-2"
                     >
                       ¿Olvidaste tu contraseña?
                     </a>
                   </div>
                 </div>
 
-                {/* Botón Submit con degradado de marca */}
+                {/* Botón Submit mejorado */}
                 <button
                   type="submit"
                   disabled={loading}
-                  className="w-full flex justify-center py-2.5 sm:py-3 px-4 border border-transparent text-sm sm:text-base font-poppins-semibold rounded-xl text-white bg-gradient-to-r from-[#60EFDB] via-[#4DD4C4] to-[#29536D] hover:from-[#60EFDB] hover:via-[#60EFDB] hover:to-[#3A7A9A] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#60EFDB] focus:ring-offset-transparent disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-300 shadow-lg hover:shadow-[0_10px_30px_rgba(96,239,219,0.4)] hover:scale-[1.02] active:scale-[0.98] touch-manipulation relative overflow-hidden before:absolute before:inset-0 before:bg-gradient-to-r before:from-transparent before:via-white/20 before:to-transparent before:translate-x-[-100%] hover:before:translate-x-[100%] before:transition-transform before:duration-700"
+                  className="w-full flex justify-center items-center py-3 px-5 border border-transparent text-sm sm:text-base font-poppins-bold rounded-lg text-white bg-gradient-to-r from-[#443c92] via-[#5a4fa0] to-[#1d1d6d] hover:from-[#443c92] hover:via-[#443c92] hover:to-[#2d2d7d] focus:outline-none focus:ring-4 focus:ring-[#443c92]/40 focus:ring-offset-2 focus:ring-offset-transparent disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-300 shadow-xl hover:shadow-2xl hover:shadow-[#443c92]/30 hover:scale-[1.02] active:scale-[0.98] touch-manipulation relative overflow-hidden group"
                 >
-                  {loading ? (
-                    <span className="flex items-center">
-                      <svg
-                        className="animate-spin -ml-1 mr-2 sm:mr-3 h-4 w-4 sm:h-5 sm:w-5 text-white"
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                      >
-                        <circle
-                          className="opacity-25"
-                          cx="12"
-                          cy="12"
-                          r="10"
-                          stroke="currentColor"
-                          strokeWidth="4"
-                        ></circle>
-                        <path
-                          className="opacity-75"
-                          fill="currentColor"
-                          d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
-                        ></path>
-                      </svg>
-                      <span className="text-xs sm:text-base">Iniciando sesión...</span>
-                    </span>
-                  ) : (
-                    'Iniciar Sesión'
-                  )}
+                  <span className="relative z-10 flex items-center">
+                    {loading ? (
+                      <>
+                        <svg
+                          className="animate-spin -ml-1 mr-2 h-4 w-4 text-white"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                        >
+                          <circle
+                            className="opacity-25"
+                            cx="12"
+                            cy="12"
+                            r="10"
+                            stroke="currentColor"
+                            strokeWidth="4"
+                          ></circle>
+                          <path
+                            className="opacity-75"
+                            fill="currentColor"
+                            d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
+                          ></path>
+                        </svg>
+                        <span>Iniciando sesión...</span>
+                      </>
+                    ) : (
+                      <>
+                        <span>Iniciar Sesión</span>
+                        <svg className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                        </svg>
+                      </>
+                    )}
+                  </span>
+                  <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-700"></div>
                 </button>
               </form>
 
               {/* Enlace médico nuevo */}
-              <div className="mt-4 sm:mt-6 pt-4 sm:pt-6 border-t border-white/30 text-center">
-                <p className="text-xs sm:text-sm font-poppins text-white/90 drop-shadow-md leading-relaxed">
+              <div className="mt-4 pt-4 border-t border-white/20 text-center">
+                <p className="text-xs font-poppins text-white/90 drop-shadow-md">
                   ¿Eres médico nuevo?{' '}
                   <button
                     type="button"
                     onClick={() => navigate('/medico/welcome')}
-                    className="font-poppins-semibold text-white hover:text-[#60EFDB] transition-all duration-200 underline underline-offset-2 drop-shadow-md touch-manipulation hover:underline-offset-4"
+                    className="font-poppins-bold text-white hover:text-[#ffb501] transition-all duration-200 underline underline-offset-2 drop-shadow-md touch-manipulation hover:underline-offset-4"
                   >
                     Comienza tu registro aquí
                   </button>
@@ -342,8 +384,8 @@ const Login = () => {
               </div>
 
               {/* Footer - Copyright */}
-              <div className="text-center mt-4 sm:mt-6 md:mt-8 pt-4 sm:pt-6 border-t border-white/30">
-                <p className="text-[10px] sm:text-xs font-poppins text-white/80 drop-shadow-md leading-relaxed px-2">
+              <div className="text-center mt-4 pt-4 border-t border-white/20">
+                <p className="text-[10px] sm:text-xs font-poppins text-white/70 drop-shadow-md">
                   Copyright © CRISALIA: Médico con inteligencia Artificial
                 </p>
               </div>
@@ -351,24 +393,23 @@ const Login = () => {
           </div>
         </div>
 
-        {/* Panel derecho - Logo */}
-        <div className="hidden lg:flex lg:w-1/2 min-h-screen items-center justify-center px-8 relative">
-          <div className="flex flex-col items-center justify-center w-full h-full relative z-10">
-            {/* Logo principal centrado con animación y brillos */}
+        {/* Panel derecho - Branding y mensaje */}
+        <div className="hidden lg:flex lg:w-1/2 h-screen items-center justify-center px-6 xl:px-8 relative overflow-hidden">
+          <div className="flex flex-col items-center justify-center w-full max-w-lg relative z-10 space-y-6">
+            {/* Logo principal con animación mejorada */}
             <div className="text-center animate-float">
               <div className="relative inline-block">
-                {/* Efecto de brillo detrás del logo */}
-                <div className="absolute inset-0 animate-glow"></div>
+                <div className="absolute inset-0 animate-glow opacity-70"></div>
                 <img 
                   src={getLogoPath()} 
                   alt="CRISALIA" 
                   className="mx-auto h-auto block relative z-10 animate-shine"
                   style={{ 
-                    filter: 'drop-shadow(0 0 40px rgba(41, 83, 109, 0.8)) drop-shadow(0 0 80px rgba(41, 83, 109, 0.6)) drop-shadow(0 0 120px rgba(41, 83, 109, 0.4))',
+                    filter: 'drop-shadow(0 0 40px rgba(68, 60, 146, 0.8)) drop-shadow(0 0 80px rgba(68, 60, 146, 0.6)) drop-shadow(0 0 120px rgba(68, 60, 146, 0.4))',
                     maxWidth: '100%',
                     width: 'auto',
                     height: 'auto',
-                    maxHeight: '70vh',
+                    maxHeight: '55vh',
                     objectFit: 'contain'
                   }}
                   loading="eager"
@@ -380,6 +421,36 @@ const Login = () => {
                     }
                   }}
                 />
+              </div>
+            </div>
+
+          
+
+            {/* Características destacadas */}
+            <div className="grid grid-cols-1 gap-2.5 w-full px-4 mt-3">
+              <div className="flex items-center space-x-2.5 bg-white/10 backdrop-blur-md rounded-lg p-3 border border-white/20">
+                <div className="flex-shrink-0 w-8 h-8 bg-gradient-to-br from-[#443c92] to-[#1d1d6d] rounded-lg flex items-center justify-center">
+                  <svg className="h-4 w-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                  </svg>
+                </div>
+                <p className="text-xs font-poppins-medium text-white">Automatización inteligente</p>
+              </div>
+              <div className="flex items-center space-x-2.5 bg-white/10 backdrop-blur-md rounded-lg p-3 border border-white/20">
+                <div className="flex-shrink-0 w-8 h-8 bg-gradient-to-br from-[#443c92] to-[#1d1d6d] rounded-lg flex items-center justify-center">
+                  <svg className="h-4 w-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                  </svg>
+                </div>
+                <p className="text-xs font-poppins-medium text-white">Seguridad y privacidad</p>
+              </div>
+              <div className="flex items-center space-x-2.5 bg-white/10 backdrop-blur-md rounded-lg p-3 border border-white/20">
+                <div className="flex-shrink-0 w-8 h-8 bg-gradient-to-br from-[#443c92] to-[#1d1d6d] rounded-lg flex items-center justify-center">
+                  <svg className="h-4 w-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                </div>
+                <p className="text-xs font-poppins-medium text-white">Ahorra tiempo valioso</p>
               </div>
             </div>
           </div>
