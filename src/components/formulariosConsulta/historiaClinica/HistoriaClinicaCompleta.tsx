@@ -269,7 +269,7 @@ const HistoriaClinicaCompleta: React.FC<HistoriaClinicaCompletaProps> = ({
       const finalData = { ...formData, ...data };
       
       // Importar el servicio
-      const { HistoriaClinicaService } = await import('../../../services/historiaClinicaService');
+      const { historiaClinicaService } = await import('../../../services/historiaClinicaService');
       
       // Verificar si ya existe una historia clínica para esta cita
       // Solo verificar si tenemos un token válido
@@ -287,7 +287,7 @@ const HistoriaClinicaCompleta: React.FC<HistoriaClinicaCompletaProps> = ({
       
       if (hasValidToken) {
         try {
-          const existingHistoria = await HistoriaClinicaService.getHistoriaClinicaByCita(citaData?._id);
+          const existingHistoria = await historiaClinicaService.getHistoriaClinicaByCita(citaData?._id);
           if (existingHistoria.success && existingHistoria.historiaClinica) {
             existingHistoriaId = existingHistoria.historiaClinica._id;
             isUpdate = true;
@@ -395,11 +395,11 @@ const HistoriaClinicaCompleta: React.FC<HistoriaClinicaCompletaProps> = ({
       let response;
       if (isUpdate && existingHistoriaId) {
         // Actualizar historia clínica existente
-        response = await HistoriaClinicaService.updateHistoriaClinica(existingHistoriaId, historiaData);
+        response = await historiaClinicaService.updateHistoriaClinica(existingHistoriaId, historiaData);
         console.log('✅ Historia clínica actualizada exitosamente:', response.historiaClinica);
       } else {
         // Crear nueva historia clínica
-        response = await HistoriaClinicaService.createHistoriaClinica(historiaData);
+        response = await historiaClinicaService.createHistoriaClinica(historiaData);
         console.log('✅ Historia clínica guardada exitosamente:', response.historiaClinica);
       }
       

@@ -4,7 +4,7 @@ import { useHistoriaClinica } from '../../../context/HistoriaClinicaContext';
 import { useAlert } from '../../../context/AlertContext';
 // Los servicios se pueden importar cuando se necesiten
 // import { PatientService, type Patient } from '../../../services/patientService';
-// import { HistoriaClinicaService, type HistoriaClinica } from '../../../services/historiaClinicaService';
+// import { historiaClinicaService, type HistoriaClinica } from '../../../services/historiaClinicaService';
 
 // Tipos temporales hasta que se implementen los servicios
 type Patient = any;
@@ -257,7 +257,7 @@ const SeccionInformacionGeneral: React.FC<SeccionInformacionGeneralProps> = ({
     setIsLoadingHistorias(true);
     try {
       // TODO: Implementar servicio de historias clínicas por paciente
-      // const response = await HistoriaClinicaService.getHistoriaClinicaByPatient(pacienteId);
+      // const response = await historiaClinicaService.getHistoriasClinicasByPaciente(pacienteId);
       const response: any = { historiasClinicas: [] };
       if (response.success && response.historiasClinicas) {
         setHistoriasPrevias(response.historiasClinicas);

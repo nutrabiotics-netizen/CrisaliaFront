@@ -76,5 +76,5 @@ class HistoriaClinicaService {
   }
 }
 
-export const HistoriaClinicaService = new HistoriaClinicaService();
+export const historiaClinicaService = new HistoriaClinicaService();
 
