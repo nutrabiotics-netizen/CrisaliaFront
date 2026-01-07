@@ -1,8 +1,18 @@
+import { api } from './api';
 import type { Medico, Paciente } from '../types';
 
 export interface LoginCredentials {
   email: string;
   password: string;
+}
+
+export interface RegisterMedicoData {
+  nombre: string;
+  apellido: string;
+  email: string;
+  password: string;
+  especialidad?: string;
+  whatsapp?: string;
 }
 
 export interface LoginResponse {
@@ -24,110 +34,45 @@ export interface AuthUser {
   telefono?: string;
   fechaNacimiento?: string;
   direccion?: string;
+  cargo?: string;
   role: 'medico' | 'paciente' | 'administrativo';
 }
 
-// Credenciales hardcodeadas (temporal hasta integrar backend)
-const HARDCODED_CREDENTIALS = {
-  medico: {
-    email: 'medico@crisalia.com',
-    password: 'medico123'
-  },
-  paciente: {
-    email: 'paciente@crisalia.com',
-    password: 'paciente123'
-  },
-  administrativo: {
-    email: 'admin@crisalia.com',
-    password: 'admin123'
-  }
-};
-
-const HARDCODED_MEDICO: AuthUser = {
-  _id: '1',
-  email: 'medico@crisalia.com',
-  nombre: 'Juan Carlos',
-  apellido: 'Pérez García',
-  especialidad: 'Medicina Funcional',
-  numeroColegiatura: '12345',
-  telefono: '+57 300 123 4567',
-  role: 'medico'
-};
-
-const HARDCODED_PACIENTE: AuthUser = {
-  _id: '2',
-  email: 'paciente@crisalia.com',
-  nombre: 'María',
-  apellido: 'González López',
-  fechaNacimiento: '1990-05-15',
-  telefono: '+57 300 987 6543',
-  direccion: 'Calle 123 #45-67, Bogotá',
-  role: 'paciente'
-};
-
-const HARDCODED_ADMINISTRATIVO: AuthUser = {
-  _id: '3',
-  email: 'admin@crisalia.com',
-  nombre: 'Carlos',
-  apellido: 'Rodríguez Martínez',
-  telefono: '+57 300 555 1234',
-  role: 'administrativo'
-};
-
 class AuthService {
+  async registerMedico(data: RegisterMedicoData): Promise<LoginResponse> {
+    try {
+      const response = await api.post<LoginResponse>('/auth/register', data);
+      return response;
+    } catch (error: any) {
+      // Manejar errores de la API
+      const errorMessage = error.response?.data?.message || error.message || 'Error al registrar médico';
+      throw new Error(errorMessage);
+    }
+  }
+
   async login(credentials: LoginCredentials): Promise<LoginResponse> {
-    // Autenticación hardcodeada (temporal)
-    await new Promise(resolve => setTimeout(resolve, 500));
-    
-    let user: AuthUser | null = null;
-    
-    // Verificar médico
-    if (
-      credentials.email === HARDCODED_CREDENTIALS.medico.email &&
-      credentials.password === HARDCODED_CREDENTIALS.medico.password
-    ) {
-      user = HARDCODED_MEDICO;
-    }
-    // Verificar paciente
-    else if (
-      credentials.email === HARDCODED_CREDENTIALS.paciente.email &&
-      credentials.password === HARDCODED_CREDENTIALS.paciente.password
-    ) {
-      user = HARDCODED_PACIENTE;
-    }
-    // Verificar administrativo
-    else if (
-      credentials.email === HARDCODED_CREDENTIALS.administrativo.email &&
-      credentials.password === HARDCODED_CREDENTIALS.administrativo.password
-    ) {
-      user = HARDCODED_ADMINISTRATIVO;
-    }
-    
-    if (user) {
-      const token = 'hardcoded-token-' + Date.now();
-      
-      return {
-        success: true,
-        message: 'Login exitoso',
-        data: {
-          token,
-          user: user as any
-        }
-      };
-    } else {
-      throw new Error('Credenciales inválidas');
+    try {
+      const response = await api.post<LoginResponse>('/auth/login', credentials);
+      return response;
+    } catch (error: any) {
+      // Manejar errores de la API
+      const errorMessage = error.response?.data?.message || error.message || 'Error al iniciar sesión';
+      throw new Error(errorMessage);
     }
   }
 
   async getCurrentUser(): Promise<AuthUser> {
-    // Simular delay de red
-    await new Promise(resolve => setTimeout(resolve, 300));
-    const storedUser = this.getUser();
-    if (storedUser) {
-      return storedUser;
+    try {
+      const response = await api.get<{ success: boolean; data: AuthUser }>('/auth/me');
+      return response.data;
+    } catch (error: any) {
+      // Si falla, intentar obtener del localStorage
+      const storedUser = this.getUser();
+      if (storedUser) {
+        return storedUser;
+      }
+      throw new Error('No se pudo obtener el usuario actual');
     }
-    // Fallback (no debería llegar aquí)
-    return HARDCODED_MEDICO;
   }
 
   logout(): void {

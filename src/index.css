@@ -264,6 +264,16 @@ h1, h2, h3, h4, h5, h6 {
   animation-duration: 300ms;
 }
 
+/* Ocultar scrollbar pero mantener funcionalidad */
+.scrollbar-hide {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
 /* Estilos para elementos interactivos con acento turquesa */
 @layer components {
   .btn-primary {

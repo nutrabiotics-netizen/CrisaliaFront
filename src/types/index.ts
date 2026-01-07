@@ -46,22 +46,37 @@ export interface Cita {
   _id?: string;
   pacienteId: string;
   medicoId: string;
-  fecha: string;
+  fecha: Date | string;
   hora: string;
   tipo: 'preconsulta' | 'consulta' | 'control';
+  modalidad: 'presencial' | 'virtual';
   estado: 'pendiente' | 'confirmada' | 'cancelada' | 'completada';
-  createdAt?: string;
-  updatedAt?: string;
+  motivoCancelacion?: string;
+  creadoPor?: string;
+  creadoPorRol?: string;
+  actualizadoPor?: string;
+  actualizadoPorRol?: string;
+  canceladoPor?: string;
+  canceladoPorRol?: string;
+  pacienteNombre?: string;
+  pacienteApellido?: string;
+  createdAt?: Date | string;
+  updatedAt?: Date | string;
 }
 
 // Tipos para Anamnesis
 export interface Anamnesis {
   _id?: string;
   pacienteId: string;
-  medicoId: string;
-  citaId: string;
+  medicoId?: string;
+  citaId?: string;
+  tipo?: 'primera_vez' | 'control';
+  estado?: 'en_proceso' | 'completado' | 'pendiente';
+  progreso?: number;
   respuestas: Record<string, any>;
+  observacionesIA?: string[];
   analisisIA?: string;
+  objetivos?: string[];
   createdAt?: string;
   updatedAt?: string;
 }

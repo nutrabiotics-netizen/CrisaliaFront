@@ -1,5 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useNavigate, useSearchParams } from 'react-router-dom';
+import Swal from 'sweetalert2';
+import { swalConfig, showConfirmDialog } from '../../utils/swalConfig';
 import MedicoLayout from '../../components/layout/MedicoLayout';
 import { useAuth } from '../../context/AuthContext';
 import simulationService from '../../services/simulationService';
@@ -48,8 +50,15 @@ const Dashboard = () => {
           // Token expirado, redirigir a Welcome
           simulationService.clearSimulationToken();
           setIsSimulationMode(false);
-          alert('La simulación ha expirado. Serás redirigido a la página de registro.');
-          navigate('/medico/welcome');
+          Swal.fire({
+            ...swalConfig.base,
+            title: 'Simulación Expirada',
+            text: 'La simulación ha expirado. Serás redirigido a la página de registro.',
+            icon: 'warning',
+            confirmButtonText: 'Entendido'
+          }).then(() => {
+            navigate('/medico/welcome');
+          });
         }
       }, 1000);
       
@@ -117,8 +126,14 @@ const Dashboard = () => {
                 </div>
               </div>
               <button
-                onClick={() => {
-                  if (confirm('¿Deseas salir del modo simulación?')) {
+                onClick={async () => {
+                  const confirmado = await showConfirmDialog(
+                    '¿Salir del modo simulación?',
+                    '¿Deseas salir del modo simulación?',
+                    'Sí, salir',
+                    'No, continuar'
+                  );
+                  if (confirmado) {
                     simulationService.clearSimulationToken();
                     setIsSimulationMode(false);
                     navigate('/medico/welcome?step=simulacion');

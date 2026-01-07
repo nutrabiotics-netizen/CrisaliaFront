@@ -42,16 +42,23 @@ function AuthProvider({ children }: { children: ReactNode }) {
       }
 
       const token = authService.getToken();
-      const storedUser = authService.getUser();
 
-      if (token && storedUser) {
+      if (token) {
         try {
-          // Con autenticación hardcodeada, simplemente usar el usuario almacenado
-          setUser(storedUser);
+          // Intentar obtener el usuario actual desde la API
+          const currentUser = await authService.getCurrentUser();
+          setUser(currentUser);
+          authService.setUser(currentUser);
         } catch (error) {
-          // Token inválido, limpiar
-          authService.logout();
-          setUser(null);
+          // Token inválido o error de conexión, usar usuario almacenado como fallback
+          const storedUser = authService.getUser();
+          if (storedUser) {
+            setUser(storedUser);
+          } else {
+            // Si no hay usuario almacenado, limpiar todo
+            authService.logout();
+            setUser(null);
+          }
         }
       }
       setLoading(false);

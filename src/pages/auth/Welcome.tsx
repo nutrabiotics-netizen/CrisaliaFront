@@ -1,5 +1,9 @@
 import { useState, useEffect } from 'react';
 import { useNavigate, useSearchParams } from 'react-router-dom';
+import { useForm } from 'react-hook-form';
+import PhoneInput from 'react-phone-number-input';
+import 'react-phone-number-input/style.css';
+import { useAlert } from '../../context/AlertContext';
 import {
   PlayIcon,
   UserIcon,
@@ -13,7 +17,9 @@ import {
   EyeIcon,
   EyeSlashIcon
 } from '@heroicons/react/24/outline';
+import { KeyIcon as KeyIconSolid } from '@heroicons/react/24/solid';
 import simulationService from '../../services/simulationService';
+import authService, { RegisterMedicoData } from '../../services/authService';
 import backgroundImage from '../../assets/images/Background.png';
 import logoHorizontal from '../../assets/images/LogoHorizontal.png';
 
@@ -29,6 +35,74 @@ const Welcome = () => {
   const [selectedPatient, setSelectedPatient] = useState<number | null>(null);
   const [showPassword, setShowPassword] = useState(false);
   const [generatedCredentials, setGeneratedCredentials] = useState<{ email: string; password: string } | null>(null);
+  const [isRegistering, setIsRegistering] = useState(false);
+  const [phoneValue, setPhoneValue] = useState<string>('');
+  const { success, error: showError, info } = useAlert();
+
+  // Especialidades preestablecidas
+  const especialidades = [
+    'Medicina Funcional',
+    'Medicina Homeopática',
+    'Medicina General',
+    'Medicina Interna',
+    'Cardiología',
+    'Endocrinología',
+    'Gastroenterología',
+    'Neurología',
+    'Psiquiatría',
+    'Medicina del Deporte',
+    'Medicina Estética',
+    'Medicina Anti-envejecimiento',
+    'Nutrición Clínica',
+    'Medicina Integrativa',
+    'Otra'
+  ];
+
+  // Función para generar contraseña segura
+  const generateSecurePassword = (): string => {
+    const length = 16;
+    const uppercase = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    const lowercase = 'abcdefghijklmnopqrstuvwxyz';
+    const numbers = '0123456789';
+    const symbols = '!@#$%^&*()_+-=[]{}|;:,.<>?';
+    const allChars = uppercase + lowercase + numbers + symbols;
+    
+    let password = '';
+    
+    // Asegurar al menos un carácter de cada tipo
+    password += uppercase[Math.floor(Math.random() * uppercase.length)];
+    password += lowercase[Math.floor(Math.random() * lowercase.length)];
+    password += numbers[Math.floor(Math.random() * numbers.length)];
+    password += symbols[Math.floor(Math.random() * symbols.length)];
+    
+    // Completar el resto de la contraseña
+    for (let i = password.length; i < length; i++) {
+      password += allChars[Math.floor(Math.random() * allChars.length)];
+    }
+    
+    // Mezclar la contraseña
+    return password.split('').sort(() => Math.random() - 0.5).join('');
+  };
+
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+    getValues,
+    setValue,
+    watch
+  } = useForm<RegisterMedicoData>({
+    defaultValues: {
+      nombre: '',
+      apellido: '',
+      email: '',
+      password: '',
+      especialidad: '',
+      whatsapp: ''
+    }
+  });
+
+  const passwordValue = watch('password');
 
   // Si viene de salir de simulación, mostrar directamente el paso de simulación
   useEffect(() => {
@@ -38,6 +112,17 @@ const Welcome = () => {
       setWantsToRegister(true);
       setCurrentStep('simulacion');
       setVideoWatched(true); // Asumir que ya vio el video si viene de simulación
+    }
+    
+    // Cargar credenciales guardadas si existen
+    const savedCredentials = localStorage.getItem('medico_pending_credentials');
+    if (savedCredentials) {
+      try {
+        const credentials = JSON.parse(savedCredentials);
+        setGeneratedCredentials(credentials);
+      } catch (error) {
+        console.error('Error al cargar credenciales guardadas:', error);
+      }
     }
   }, [searchParams]);
 
@@ -151,18 +236,18 @@ const Welcome = () => {
       
       {/* Header con logo y botón de login */}
       <div className="max-w-4xl mx-auto mb-6 relative z-10">
-        <div className="flex items-center justify-between bg-white/95 backdrop-blur-sm rounded-lg shadow-lg p-4">
+        <div className="flex items-center justify-between bg-white/10 backdrop-blur-xl border border-white/20 rounded-lg shadow-lg p-4">
           <div className="flex items-center">
             <img 
               src={logoHorizontal} 
               alt="Crisal IA" 
               className="h-10 w-auto mr-3"
             />
-            <span className="text-sm font-poppins text-crisal-azul/70">Registro para Médicos</span>
+            <span className="text-sm font-poppins text-white/90 drop-shadow-md">Registro para Médicos</span>
           </div>
           <button
             onClick={() => navigate('/login')}
-            className="text-sm font-poppins-semibold text-[#443c92] hover:text-[#443c92] transition-colors"
+            className="text-sm font-poppins-semibold text-white hover:text-white/80 transition-colors drop-shadow-md"
           >
             ¿Ya tienes cuenta? Iniciar Sesión →
           </button>
@@ -194,7 +279,7 @@ const Welcome = () => {
               </div>
               <button
                 onClick={() => {
-                  alert('Reproductor de video: En producción se integrará con YouTube, Vimeo o reproductor personalizado');
+                  info('En producción se integrará con YouTube, Vimeo o reproductor personalizado', 'Información');
                   setVideoWatched(true);
                 }}
                 className="absolute inset-0 w-full h-full flex items-center justify-center"
@@ -235,47 +320,209 @@ const Welcome = () => {
               <p className="font-poppins text-crisal-azul/70 mb-4">
                 Para crear su cuenta y brindarle un mejor seguimiento, solicitamos algunos datos básicos:
               </p>
-              <form className="space-y-4">
+              <form 
+                onSubmit={handleSubmit(async (data) => {
+                  setIsRegistering(true);
+                  try {
+                    const registerData: RegisterMedicoData = {
+                      nombre: data.nombre,
+                      apellido: data.apellido,
+                      email: data.email,
+                      password: data.password,
+                      especialidad: data.especialidad || undefined,
+                      whatsapp: phoneValue || undefined
+                    };
+
+                    const response = await authService.registerMedico(registerData);
+                    
+                    // Guardar credenciales generadas
+                    const credentials = {
+                      email: data.email,
+                      password: data.password
+                    };
+                    setGeneratedCredentials(credentials);
+                    
+                    // Guardar credenciales en localStorage para que estén disponibles en el paso final
+                    localStorage.setItem('medico_pending_credentials', JSON.stringify(credentials));
+                    localStorage.setItem('medico_registration_completed', 'true');
+                    
+                    // Mostrar alerta de éxito
+                    success('Tu registro se ha completado exitosamente. Continúa con el siguiente paso.', '¡Registro exitoso!');
+                    
+                    // Continuar al siguiente paso
+                    setCurrentStep('simulacion');
+                  } catch (error: any) {
+                    const errorMessage = error.message || 'Error al registrar. Por favor intenta nuevamente.';
+                    showError(errorMessage, 'Error en el registro');
+                  } finally {
+                    setIsRegistering(false);
+                  }
+                })}
+                className="space-y-4"
+              >
                 <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
                   <div>
                     <label className="block text-sm font-poppins-semibold text-crisal-azul mb-1">
-                      Nombre
+                      Nombre <span className="text-red-500">*</span>
                     </label>
                     <input
+                      {...register('nombre', {
+                        required: 'El nombre es requerido',
+                        minLength: {
+                          value: 2,
+                          message: 'El nombre debe tener al menos 2 caracteres'
+                        }
+                      })}
                       type="text"
-                      className="w-full rounded-lg border border-crisal-gris shadow-sm focus:border-[#443c92] focus:ring-2 focus:ring-[#443c92] sm:text-sm font-poppins"
+                      className={`w-full rounded-lg border shadow-sm focus:ring-2 sm:text-sm font-poppins ${
+                        errors.nombre 
+                          ? 'border-red-300 focus:border-red-500 focus:ring-red-500' 
+                          : 'border-crisal-gris focus:border-[#443c92] focus:ring-[#443c92]'
+                      }`}
                       placeholder="Nombre completo"
                     />
+                    {errors.nombre && (
+                      <p className="mt-1 text-xs text-red-600 font-poppins">{errors.nombre.message}</p>
+                    )}
+                  </div>
+                  <div>
+                    <label className="block text-sm font-poppins-semibold text-crisal-azul mb-1">
+                      Apellido <span className="text-red-500">*</span>
+                    </label>
+                    <input
+                      {...register('apellido', {
+                        required: 'El apellido es requerido',
+                        minLength: {
+                          value: 2,
+                          message: 'El apellido debe tener al menos 2 caracteres'
+                        }
+                      })}
+                      type="text"
+                      className={`w-full rounded-lg border shadow-sm focus:ring-2 sm:text-sm font-poppins ${
+                        errors.apellido 
+                          ? 'border-red-300 focus:border-red-500 focus:ring-red-500' 
+                          : 'border-crisal-gris focus:border-[#443c92] focus:ring-[#443c92]'
+                      }`}
+                      placeholder="Apellido completo"
+                    />
+                    {errors.apellido && (
+                      <p className="mt-1 text-xs text-red-600 font-poppins">{errors.apellido.message}</p>
+                    )}
+                  </div>
+                  <div>
+                    <label className="block text-sm font-poppins-semibold text-crisal-azul mb-1">
+                      Correo electrónico <span className="text-red-500">*</span>
+                    </label>
+                    <input
+                      {...register('email', {
+                        required: 'El correo electrónico es requerido',
+                        pattern: {
+                          value: /^\S+@\S+\.\S+$/,
+                          message: 'Debe ser un email válido'
+                        }
+                      })}
+                      type="email"
+                      className={`w-full rounded-lg border shadow-sm focus:ring-2 sm:text-sm font-poppins ${
+                        errors.email 
+                          ? 'border-red-300 focus:border-red-500 focus:ring-red-500' 
+                          : 'border-crisal-gris focus:border-[#443c92] focus:ring-[#443c92]'
+                      }`}
+                      placeholder="correo@ejemplo.com"
+                    />
+                    {errors.email && (
+                      <p className="mt-1 text-xs text-red-600 font-poppins">{errors.email.message}</p>
+                    )}
                   </div>
                   <div>
                     <label className="block text-sm font-poppins-semibold text-crisal-azul mb-1">
                       Especialidad
                     </label>
-                    <input
-                      type="text"
-                      className="w-full rounded-lg border border-crisal-gris shadow-sm focus:border-[#443c92] focus:ring-2 focus:ring-[#443c92] sm:text-sm font-poppins"
-                      placeholder="Ej: Medicina Funcional"
-                    />
-                  </div>
-                  <div>
-                    <label className="block text-sm font-poppins-semibold text-crisal-azul mb-1">
-                      Correo electrónico
-                    </label>
-                    <input
-                      type="email"
-                      className="w-full rounded-lg border border-crisal-gris shadow-sm focus:border-[#443c92] focus:ring-2 focus:ring-[#443c92] sm:text-sm font-poppins"
-                      placeholder="correo@ejemplo.com"
-                    />
+                    <select
+                      {...register('especialidad')}
+                      className="w-full rounded-lg border border-crisal-gris shadow-sm focus:border-[#443c92] focus:ring-2 focus:ring-[#443c92] sm:text-sm font-poppins bg-white"
+                    >
+                      <option value="">Seleccione una especialidad</option>
+                      {especialidades.map((esp) => (
+                        <option key={esp} value={esp}>
+                          {esp}
+                        </option>
+                      ))}
+                    </select>
                   </div>
                   <div>
                     <label className="block text-sm font-poppins-semibold text-crisal-azul mb-1">
                       Número de WhatsApp
                     </label>
-                    <input
-                      type="tel"
-                      className="w-full rounded-lg border border-crisal-gris shadow-sm focus:border-[#443c92] focus:ring-2 focus:ring-[#443c92] sm:text-sm font-poppins"
-                      placeholder="+57 300 123 4567"
-                    />
+                    <div className="[&_.PhoneInput]:flex [&_.PhoneInput]:gap-2 [&_.PhoneInputInput]:w-full [&_.PhoneInputInput]:rounded-lg [&_.PhoneInputInput]:border [&_.PhoneInputInput]:border-crisal-gris [&_.PhoneInputInput]:shadow-sm [&_.PhoneInputInput]:focus:border-[#443c92] [&_.PhoneInputInput]:focus:ring-2 [&_.PhoneInputInput]:focus:ring-[#443c92] [&_.PhoneInputInput]:sm:text-sm [&_.PhoneInputInput]:font-poppins [&_.PhoneInputInput]:px-3 [&_.PhoneInputInput]:py-2 [&_.PhoneInputCountry]:rounded-l-lg [&_.PhoneInputCountry]:border [&_.PhoneInputCountry]:border-crisal-gris [&_.PhoneInputCountry]:border-r-0 [&_.PhoneInputCountry]:bg-white [&_.PhoneInputCountrySelect]:border-none [&_.PhoneInputCountrySelect]:bg-transparent [&_.PhoneInputCountrySelect]:text-sm">
+                      <PhoneInput
+                        international
+                        defaultCountry="CO"
+                        value={phoneValue}
+                        onChange={(value) => {
+                          setPhoneValue(value || '');
+                          setValue('whatsapp', value || '');
+                        }}
+                        className="w-full"
+                      />
+                    </div>
+                  </div>
+                  <div>
+                    <label className="block text-sm font-poppins-semibold text-crisal-azul mb-1">
+                      Contraseña <span className="text-red-500">*</span>
+                    </label>
+                    <div className="flex gap-2">
+                      <div className="relative flex-1">
+                        <input
+                          {...register('password', {
+                            required: 'La contraseña es requerida',
+                            minLength: {
+                              value: 8,
+                              message: 'La contraseña debe tener al menos 8 caracteres'
+                            },
+                            pattern: {
+                              value: /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]/,
+                              message: 'La contraseña debe contener al menos una mayúscula, una minúscula, un número y un carácter especial'
+                            }
+                          })}
+                          type={showPassword ? 'text' : 'password'}
+                          className={`w-full rounded-lg border shadow-sm focus:ring-2 sm:text-sm font-poppins pr-10 ${
+                            errors.password 
+                              ? 'border-red-300 focus:border-red-500 focus:ring-red-500' 
+                              : 'border-crisal-gris focus:border-[#443c92] focus:ring-[#443c92]'
+                          }`}
+                          placeholder="Ingrese una contraseña segura"
+                        />
+                        <button
+                          type="button"
+                          onClick={() => setShowPassword(!showPassword)}
+                          className="absolute inset-y-0 right-0 pr-3 flex items-center"
+                        >
+                          {showPassword ? (
+                            <EyeSlashIcon className="h-5 w-5 text-crisal-azul/60" />
+                          ) : (
+                            <EyeIcon className="h-5 w-5 text-crisal-azul/60" />
+                          )}
+                        </button>
+                      </div>
+                      <button
+                        type="button"
+                        onClick={() => {
+                          const newPassword = generateSecurePassword();
+                          setValue('password', newPassword);
+                        }}
+                        className="px-4 py-2 bg-gradient-to-r from-[#443c92] to-[#1d1d6d] text-white rounded-lg hover:from-[#443c92]/90 hover:to-[#1d1d6d]/90 font-poppins-semibold text-sm shadow-lg transition-all flex items-center gap-2 whitespace-nowrap"
+                        title="Generar contraseña segura"
+                      >
+                        <KeyIconSolid className="h-4 w-4" />
+                        Generar
+                      </button>
+                    </div>
+                    {errors.password && (
+                      <p className="mt-1 text-xs text-red-600 font-poppins">{errors.password.message}</p>
+                    )}
+                    <p className="mt-1 text-xs text-crisal-azul/60 font-poppins">
+                      La contraseña debe tener al menos 8 caracteres, incluyendo mayúsculas, minúsculas, números y caracteres especiales
+                    </p>
                   </div>
                 </div>
                 <div className="bg-[#443c92]/20 border border-[#443c92]/40 rounded-lg p-3">
@@ -284,12 +531,24 @@ const Welcome = () => {
                   </p>
                 </div>
                 <button
-                  type="button"
-                  onClick={() => setCurrentStep('simulacion')}
-                  className="bg-gradient-to-r from-[#443c92] to-[#1d1d6d] text-white px-6 py-2 rounded-lg hover:from-[#443c92]/90 hover:to-[#1d1d6d]/90 flex items-center font-poppins-semibold shadow-lg transition-all"
+                  type="submit"
+                  disabled={isRegistering}
+                  className="bg-gradient-to-r from-[#443c92] to-[#1d1d6d] text-white px-6 py-2 rounded-lg hover:from-[#443c92]/90 hover:to-[#1d1d6d]/90 flex items-center font-poppins-semibold shadow-lg transition-all disabled:opacity-50 disabled:cursor-not-allowed"
                 >
-                  Continuar
-                  <ArrowRightIcon className="h-5 w-5 ml-2" />
+                  {isRegistering ? (
+                    <>
+                      <svg className="animate-spin -ml-1 mr-2 h-4 w-4 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                        <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                        <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                      </svg>
+                      Registrando...
+                    </>
+                  ) : (
+                    <>
+                      Continuar
+                      <ArrowRightIcon className="h-5 w-5 ml-2" />
+                    </>
+                  )}
                 </button>
               </form>
             </div>
@@ -463,24 +722,14 @@ const Welcome = () => {
                 </p>
                 
                 {!generatedCredentials && (
-                  <button
-                    onClick={() => {
-                      // Generar credenciales únicas basadas en timestamp
-                      const timestamp = Date.now();
-                      const email = `medico.${timestamp}@crisalia.com`;
-                      const password = `Med${timestamp.toString().slice(-6)}!`;
-                      
-                      const credentials = { email, password };
-                      setGeneratedCredentials(credentials);
-                      
-                      // Guardar credenciales temporalmente (en producción esto se haría en el backend)
-                      localStorage.setItem('medico_pending_credentials', JSON.stringify(credentials));
-                      localStorage.setItem('medico_registration_completed', 'true');
-                    }}
-                    className="bg-gradient-to-r from-[#443c92] to-[#1d1d6d] text-white px-6 py-2 rounded-lg hover:from-[#443c92]/90 hover:to-[#1d1d6d]/90 font-poppins-semibold shadow-lg transition-all"
-                  >
-                    Generar Credenciales
-                  </button>
+                  <div className="bg-[#443c92]/20 border border-[#443c92]/40 rounded-lg p-4">
+                    <p className="text-sm font-poppins text-[#443c92] mb-2">
+                      Las credenciales se generarán automáticamente después del registro inicial.
+                    </p>
+                    <p className="text-xs font-poppins text-[#443c92]/70">
+                      Si ya completaste el registro, las credenciales aparecerán aquí.
+                    </p>
+                  </div>
                 )}
 
                 {generatedCredentials && (
@@ -499,7 +748,7 @@ const Welcome = () => {
                         <button
                           onClick={() => {
                             navigator.clipboard.writeText(generatedCredentials.email);
-                            alert('Email copiado al portapapeles');
+                            success('Email copiado al portapapeles');
                           }}
                           className="ml-2 px-3 py-2 bg-crisal-gris text-crisal-azul rounded-lg hover:bg-crisal-gris/80 text-sm font-poppins-semibold transition-all"
                         >
@@ -534,7 +783,7 @@ const Welcome = () => {
                         <button
                           onClick={() => {
                             navigator.clipboard.writeText(generatedCredentials.password);
-                            alert('Contraseña copiada al portapapeles');
+                            success('Contraseña copiada al portapapeles');
                           }}
                           className="ml-2 px-3 py-2 bg-crisal-gris text-crisal-azul rounded-lg hover:bg-crisal-gris/80 text-sm font-poppins-semibold transition-all"
                         >

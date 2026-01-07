@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import MedicoLayout from '../../../components/layout/MedicoLayout';
 import { useAuth } from '../../../context/AuthContext';
+import { useAlert } from '../../../context/AlertContext';
 import {
   PlayIcon,
   DocumentTextIcon,
@@ -15,6 +16,7 @@ import {
 
 const PerfilInscripcion = () => {
   const { user } = useAuth();
+  const { info } = useAlert();
   const navigate = useNavigate();
   const [showQuestion, setShowQuestion] = useState(true);
   const [wantsToRegister, setWantsToRegister] = useState<boolean | null>(null);
@@ -155,7 +157,7 @@ const PerfilInscripcion = () => {
               <button
                 onClick={() => {
                   // Aquí se podría integrar un reproductor de video real
-                  alert('Reproductor de video: En producción se integrará con YouTube, Vimeo o reproductor personalizado');
+                  info('En producción se integrará con YouTube, Vimeo o reproductor personalizado', 'Información');
                   setVideoWatched(true);
                 }}
                 className="absolute inset-0 w-full h-full flex items-center justify-center"

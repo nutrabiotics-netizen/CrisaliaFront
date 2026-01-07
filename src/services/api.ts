@@ -53,7 +53,10 @@ export const api = {
     });
 
     if (!response.ok) {
-      throw new Error(`Error: ${response.statusText}`);
+      const errorData = await response.json().catch(() => ({ message: response.statusText }));
+      const error: any = new Error(errorData.message || `Error: ${response.statusText}`);
+      error.response = { data: errorData, status: response.status };
+      throw error;
     }
 
     return response.json();

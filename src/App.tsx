@@ -1,6 +1,8 @@
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { AuthProvider } from './context/AuthContext';
+import { AlertProvider } from './context/AlertContext';
 import ProtectedRoute from './components/ProtectedRoute';
+import AlertNotification from './components/AlertNotification';
 import Login from './pages/auth/Login';
 import Welcome from './pages/auth/Welcome';
 
@@ -42,11 +44,16 @@ import AdministrativoConexionAlivia from './pages/administrativo/conexion-alivia
 import AdministrativoVisitaPaciente from './pages/administrativo/visita-paciente/VisitaPaciente';
 import AdministrativoRipsFacturacion from './pages/administrativo/rips-facturacion/RipsFacturacion';
 
+import { HistoriaClinicaProvider } from './context/HistoriaClinicaContext';
+
 function App() {
   return (
     <Router>
       <AuthProvider>
-        <Routes>
+        <AlertProvider>
+          <HistoriaClinicaProvider>
+            <AlertNotification />
+            <Routes>
           <Route path="/welcome" element={<Welcome />} />
           <Route path="/login" element={<Login />} />
           
@@ -142,7 +149,7 @@ function App() {
             }
           />
           <Route
-            path="/medico/consulta"
+            path="/medico/consulta/:citaId"
             element={
               <ProtectedRoute requiredRole="medico">
                 <MedicoConsulta />
@@ -328,6 +335,8 @@ function App() {
           {/* Redirección por defecto */}
           <Route path="/" element={<Navigate to="/login" replace />} />
         </Routes>
+          </HistoriaClinicaProvider>
+        </AlertProvider>
       </AuthProvider>
     </Router>
   );

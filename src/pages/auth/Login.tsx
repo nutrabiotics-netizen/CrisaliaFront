@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useNavigate, useSearchParams } from 'react-router-dom';
 import { useAuth } from '../../context/AuthContext';
+import { useAlert } from '../../context/AlertContext';
 import { useForm } from 'react-hook-form';
 import type { LoginCredentials } from '../../services/authService';
 import { EyeIcon, EyeSlashIcon } from '@heroicons/react/24/outline';
@@ -16,28 +17,18 @@ const getLogoPath = () => {
 
 const Login = () => {
   const [showPassword, setShowPassword] = useState(false);
-  const [error, setError] = useState<string>('');
   const [loading, setLoading] = useState(false);
-  const [showSuccessMessage, setShowSuccessMessage] = useState(false);
   const { login } = useAuth();
+  const { success, error: showError } = useAlert();
   const navigate = useNavigate();
   const [searchParams] = useSearchParams();
 
   useEffect(() => {
     // Mostrar mensaje de éxito si viene de Welcome después de registrarse
     if (searchParams.get('registered') === 'true') {
-      setShowSuccessMessage(true);
-      // Ocultar el mensaje después de 5 segundos
-      setTimeout(() => setShowSuccessMessage(false), 5000);
+      success('Ahora puedes iniciar sesión.', '¡Registro completado exitosamente!');
     }
-    
-    // Prellenar email si viene de Welcome
-    const emailParam = searchParams.get('email');
-    if (emailParam) {
-      // Prellenar el campo de email usando setValue de react-hook-form
-      // Necesitamos acceder al setValue del formulario
-    }
-  }, [searchParams]);
+  }, [searchParams, success]);
 
   const {
     register,
@@ -59,26 +50,40 @@ const Login = () => {
   }, [searchParams, setValue]);
 
   const onSubmit = async (data: LoginCredentials) => {
-    setError('');
     setLoading(true);
 
     try {
       await login(data);
+      
+      // Esperar un momento para que el contexto se actualice
+      await new Promise(resolve => setTimeout(resolve, 100));
+      
+      // Obtener el usuario del localStorage después del login
+      const loggedUser = JSON.parse(localStorage.getItem('user') || '{}');
+      
+      if (!loggedUser || !loggedUser.role) {
+        throw new Error('No se pudo obtener la información del usuario');
+      }
+      
       // Redirigir según el rol del usuario
-      const user = JSON.parse(localStorage.getItem('user') || '{}');
-      if (user.role === 'paciente') {
+      if (loggedUser.role === 'paciente') {
         navigate('/paciente/dashboard');
-      } else if (user.role === 'administrativo') {
+      } else if (loggedUser.role === 'administrativo') {
         navigate('/administrativo/dashboard');
+      } else if (loggedUser.role === 'medico') {
+        navigate('/medico/dashboard');
       } else {
+        // Si no tiene rol válido, redirigir al dashboard del médico por defecto
+        console.warn('Usuario sin rol definido, redirigiendo al dashboard del médico');
         navigate('/medico/dashboard');
       }
     } catch (err: any) {
-      setError(
+      console.error('Error en login:', err);
+      const errorMessage =
         err.response?.data?.message ||
         err.message ||
-        'Error al iniciar sesión. Verifica tus credenciales.'
-      );
+        'Error al iniciar sesión. Verifica tus credenciales.';
+      showError(errorMessage, 'Error de autenticación');
     } finally {
       setLoading(false);
     }
@@ -107,7 +112,7 @@ const Login = () => {
       
       <div className="w-full h-screen flex flex-col lg:flex-row relative z-10 overflow-hidden">
         {/* Panel izquierdo - Formulario de Login */}
-        <div className="w-full lg:w-1/2 h-screen flex flex-col items-center justify-center py-4 sm:py-6 px-4 sm:px-6 md:px-8 lg:px-10 xl:px-12 relative overflow-y-auto">
+        <div className="w-full lg:w-1/2 h-screen flex flex-col items-center justify-center py-4 sm:py-6 px-4 sm:px-6 md:px-8 lg:px-10 xl:px-12 relative overflow-y-auto scrollbar-hide">
           <div className="w-full max-w-md mx-auto">
             {/* Logo visible en móvil */}
             <div className="lg:hidden mb-3 sm:mb-4 flex justify-center w-full">
@@ -147,8 +152,8 @@ const Login = () => {
             </div>
 
             {/* Título y subtítulo */}
-            <div className="mb-4 sm:mb-5 text-center lg:text-left">
-              <h1 className="text-2xl sm:text-3xl lg:text-4xl font-ibrand text-white mb-1.5 sm:mb-2 drop-shadow-lg">
+            <div className="mb-6 sm:mb-7 text-center">
+              <h1 className="text-2xl sm:text-3xl lg:text-3xl font-ibrand text-white mb-2 drop-shadow-lg">
                 Bienvenido de nuevo
               </h1>
               <p className="text-sm sm:text-base font-poppins text-white/90 drop-shadow-md">
@@ -157,73 +162,17 @@ const Login = () => {
             </div>
 
             {/* Formulario de login */}
-            <div className="w-full bg-white/10 backdrop-blur-2xl rounded-2xl p-5 sm:p-6 md:p-7 border border-white/20 shadow-2xl relative overflow-hidden before:absolute before:inset-0 before:bg-gradient-to-br before:from-white/5 before:via-transparent before:to-transparent before:pointer-events-none animate-in fade-in slide-in-from-top-2 duration-300">
-              {/* Mensaje de éxito si viene de Welcome */}
-              {showSuccessMessage && (
-                <div className="mb-4 rounded-xl bg-gradient-to-r from-[#443c92]/30 to-[#443c92]/15 backdrop-blur-md border border-[#443c92]/50 p-3 shadow-xl animate-in fade-in slide-in-from-top-2 duration-300">
-                  <div className="flex items-start">
-                    <div className="flex-shrink-0">
-                      <div className="rounded-full bg-[#443c92]/40 p-1.5">
-                        <svg
-                          className="h-4 w-4 text-white"
-                          fill="currentColor"
-                          viewBox="0 0 20 20"
-                        >
-                          <path
-                            fillRule="evenodd"
-                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                            clipRule="evenodd"
-                          />
-                        </svg>
-                      </div>
-                    </div>
-                    <div className="ml-2.5 flex-1">
-                      <p className="text-xs font-poppins-semibold text-white drop-shadow-md">
-                        ¡Registro completado exitosamente!
-                      </p>
-                      <p className="text-xs font-poppins text-white/90 mt-0.5">
-                        Ahora puedes iniciar sesión.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              )}
-
-              <form className="space-y-4" onSubmit={handleSubmit(onSubmit)}>
-                {error && (
-                  <div className="rounded-xl bg-gradient-to-r from-red-500/30 to-red-500/15 backdrop-blur-md border border-red-400/50 p-3 shadow-xl animate-in fade-in slide-in-from-top-2 duration-300">
-                    <div className="flex items-start">
-                      <div className="flex-shrink-0">
-                        <div className="rounded-full bg-red-500/40 p-1.5">
-                          <svg
-                            className="h-4 w-4 text-white"
-                            fill="currentColor"
-                            viewBox="0 0 20 20"
-                          >
-                            <path
-                              fillRule="evenodd"
-                              d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z"
-                              clipRule="evenodd"
-                            />
-                          </svg>
-                        </div>
-                      </div>
-                      <div className="ml-2.5 flex-1">
-                        <p className="text-xs font-poppins-semibold text-white drop-shadow-md">{error}</p>
-                      </div>
-                    </div>
-                  </div>
-                )}
-
-                <div className="space-y-4">
+            <div className="w-full bg-white/10 backdrop-blur-2xl rounded-3xl p-6 sm:p-7 md:p-8 border border-white/30 shadow-2xl relative overflow-hidden before:absolute before:inset-0 before:bg-gradient-to-br before:from-white/10 before:via-white/5 before:to-transparent before:pointer-events-none after:absolute after:inset-0 after:bg-gradient-to-t after:from-[#443c92]/5 after:via-transparent after:to-transparent after:pointer-events-none animate-in fade-in slide-in-from-top-2 duration-300">
+              <form className="space-y-5" onSubmit={handleSubmit(onSubmit)}>
+                <div className="space-y-5">
                   {/* Email */}
-                  <div className="space-y-1.5">
-                    <label htmlFor="email" className="block text-xs sm:text-sm font-poppins-semibold text-white mb-1.5 drop-shadow-md">
+                  <div className="space-y-2">
+                    <label htmlFor="email" className="block text-sm font-poppins-semibold text-white mb-2 drop-shadow-lg">
                       Correo electrónico
                     </label>
                     <div className="relative">
-                      <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                        <svg className="h-4 w-4 text-white/50" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <div className="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none">
+                        <svg className="h-5 w-5 text-white/60" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207" />
                         </svg>
                       </div>
@@ -238,7 +187,7 @@ const Login = () => {
                         id="email"
                         type="email"
                         autoComplete="email"
-                        className="w-full pl-10 pr-4 py-2.5 text-sm bg-white/20 backdrop-blur-md border-2 border-white/30 rounded-lg text-white placeholder-white/60 focus:outline-none focus:ring-2 focus:ring-[#443c92]/60 focus:border-[#443c92] focus:bg-white/25 focus:shadow-[0_0_0_3px_rgba(68,60,146,0.15)] transition-all duration-300 font-poppins shadow-lg hover:border-white/40 hover:bg-white/22"
+                        className="w-full pl-11 pr-4 py-3 text-sm bg-white/15 backdrop-blur-xl border-2 border-white/25 rounded-xl text-white placeholder-white/50 focus:outline-none focus:ring-2 focus:ring-[#443c92]/70 focus:border-[#443c92]/80 focus:bg-white/30 focus:shadow-[0_0_0_4px_rgba(68,60,146,0.2)] transition-all duration-300 font-poppins shadow-xl hover:border-white/50 hover:bg-white/20 hover:shadow-2xl"
                         placeholder="tu@email.com"
                       />
                     </div>
@@ -253,13 +202,13 @@ const Login = () => {
                   </div>
 
                   {/* Password */}
-                  <div className="space-y-1.5">
-                    <label htmlFor="password" className="block text-xs sm:text-sm font-poppins-semibold text-white mb-1.5 drop-shadow-md">
+                  <div className="space-y-2">
+                    <label htmlFor="password" className="block text-sm font-poppins-semibold text-white mb-2 drop-shadow-lg">
                       Contraseña
                     </label>
                     <div className="relative">
-                      <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                        <svg className="h-4 w-4 text-white/50" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <div className="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none">
+                        <svg className="h-5 w-5 text-white/60" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
                         </svg>
                       </div>
@@ -274,19 +223,19 @@ const Login = () => {
                         id="password"
                         type={showPassword ? 'text' : 'password'}
                         autoComplete="current-password"
-                        className="w-full pl-10 pr-10 py-2.5 text-sm bg-white/20 backdrop-blur-md border-2 border-white/30 rounded-lg text-white placeholder-white/60 focus:outline-none focus:ring-2 focus:ring-[#443c92]/60 focus:border-[#443c92] focus:bg-white/25 focus:shadow-[0_0_0_3px_rgba(68,60,146,0.15)] transition-all duration-300 font-poppins shadow-lg hover:border-white/40 hover:bg-white/22"
+                        className="w-full pl-11 pr-11 py-3 text-sm bg-white/15 backdrop-blur-xl border-2 border-white/25 rounded-xl text-white placeholder-white/50 focus:outline-none focus:ring-2 focus:ring-[#443c92]/70 focus:border-[#443c92]/80 focus:bg-white/30 focus:shadow-[0_0_0_4px_rgba(68,60,146,0.2)] transition-all duration-300 font-poppins shadow-xl hover:border-white/50 hover:bg-white/20 hover:shadow-2xl"
                         placeholder="••••••••"
                       />
                       <button
                         type="button"
-                        className="absolute inset-y-0 right-0 pr-3 flex items-center touch-manipulation group"
+                        className="absolute inset-y-0 right-0 pr-3.5 flex items-center touch-manipulation group"
                         onClick={() => setShowPassword(!showPassword)}
                         aria-label={showPassword ? 'Ocultar contraseña' : 'Mostrar contraseña'}
                       >
                         {showPassword ? (
-                          <EyeSlashIcon className="h-4 w-4 text-white/60 group-hover:text-[#443c92] transition-all duration-200 group-hover:scale-110" />
+                          <EyeSlashIcon className="h-5 w-5 text-white/60 group-hover:text-[#443c92] transition-all duration-200 group-hover:scale-110" />
                         ) : (
-                          <EyeIcon className="h-4 w-4 text-white/60 group-hover:text-[#443c92] transition-all duration-200 group-hover:scale-110" />
+                          <EyeIcon className="h-5 w-5 text-white/60 group-hover:text-[#443c92] transition-all duration-200 group-hover:scale-110" />
                         )}
                       </button>
                     </div>
@@ -302,15 +251,15 @@ const Login = () => {
                 </div>
 
                 {/* Recordar y Olvidar */}
-                <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2">
+                <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 pt-1">
                   <div className="flex items-center group">
                     <input
                       id="remember-me"
                       name="remember-me"
                       type="checkbox"
-                      className="h-4 w-4 text-[#443c92] focus:ring-[#443c92] focus:ring-2 border-white/40 rounded cursor-pointer transition-all duration-200 checked:bg-[#443c92] checked:border-[#443c92] hover:border-[#443c92]/70"
+                      className="h-4 w-4 text-[#443c92] focus:ring-[#443c92] focus:ring-2 border-white/40 rounded cursor-pointer transition-all duration-200 checked:bg-[#443c92] checked:border-[#443c92] hover:border-[#443c92]/80 hover:scale-110"
                     />
-                    <label htmlFor="remember-me" className="ml-2 block text-xs sm:text-sm font-poppins-medium text-white drop-shadow-md cursor-pointer group-hover:text-white transition-colors duration-200">
+                    <label htmlFor="remember-me" className="ml-2.5 block text-sm font-poppins-medium text-white drop-shadow-md cursor-pointer group-hover:text-white/95 transition-colors duration-200">
                       Recordar sesión
                     </label>
                   </div>
@@ -318,7 +267,7 @@ const Login = () => {
                   <div>
                     <a
                       href="#"
-                      className="text-xs sm:text-sm font-poppins-semibold text-white/90 hover:text-white transition-all duration-200 drop-shadow-md hover:underline underline-offset-2"
+                      className="text-sm font-poppins-semibold text-white/90 hover:text-white transition-all duration-200 drop-shadow-md hover:underline underline-offset-3 decoration-white/50 hover:decoration-white"
                     >
                       ¿Olvidaste tu contraseña?
                     </a>
@@ -329,7 +278,7 @@ const Login = () => {
                 <button
                   type="submit"
                   disabled={loading}
-                  className="w-full flex justify-center items-center py-3 px-5 border border-transparent text-sm sm:text-base font-poppins-bold rounded-lg text-white bg-gradient-to-r from-[#443c92] via-[#5a4fa0] to-[#1d1d6d] hover:from-[#443c92] hover:via-[#443c92] hover:to-[#2d2d7d] focus:outline-none focus:ring-4 focus:ring-[#443c92]/40 focus:ring-offset-2 focus:ring-offset-transparent disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-300 shadow-xl hover:shadow-2xl hover:shadow-[#443c92]/30 hover:scale-[1.02] active:scale-[0.98] touch-manipulation relative overflow-hidden group"
+                  className="w-full flex justify-center items-center py-3.5 px-6 border border-transparent text-sm sm:text-base font-poppins-bold rounded-xl text-white bg-gradient-to-r from-[#443c92] via-[#5a4fa0] to-[#1d1d6d] hover:from-[#4d459f] hover:via-[#443c92] hover:to-[#2d2d7d] focus:outline-none focus:ring-4 focus:ring-[#443c92]/50 focus:ring-offset-2 focus:ring-offset-transparent disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-300 shadow-2xl hover:shadow-[0_10px_40px_rgba(68,60,146,0.4)] hover:scale-[1.02] active:scale-[0.98] touch-manipulation relative overflow-hidden group mt-2"
                 >
                   <span className="relative z-10 flex items-center">
                     {loading ? (
@@ -421,36 +370,6 @@ const Login = () => {
                     }
                   }}
                 />
-              </div>
-            </div>
-
-          
-
-            {/* Características destacadas */}
-            <div className="grid grid-cols-1 gap-2.5 w-full px-4 mt-3">
-              <div className="flex items-center space-x-2.5 bg-white/10 backdrop-blur-md rounded-lg p-3 border border-white/20">
-                <div className="flex-shrink-0 w-8 h-8 bg-gradient-to-br from-[#443c92] to-[#1d1d6d] rounded-lg flex items-center justify-center">
-                  <svg className="h-4 w-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-                  </svg>
-                </div>
-                <p className="text-xs font-poppins-medium text-white">Automatización inteligente</p>
-              </div>
-              <div className="flex items-center space-x-2.5 bg-white/10 backdrop-blur-md rounded-lg p-3 border border-white/20">
-                <div className="flex-shrink-0 w-8 h-8 bg-gradient-to-br from-[#443c92] to-[#1d1d6d] rounded-lg flex items-center justify-center">
-                  <svg className="h-4 w-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-                  </svg>
-                </div>
-                <p className="text-xs font-poppins-medium text-white">Seguridad y privacidad</p>
-              </div>
-              <div className="flex items-center space-x-2.5 bg-white/10 backdrop-blur-md rounded-lg p-3 border border-white/20">
-                <div className="flex-shrink-0 w-8 h-8 bg-gradient-to-br from-[#443c92] to-[#1d1d6d] rounded-lg flex items-center justify-center">
-                  <svg className="h-4 w-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
-                </div>
-                <p className="text-xs font-poppins-medium text-white">Ahorra tiempo valioso</p>
               </div>
             </div>
           </div>
